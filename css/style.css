@@ -201,14 +201,14 @@ html.anim .m-note{opacity:0}
 .founder__lines{position:absolute;inset:0;background:repeating-linear-gradient(90deg,transparent 0 calc(var(--col) + var(--gap) - 1px),rgba(255,255,255,.05) calc(var(--col) + var(--gap) - 1px) calc(var(--col) + var(--gap)));margin:0 var(--pad)}
 .founder__sh{position:absolute;left:0;right:0;top:var(--hdr);margin:0;z-index:3}
 .founder__ghost{position:absolute;right:var(--pad);bottom:-0.12em;z-index:0;font:900 clamp(80px,17vw,340px)/.8 var(--fw);letter-spacing:-.03em;color:transparent;-webkit-text-stroke:1px rgba(255,255,255,.1);pointer-events:none}
-.founder__name{position:relative;z-index:1;font:700 clamp(64px,13.6vw,280px)/.84 var(--fh);letter-spacing:-.05em;text-transform:uppercase;padding:0 var(--pad);margin-top:6vh}
+.founder__name{position:relative;z-index:1;font:700 clamp(64px,min(12vw,19vh),280px)/.84 var(--fh);letter-spacing:-.05em;text-transform:uppercase;padding:0 var(--pad);margin-top:6vh}
 .founder__name .fn2{text-align:right}
 .founder__img{position:absolute;z-index:2;bottom:-18vh;left:31%;height:118vh;aspect-ratio:789/2048;transform:translateX(-50%);-webkit-mask-image:linear-gradient(#000 62%,transparent 86%);mask-image:linear-gradient(#000 62%,transparent 86%)}
 .founder__img img{width:100%;height:100%;object-fit:contain;object-position:bottom}
 .founder__orbit{position:absolute;z-index:1;left:4%;top:22vh;height:34vh;width:56%;overflow:visible;transform:rotate(-8deg)}
 .founder__orbit ellipse{fill:none;stroke:rgba(255,255,255,.4);stroke-width:1;vector-effect:non-scaling-stroke;stroke-dasharray:1;stroke-dashoffset:0}
 .founder__orbit .dot{fill:var(--ign)}
-.founder__q{position:absolute;z-index:3;right:var(--pad);bottom:calc(10vh + 210px);width:calc(5*var(--col) + 4*var(--gap));font:700 clamp(26px,2.7vw,52px)/1.02 var(--fh);letter-spacing:-.03em}
+.founder__q{position:absolute;z-index:3;right:var(--pad);bottom:calc(8vh + 168px);width:calc(5*var(--col) + 4*var(--gap));font:700 clamp(24px,min(2.5vw,4.4vh),48px)/1.02 var(--fh);letter-spacing:-.03em}
 .founder__q::before{content:"Цитата";display:block;font:500 11px/1 var(--fm);letter-spacing:.12em;text-transform:uppercase;color:var(--ign);margin-bottom:16px}
 .founder__facts{position:absolute;z-index:3;right:var(--pad);bottom:8vh;width:calc(5*var(--col) + 4*var(--gap));display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--gap)}
 .founder__facts div{border-top:1px solid var(--l);padding-top:12px;display:flex;flex-direction:column;gap:8px}

@@ -421,3 +421,10 @@ html.menu-lock .hdr{visibility:hidden}
 .hdr>.hdr__logo,.hdr>.hdr__nav,.hdr>.hdr__cta,.hdr>.hdr__sec,.hdr>.burger{grid-row:1}
 .menu__ph{white-space:nowrap;font-size:clamp(20px,6.4vw,34px)}
 @media (max-width:360px){.menu__ft{grid-template-columns:1fr}.menu__cta{justify-self:start}}
+/* line icons (no emoji) */
+html{font-variant-emoji:text}
+.ic{display:inline-block;width:.78em;height:.78em;fill:none;stroke:currentColor;stroke-width:1.4;stroke-linecap:square;vertical-align:-.04em;overflow:visible}
+.ic--w{width:1.6em}
+.ic--a{width:.62em;height:.62em;vertical-align:.12em;stroke-width:1.6}
+.phone__a .ic{width:.7em;height:.7em;stroke-width:1}
+.menu__x .ic{width:10px;height:10px}

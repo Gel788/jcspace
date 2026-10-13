@@ -786,3 +786,4 @@ html.anim .mission{height:600vh}
  .fd__facts dt{width:96px;flex:none}
 }
 @media (max-width:900px){.fd__txt{gap:40px}.fd__in{row-gap:40px}.fd__fig{margin:0}.fd__frame{aspect-ratio:789/1000}.fd__frame img{object-position:50% 8%}}
+@media (min-width:901px) and (max-height:720px){.fd{padding:calc(var(--hdr) + 2vh) 0 4vh}.fd .sh{margin-bottom:3vh}.fd__frame{max-height:72vh}.fd__txt{gap:2.6vh}.fd__name{font-size:min(5.6vw,11vh)}.fd__q{font-size:min(1.8vw,3.4vh)}.fd__facts div{padding:6px 0}.fd__facts dd{font-size:13px}.fd__thx{display:none}}

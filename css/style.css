@@ -605,3 +605,18 @@ html.stage-on .specs__vis .vis{opacity:0!important}
 @media (min-width:901px){.mc{padding:26px 28px 22px}.mc__t{font-size:12px}.mc__big{font-size:clamp(40px,4vw,76px)}.mc__rd{font-size:12px;gap:6px 18px;margin-top:16px}.mc__bars{height:160px;gap:6px}.mc__bars i{width:9px}.mc__g{height:150px;width:12px}}
 @media (max-width:900px){.mc__live{display:none}.mc__pipw{width:72px}}
 .mc__rd{align-content:start;align-self:start}
+@media (max-width:900px){
+  html.stage-on .spec__slot{aspect-ratio:4/5}
+  .mc{display:flex;flex-direction:column;padding:12px}
+  .mc__top{order:0}
+  .mc__bars,.mc__gs{position:absolute;right:12px;top:44px;margin:0}
+  .mc__pipw{position:absolute;left:12px;top:44px;width:64px}
+  .mc__t,.mc__big,.mc__rd{position:relative;z-index:1}
+  .mc__t{margin-top:auto;padding-top:40px}
+  .mc::after{content:"";position:absolute;left:0;right:0;bottom:0;height:44%;background:linear-gradient(transparent,rgba(0,0,0,.92) 45%);z-index:0}
+  .specs{padding-bottom:2vh!important}
+}
+@media (max-width:900px) and (max-height:500px){
+  .about{padding-bottom:4vh!important}.specs{padding-top:4vh!important}
+  html.stage-on .spec__slot{aspect-ratio:auto}
+}

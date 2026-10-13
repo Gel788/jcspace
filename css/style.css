@@ -535,3 +535,10 @@ html.rk3d-on .vis--4 .bp,html.rk3d-on .spec__bp .bp{position:relative;z-index:1}
 @media (max-width:900px) and (max-height:500px){.spec{width:min(74vw,600px)!important}}
 @keyframes swpA{0%,100%{transform:translateX(0)}50%{transform:translateX(6px)}}
 @media (max-width:900px){.spec{min-height:0!important}.spec__n{margin-top:6px!important}.spec .spec__tag{margin-top:auto}}
+.marquee{transform-style:preserve-3d}
+main,body{perspective-origin:50% 50%}
+.marquee__t{will-change:transform}
+.faq{overflow:hidden}
+.faq__ghost{position:absolute;left:0;top:6vh;white-space:nowrap;font:900 clamp(120px,22vw,420px)/.8 var(--fw);letter-spacing:-.03em;color:transparent;-webkit-text-stroke:1px rgba(0,0,0,.09);pointer-events:none;z-index:0}
+.faq>*:not(.faq__ghost){position:relative;z-index:1}
+.contact{perspective:1200px}

@@ -683,3 +683,11 @@ html.stage-on .specs__vis .vis{opacity:0!important}
 .creds__list li{transition:color .35s,padding .5s var(--ease)}
 @media (hover:hover){.creds__list li:hover{color:var(--ign);padding-left:10px}}
 @media (max-width:900px){.cn b{font-size:clamp(56px,17vw,110px)}.creds__h{font-size:clamp(44px,13vw,90px)}}
+/* round 2: contacts finale */
+.phone{position:relative;overflow:hidden;isolation:isolate}
+.phone::before{content:"";position:absolute;inset:0;background:#000;transform:scaleY(0);transform-origin:50% 100%;transition:transform .7s var(--ease);z-index:-1}
+.phone__n{font-size:clamp(56px,11.8vw,236px)!important;letter-spacing:-.06em!important;line-height:.9!important;transition:color .5s}
+.phone__a,.phone__l{transition:color .5s}
+@media (hover:hover){.phone:hover::before{transform:scaleY(1)}.phone:hover .phone__n,.phone:hover .phone__a,.phone:hover .phone__l{color:var(--ign)}}
+.ftr__wm{font-size:clamp(90px,24vw,520px)!important;line-height:.78!important}
+@media (max-width:900px){.phone__n{font-size:clamp(40px,12.6vw,96px)!important}}

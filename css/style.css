@@ -868,3 +868,22 @@ html.rm .card__live i{animation:none}
 .spec__n>span{mix-blend-mode:normal}
 .spec::before{content:attr(data-i);position:absolute;right:0;top:4vh;font:500 11px/1 var(--fm);letter-spacing:.12em;color:var(--ign)}
 }
+/* mobile parity: pinned work timeline + credentials roll */
+@media (max-width:900px){
+html.anim .work__pin{height:100svh!important;overflow:hidden!important;padding-top:calc(var(--hdr) + 2vh)!important;padding-bottom:0!important;display:flex;flex-direction:column}
+html.anim .work__track{display:flex!important;flex-direction:row!important;flex-wrap:nowrap!important;overflow:visible!important;scroll-snap-type:none!important;gap:14px!important;padding:0 var(--pad)!important;margin-top:2vh!important;width:max-content!important}
+html.anim .work__track .card{flex:none!important;width:min(80vw,420px)!important;margin:0!important;min-height:0!important}
+html.anim .work__track::before,html.anim .work__track::after{display:none!important}
+html.anim .work .swp,html.anim .work [class*="swp"]{display:none!important}
+html.anim .wt{display:block!important}
+html.anim .work__h{font-size:clamp(44px,13vw,80px)!important}
+html.anim .cx{height:600vh!important}
+html.anim .cx__pin{position:sticky!important;top:0;height:100svh!important;padding-top:calc(var(--hdr) + 1vh)!important}
+html.anim .cx__stage{position:absolute!important;inset:calc(var(--hdr) + 7vh) 0 7vh 0!important}
+html.anim .cx__s{position:absolute!important;inset:0!important;min-height:0!important;padding:0 var(--pad)!important;border:0!important;align-content:start!important;row-gap:2vh}
+html.anim .cx__num b{font-size:clamp(84px,26vw,150px)!important}
+html.anim .cx__art{margin-top:0!important}html.anim .cx__v{max-width:min(70vw,34svh)!important}
+html.anim .cx__s--all{overflow:auto;align-content:start!important}
+html.anim .cx__allg b{font-size:clamp(36px,11vw,64px)!important}html.anim .cx__allg{row-gap:16px!important}
+html.anim .cx__alll li{padding:7px 0!important;font-size:13px!important}
+}

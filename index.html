@@ -62,17 +62,64 @@
   </div>
 </section>
 
-<section class="specs sec" id="specs">
+<section class="specs" id="specs">
   <div class="sh g"><span class="sh__i">(02)</span><span class="sh__t">Проектные цели</span><span class="sh__m">Расчёты предстоит подтвердить испытаниями</span></div>
-  <div class="spec g"><span class="spec__i">01</span><p class="spec__n"><b data-count="9">9</b><span>×</span><b data-count="3">3</b><small>тс</small></p><div class="spec__t"><h3>Двигатели · 1&nbsp;ступень</h3><p>9 двигателей по&nbsp;3&nbsp;тс на&nbsp;первой ступени</p></div></div>
-  <div class="spec g"><span class="spec__i">02</span><p class="spec__n"><b data-count="3.4" data-dec="1">3,4</b><small>тс</small></p><div class="spec__t"><h3>Двигатель · 2&nbsp;ступень</h3><p>1 двигатель на&nbsp;3,4&nbsp;тс на&nbsp;второй ступени</p></div></div>
-  <div class="spec g"><span class="spec__i">03</span><p class="spec__n"><b data-count="500">500</b><small>кг</small></p><div class="spec__t"><h3>Орбита</h3><p>Проектная цель — 500&nbsp;кг на&nbsp;солнечно-синхронной орбите. Двухступенчатая ракета-носитель</p></div></div>
-  <div class="spec g"><span class="spec__i">04</span><p class="spec__n"><span>≥</span><b data-count="10">10</b><small>полётов</small></p><div class="spec__t"><h3>Многоразовость</h3><p>Планируем возврат первой ступени с&nbsp;ракетной посадкой. Цель — не&nbsp;менее 10&nbsp;полётов на&nbsp;одном блоке</p></div></div>
-  <div class="spec g"><span class="spec__i">05</span><p class="spec__n spec__n--txt">СПГ<span>+</span>LOX</p><div class="spec__t"><h3>Топливо</h3><p>Сжиженный природный газ и&nbsp;жидкий кислород. Ресурс двигателя будет подтверждён наземной экспериментальной отработкой</p></div></div>
+  <div class="specs__wrap g">
+    <div class="specs__vis" aria-hidden="true">
+      <div class="vis vis--1 on"><img src="img/r-engines9.webp" alt="" loading="lazy"><span class="vis__c">Рендер · 9 двигателей первой ступени</span></div>
+      <div class="vis vis--2"><img src="img/r-engine.webp" alt="" loading="lazy"><span class="vis__c">Рендер · двигатель второй ступени</span></div>
+      <div class="vis vis--3"><img src="img/r-sso.webp" alt="" loading="lazy"><span class="vis__c">Рендер · аппарат на солнечно-синхронной орбите</span></div>
+      <div class="vis vis--4 vis--bp"><svg class="bp" viewBox="0 0 600 900" aria-hidden="true">
+  <defs><pattern id="grd" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="currentColor" stroke-opacity=".08"/></pattern></defs>
+  <rect width="600" height="900" fill="url(#grd)"/>
+  <g class="bp__rk" fill="none" stroke="currentColor" stroke-width="1.4">
+    <path class="bp__fair" d="M300 70 C330 110 344 160 344 210 L256 210 C256 160 270 110 300 70Z"/>
+    <path class="bp__s2" d="M256 210H344V360H256Z"/>
+    <path d="M256 360H344L338 390H262Z"/>
+    <path class="bp__tank bp__s1" d="M262 390H338V610H262Z"/>
+    <path class="bp__tank" d="M262 610H338V760H262Z"/>
+    <path class="bp__eng" d="M268 760L262 800H338L332 760M280 800L274 826H292L288 800M312 800L308 826H326L320 800M296 800L292 830H308L304 800"/>
+    <path class="bp__leg" d="M262 700L214 828M214 828H232M338 700L386 828M386 828H368"/>
+    <path class="bp__fin" d="M262 400L246 404V430L262 434M338 400L354 404V430L338 434"/>
+  </g>
+  <g class="bp__dim" fill="none" stroke="currentColor" stroke-opacity=".5">
+    <path d="M430 70V830M424 70H436M424 830H436M424 360H436M424 390H436"/>
+    <path d="M160 210V360M154 210H166M154 360H166M160 390V760M154 390H166M154 760H166" stroke-dasharray="3 4"/>
+  </g>
+  <g class="bp__tx" fill="currentColor" font-family="JetBrains Mono,monospace" font-size="12" letter-spacing="1.5">
+    <text x="446" y="226">2 СТУПЕНЬ</text><text x="446" y="244" class="bp__v">1 × 3,4 ТС</text>
+    <text x="446" y="586">1 СТУПЕНЬ</text><text x="446" y="604" class="bp__v">9 × 3 ТС</text>
+    <text x="40" y="290">СПГ</text><text x="40" y="580">LOX</text>
+    <text x="40" y="860">ВОЗВРАТ · ≥10 ПОЛЁТОВ</text>
+    <text x="446" y="90">ОБТЕКАТЕЛЬ</text><text x="446" y="108" class="bp__v">500 КГ · ССО</text>
+  </g>
+  <text x="40" y="40" fill="currentColor" font-family="JetBrains Mono,monospace" font-size="11" letter-spacing="2" opacity=".6">СХЕМА · ДВУХСТУПЕНЧАТАЯ РН · ПРОЕКТ</text>
+</svg><span class="vis__c">Схема · возврат первой ступени</span></div>
+      <i class="vis__corner tl"></i><i class="vis__corner tr"></i><i class="vis__corner bl"></i><i class="vis__corner br"></i>
+      <span class="vis__n"><b>01</b> / 05</span>
+    </div>
+    <div class="specs__list">
+      <article class="spec" data-v="1"><img class="spec__img" src="img/r-engines9-m.webp" alt="" loading="lazy"><span class="spec__i">01 · Двигатели · 1&nbsp;ступень</span><p class="spec__n"><b data-count="9">9</b><span>×</span><b data-count="3">3</b><small>тс</small></p><p class="spec__d">9 двигателей по&nbsp;3&nbsp;тс на&nbsp;первой ступени</p><span class="spec__tag">Проектная цель</span></article>
+      <article class="spec" data-v="2"><img class="spec__img" src="img/r-engine-m.webp" alt="" loading="lazy"><span class="spec__i">02 · Двигатель · 2&nbsp;ступень</span><p class="spec__n"><b data-count="3.4" data-dec="1">3,4</b><small>тс</small></p><p class="spec__d">1 двигатель на&nbsp;3,4&nbsp;тс на&nbsp;второй ступени</p><span class="spec__tag">Проектная цель</span></article>
+      <article class="spec" data-v="3"><img class="spec__img" src="img/r-sso-m.webp" alt="" loading="lazy"><span class="spec__i">03 · Орбита</span><p class="spec__n"><b data-count="500">500</b><small>кг</small></p><p class="spec__d">Проектная цель — 500&nbsp;кг на&nbsp;солнечно-синхронной орбите. Двухступенчатая ракета-носитель</p><span class="spec__tag">Проектная цель</span></article>
+      <article class="spec" data-v="4"><span class="spec__i">04 · Многоразовость</span><p class="spec__n"><span>≥</span><b data-count="10">10</b><small>полётов</small></p><p class="spec__d">Планируем возврат первой ступени с&nbsp;ракетной посадкой. Цель — не&nbsp;менее 10&nbsp;полётов на&nbsp;одном блоке</p><span class="spec__tag">Проектная цель</span></article>
+      <article class="spec" data-v="5"><span class="spec__i">05 · Топливо</span><p class="spec__n spec__n--txt">СПГ<span>+</span>LOX</p><p class="spec__d">Сжиженный природный газ и&nbsp;жидкий кислород. Ресурс двигателя будет подтверждён наземной экспериментальной отработкой</p><span class="spec__tag">Подтвердим испытаниями</span></article>
+    </div>
+  </div>
 </section>
+
+<div class="marquee" aria-hidden="true"><div class="marquee__t"><span>Частная космическая компания</span><i>✳</i><span>Ракета-носитель сверхлёгкого класса</span><i>✳</i><span>СПГ + жидкий кислород</span><i>✳</i><span>Возврат первой ступени</span><i>✳</i><span>Частная космическая компания</span><i>✳</i><span>Ракета-носитель сверхлёгкого класса</span><i>✳</i><span>СПГ + жидкий кислород</span><i>✳</i><span>Возврат первой ступени</span><i>✳</i></div></div>
 
 <section class="mission" id="mission">
   <div class="mission__pin">
+    <svg class="m-art" viewBox="0 0 1000 1000" aria-hidden="true"><g fill="none" stroke="currentColor">
+      <circle cx="500" cy="500" r="230" stroke-width="1.5"/><circle cx="500" cy="500" r="230" stroke-opacity=".25" stroke-dasharray="2 6" transform="scale(1 .3) translate(0 1166)"/>
+      <path d="M270 500H730M500 270V730" stroke-opacity=".25"/>
+      <ellipse class="m-orb" cx="500" cy="500" rx="300" ry="95" transform="rotate(-62 500 500)" stroke-width="1.5" pathLength="1"/>
+      <ellipse class="m-orb" cx="500" cy="500" rx="330" ry="105" transform="rotate(-58 500 500)" stroke-opacity=".35" pathLength="1"/>
+      <ellipse class="m-orb" cx="500" cy="500" rx="360" ry="115" transform="rotate(-54 500 500)" stroke-opacity=".2" pathLength="1"/>
+      <circle cx="500" cy="500" r="420" stroke-opacity=".12"/><circle cx="500" cy="500" r="480" stroke-opacity=".08" stroke-dasharray="1 8"/>
+    </g><circle class="m-sat" r="7" cx="500" cy="200"/><text x="520" y="190" class="m-sat__t">ССО</text></svg>
     <div class="sh g"><span class="sh__i">(03)</span><span class="sh__t">Миссия</span><span class="sh__m"><b class="m-count">01</b> / 03</span></div>
     <h2 class="m-title">
       <span class="m-chunk m-c1"><span class="ln"><span>Создать</span></span><span class="ln ln--i"><span>космический</span></span><span class="ln"><span>ракетный комплекс</span></span></span>
@@ -113,10 +160,11 @@
 
 <section class="founder" id="team" aria-label="Кто стоит за проектом">
   <div class="founder__pin">
-    <div class="founder__bg"><picture><source media="(max-width:720px)" srcset="img/earth-limb-m.webp"><img src="img/earth-limb.webp" alt="" loading="lazy"></picture></div>
+    <div class="founder__bg" aria-hidden="true"><i class="founder__spot"></i><i class="founder__lines"></i></div>
     <div class="sh g founder__sh"><span class="sh__i">(06)</span><span class="sh__t">Кто стоит за&nbsp;проектом</span><span class="sh__m">Основатель ГК&nbsp;JOYCITY</span></div>
+    <p class="founder__ghost" aria-hidden="true">JOYCITY</p>
     <h2 class="founder__name"><span class="ln fn1"><span>Арсен</span></span><span class="ln fn2"><span>Саруханян</span></span></h2>
-    <svg class="founder__orbit" viewBox="0 0 1000 400" aria-hidden="true" preserveAspectRatio="none"><ellipse cx="500" cy="200" rx="490" ry="150" pathLength="1"/><circle r="5" class="dot"/></svg>
+    <svg class="founder__orbit" viewBox="0 0 1000 400" aria-hidden="true" preserveAspectRatio="none"><ellipse cx="500" cy="200" rx="490" ry="150" pathLength="1"/><circle r="5" class="dot" cx="990" cy="200"/></svg>
     <div class="founder__img"><picture><source media="(max-width:720px)" srcset="img/founder-cut-m.webp"><img src="img/founder-cut.webp" alt="Арсен Саруханян, основатель ГК JOYCITY" loading="lazy"></picture></div>
     <blockquote class="founder__q"><span class="ln"><span>«JOYCITY вкладывает</span></span><span class="ln"><span>в&nbsp;развитие JC&nbsp;SPACE</span></span><span class="ln"><span>каждый высвободившийся</span></span><span class="ln"><span>рубль»</span></span></blockquote>
     <dl class="founder__facts">

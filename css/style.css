@@ -936,3 +936,29 @@ html.anim .spec{height:calc(100svh - var(--hdr) - 150px)!important;min-height:0!
 .swp__dots i{background:rgba(255,255,255,.35)}
 .specs,.specs__list,.specs__wrap{background:#000!important}@media (min-width:901px){.spec,html.anim .spec{background:transparent!important;border-radius:0!important}}.mc__bars i{background:none}
 .grain{display:none!important}
+/* About: pinned scroll scene */
+.ab-rail{display:none}
+html.anim .about{height:460vh;min-height:0;display:block;padding:0!important;background:none!important}
+html.anim .about__pin{position:sticky;top:0;height:100vh;height:100svh;overflow:hidden;padding-top:calc(var(--hdr) + 2vh);box-sizing:border-box}
+html.anim .about .sh{margin-bottom:5vh}
+html.anim .about__body{position:relative;display:grid;height:calc(100svh - var(--hdr) - 12vh)}
+html.anim .statement{grid-column:1/10;font-size:min(6.4vw,11.5vh)!important;line-height:.95;letter-spacing:-.045em;align-self:start;will-change:transform}
+html.anim .trio{position:absolute;left:var(--pad);bottom:12vh;width:min(46vw,640px);display:grid;grid-template-columns:1fr;perspective:none}
+html.anim .trio>div{grid-area:1/1;border-top:1px solid var(--w);padding-top:18px}
+html.anim .trio .idx{display:block;font:700 min(10vw,17vh)/.82 var(--fh);letter-spacing:-.05em;color:var(--w);overflow:hidden}
+html.anim .trio .idx::first-letter{color:var(--ign)}
+html.anim .trio h3{margin:18px 0 12px;color:var(--ign)}
+html.anim .trio p{font:600 clamp(20px,min(2.1vw,4vh),36px)/1.15 var(--fh);letter-spacing:-.02em;color:var(--w);max-width:24ch}
+html.anim .ab-rail{display:flex;align-items:center;gap:16px;position:absolute;left:var(--pad);bottom:5vh;width:min(46vw,640px)}
+html.anim .ab-rail i{flex:1;height:1px;background:var(--ign);transform-origin:0 50%}
+html.anim .ab-rail span{font-size:11px;letter-spacing:.12em;color:var(--g)}html.anim .ab-rail b{color:var(--w);font-weight:500}
+@media (max-width:900px){
+ html.anim .about{height:440vh}
+ html.anim .about__body{height:calc(100svh - var(--hdr) - 8vh)}
+ html.anim .statement{grid-column:1/13;font-size:min(10.4vw,7.4svh)!important}
+ html.anim .trio{left:var(--pad);right:var(--pad);width:auto;bottom:auto;top:30svh}
+ html.anim .trio .idx{font-size:min(24vw,13svh)}
+ html.anim .trio p{font-size:clamp(19px,5.6vw,26px)}
+ html.anim .ab-rail{left:var(--pad);right:var(--pad);width:auto;bottom:calc(84px + env(safe-area-inset-bottom))}
+}
+html.anim .trio,html.anim .ab-rail{left:0!important}@media (max-width:900px){html.anim .trio,html.anim .ab-rail{left:0!important;right:0!important}}html.anim .about .sh{position:relative;z-index:2}

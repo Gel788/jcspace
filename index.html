@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>JC SPACE — частная космическая компания</title>
+<meta name="description" content="JC SPACE — частный космический проект. Проектируем космический ракетный комплекс с ракетой-носителем сверхлёгкого класса. Изготавливаем жидкостной ракетный двигатель и создаём собственные производственно-испытательные мощности.">
+<meta property="og:title" content="JC SPACE — частный космический проект">
+<meta property="og:description" content="Проектируем космический ракетный комплекс с ракетой-носителем сверхлёгкого класса. JOYCITY вкладывает в развитие JC SPACE каждый высвободившийся рубль.">
+<meta property="og:image" content="img/og.jpg">
+<meta name="theme-color" content="#05060A">
+<link rel="icon" href="favicon.png">
+<link rel="preload" href="fonts/unbounded-cyrillic-800-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/jetbrains-mono-cyrillic-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#engine">К содержанию</a>
+
+<header class="hdr" id="top">
+  <a class="hdr__logo" href="#top" aria-label="JC SPACE — наверх">
+    <img src="img/logo-white.png" alt="" width="22" height="40"><span>JC&nbsp;SPACE</span>
+  </a>
+  <nav class="hdr__nav" aria-label="Разделы">
+    <a href="#mission">Миссия</a><a href="#engine">Двигатель</a><a href="#plans">Планы</a><a href="#goals">Цели</a><a href="#team">Команда</a><a href="#contacts">Контакты</a>
+  </nav>
+  <a class="btn btn--sm hdr__cta" href="tel:+79515869611"><i class="dot"></i>Связаться</a>
+  <button class="hdr__burger" aria-label="Меню" aria-expanded="false"><span></span><span></span></button>
+</header>
+<div class="mnav" hidden>
+  <nav>
+    <a href="#mission"><small>01</small>Миссия</a><a href="#engine"><small>02</small>Двигатель</a><a href="#plans"><small>03</small>Планы</a><a href="#goals"><small>04</small>Цели</a><a href="#team"><small>05</small>Команда</a><a href="#contacts"><small>06</small>Контакты</a>
+  </nav>
+  <a class="btn" href="tel:+79515869611">+7 951 586-96-11</a>
+</div>
+
+<!-- ============ HERO: launch simulation ============ -->
+<section class="hero" id="hero" aria-label="Запуск: визуализация">
+  <div class="hero__stage">
+    <canvas class="hero__gl" aria-hidden="true"></canvas>
+    <div class="hero__vignette"></div>
+    <div class="hero__flash"></div>
+
+    <div class="hud">
+      <div class="hud__tl mono">
+        <span class="tag"><i class="dot dot--live"></i>JC SPACE · ЦУП</span>
+        <span class="muted">СИМУЛЯЦИЯ ЗАПУСКА</span>
+      </div>
+      <div class="hud__clock mono" aria-live="off">
+        <span class="hud__clock-l">T</span><span class="hud__clock-v">−00:00:10</span>
+      </div>
+      <ol class="hud__phases mono">
+        <li data-at="0">Отсчёт</li><li data-at=".13">Зажигание</li><li data-at=".2">Старт</li><li data-at=".435">Разделение</li><li data-at=".5">Возврат</li><li data-at=".685">Посадка</li><li data-at=".79">Орбита</li>
+      </ol>
+      <div class="hud__bar"><i></i></div>
+      <p class="hud__note mono">Визуализация проектных целей. Расчёты предстоит подтвердить испытаниями.</p>
+    </div>
+
+    <div class="hero__intro">
+      <p class="eyebrow mono"><span class="ign">●</span> Частная космическая компания</p>
+      <h1 class="hero__title"><span class="tminus">T−<b>2026</b></span><span class="hero__h">Станьте частью истории</span></h1>
+      <p class="hero__lead">Проектируем космический ракетный комплекс с&nbsp;ракетой-носителем сверхлёгкого класса.</p>
+      <div class="hero__scroll mono"><i></i>Листайте — запуск</div>
+    </div>
+
+    <div class="caps">
+      <article class="cap" data-from=".13" data-to=".2"><p class="cap__k mono">Зажигание · 1 ступень</p><h2 class="cap__v">9&nbsp;×&nbsp;3&nbsp;тс</h2><p>Проектные параметры: 9 двигателей по 3&nbsp;тс на первой ступени. Компоненты топлива — СПГ и жидкий кислород.</p></article>
+      <article class="cap" data-from=".22" data-to=".42"><p class="cap__k mono">Старт</p><h2 class="cap__v">Сверхлёгкий класс</h2><p>Проектируем двухступенчатую ракету-носитель для вывода спутников на орбиту.</p></article>
+      <article class="cap" data-from=".44" data-to=".5"><p class="cap__k mono">Разделение · 2 ступень</p><h2 class="cap__v">1&nbsp;×&nbsp;3,4&nbsp;тс</h2><p>Проектный параметр: 1 двигатель на 3,4&nbsp;тс на второй ступени.</p></article>
+      <article class="cap" data-from=".52" data-to=".68"><p class="cap__k mono">Возврат первой ступени</p><h2 class="cap__v">Ракетная посадка</h2><p>Планируем возврат первой ступени с ракетной посадкой.</p></article>
+      <article class="cap" data-from=".7" data-to=".78"><p class="cap__k mono">Многоразовость · цель</p><h2 class="cap__v">≥&nbsp;10&nbsp;полётов</h2><p>Цель — не менее 10 полётов на одном блоке. Ресурс и экономику покажут испытания.</p></article>
+      <article class="cap" data-from=".82" data-to="1.01"><p class="cap__k mono">Орбита · проектная цель</p><h2 class="cap__v">500&nbsp;кг на&nbsp;ССО</h2><p>Полезная нагрузка на солнечно-синхронной орбите. Характеристики будут подтверждены экспериментальной отработкой.</p></article>
+    </div>
+  </div>
+</section>
+
+<main>
+<!-- ============ ENGINE ============ -->
+<section class="sec engine" id="engine">
+  <div class="ticker mono" aria-hidden="true"><div>ЖРД · СПГ + ЖИДКИЙ КИСЛОРОД · ОГНЕВЫЕ СТЕНДОВЫЕ ИСПЫТАНИЯ · ЖРД · СПГ + ЖИДКИЙ КИСЛОРОД · ОГНЕВЫЕ СТЕНДОВЫЕ ИСПЫТАНИЯ ·&nbsp;</div><div>ЖРД · СПГ + ЖИДКИЙ КИСЛОРОД · ОГНЕВЫЕ СТЕНДОВЫЕ ИСПЫТАНИЯ · ЖРД · СПГ + ЖИДКИЙ КИСЛОРОД · ОГНЕВЫЕ СТЕНДОВЫЕ ИСПЫТАНИЯ ·&nbsp;</div></div>
+  <div class="wrap engine__grid">
+    <div>
+      <p class="eyebrow mono"><span class="num">02</span> Двигатель</p>
+      <h2 class="h-xl split">Разрабатываем ракетный двигатель</h2>
+      <p class="lead">Изготавливаем жидкостной ракетный двигатель для проведения огневых стендовых испытаний.</p>
+      <p class="body">Ресурс двигателя на СПГ и жидком кислороде будет подтверждён наземной экспериментальной отработкой.</p>
+    </div>
+    <figure class="scope">
+      <div class="scope__frame"><img src="img/JC_SPACE_engine_shad.jpg" alt="Визуализация жидкостного ракетного двигателя JC SPACE" loading="lazy" width="480" height="480"><i class="scope__scan"></i>
+        <span class="scope__c c1"></span><span class="scope__c c2"></span><span class="scope__c c3"></span><span class="scope__c c4"></span></div>
+      <figcaption class="mono">
+        <dl><dt>Тип</dt><dd>ЖРД</dd><dt>Топливо</dt><dd>СПГ + ЖК</dd><dt>Статус</dt><dd class="ok">Изготовление</dd><dt>Далее</dt><dd>Огневые испытания</dd></dl>
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ FACTS / GAUGES ============ -->
+<section class="sec facts" id="facts" aria-label="Ключевые проектные цели">
+  <div class="wrap">
+    <p class="eyebrow mono"><span class="num">03</span> Телеметрия целей</p>
+    <div class="gauges">
+      <article class="gauge" data-gauge="reuse">
+        <svg viewBox="0 0 200 200" aria-hidden="true"><g class="gauge__ticks"></g><circle class="gauge__track" cx="100" cy="100" r="78"/><circle class="gauge__arc" cx="100" cy="100" r="78"/></svg>
+        <div class="gauge__val"><small class="mono">≥</small><b data-count="10">0</b><span class="mono">полётов</span></div>
+        <h3>Многоразовость</h3>
+        <p>Планируем возврат первой ступени. Цель — не менее 10 полётов; подтвердим испытаниями.</p>
+      </article>
+      <article class="gauge" data-gauge="mass">
+        <svg viewBox="0 0 200 200" aria-hidden="true"><g class="gauge__ticks"></g><circle class="gauge__track" cx="100" cy="100" r="78"/><circle class="gauge__arc" cx="100" cy="100" r="78"/><line class="gauge__needle" x1="100" y1="100" x2="100" y2="34"/></svg>
+        <div class="gauge__val"><b data-count="500">0</b><span class="mono">кг · ССО</span></div>
+        <h3>500 кг на ССО</h3>
+        <p>Проектная цель — 500 кг на солнечно-синхронной орбите.</p>
+      </article>
+      <article class="gauge gauge--fuel" data-gauge="fuel">
+        <div class="tanks" aria-hidden="true"><div class="tank"><i></i><span class="mono">СПГ</span></div><div class="tank tank--lox"><i></i><span class="mono">ЖК</span></div></div>
+        <div class="gauge__val gauge__val--txt"><b>СПГ + ЖК</b></div>
+        <h3>СПГ + жидкий кислород</h3>
+        <p>Ресурс двигателя на СПГ и жидком кислороде будет подтверждён наземной экспериментальной отработкой.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="sec about" id="about">
+  <div class="wrap">
+    <p class="eyebrow mono"><span class="num">04</span> О компании</p>
+    <h2 class="h-l split">Проектируем космический ракетный комплекс с&nbsp;ракетой-носителем сверхлёгкого класса</h2>
+    <div class="cards">
+      <article class="card"><span class="card__st mono"><i class="dot dot--live"></i>Текущий этап</span><p>Проектируем космический ракетный комплекс, создаём собственные производственно-испытательные мощности.</p></article>
+      <article class="card"><span class="card__st mono"><i class="dot dot--next"></i>Следующий шаг</span><p>Верификация расчётов на основе результатов экспериментальной отработки.</p><p>Выпуск рабочей конструкторской документации.</p></article>
+      <article class="card card--fund"><span class="card__st mono"><i class="dot dot--ign"></i>Финансирование</span><p class="card__big">JOYCITY вкладывает в развитие JC SPACE каждый высвободившийся рубль.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MISSION ============ -->
+<section class="sec mission" id="mission">
+  <div class="wrap">
+    <p class="eyebrow mono"><span class="num">01</span> Миссия</p>
+    <p class="mission__txt" data-words>Создать космический ракетный комплекс с&nbsp;ракетой-носителем сверхлёгкого класса для вывода космических аппаратов на&nbsp;орбиту</p>
+  </div>
+</section>
+
+<!-- ============ PLANS / TRAJECTORY ============ -->
+<section class="sec plans" id="plans">
+  <div class="wrap">
+    <p class="eyebrow mono"><span class="num">05</span> Разработка</p>
+    <h2 class="h-xl">Сейчас в&nbsp;работе</h2>
+    <div class="traj">
+      <svg class="traj__svg" viewBox="0 0 100 1000" preserveAspectRatio="none" aria-hidden="true"><path class="traj__base" d="M50 0 L50 1000"/><path class="traj__fill" d="M50 0 L50 1000"/></svg>
+      <ol class="traj__list">
+        <li class="node node--live"><span class="node__n mono">01</span><div><span class="node__st mono">В работе</span><h3>Космический ракетный комплекс</h3><p>Проектируем космический ракетный комплекс с ракетой-носителем сверхлёгкого класса на компонентах топлива «жидкий кислород — СПГ», с возвращаемым ракетным блоком первой ступени для вывода спутников на орбиту.</p></div></li>
+        <li class="node node--live"><span class="node__n mono">02</span><div><span class="node__st mono">В работе</span><h3>Жидкостной ракетный двигатель</h3><p>Изготавливаем жидкостной ракетный двигатель для проведения огневых стендовых испытаний.</p></div></li>
+        <li class="node node--live"><span class="node__n mono">03</span><div><span class="node__st mono">В работе</span><h3>Производственно-испытательные мощности</h3><p>Организуем собственную производственно-испытательную площадку для изготовления и испытаний узлов и агрегатов жидкостного ракетного двигателя, а также ЖРД в сборе.</p></div></li>
+        <li class="node node--live"><span class="node__n mono">04</span><div><span class="node__st mono">В работе</span><h3>Эскизный проект</h3><p>Разрабатываем эскизный проект для расчётного обоснования проектных характеристик космического ракетного комплекса.</p></div></li>
+        <li class="node node--next"><span class="node__n mono">→</span><div><span class="node__st mono">Следующий этап</span><h3>Наземная экспериментальная отработка</h3><p>Узлов и агрегатов жидкостного ракетного двигателя.</p></div></li>
+        <li class="node node--next"><span class="node__n mono">→</span><div><span class="node__st mono">Следующий этап</span><h3>Рабочая конструкторская документация</h3><p>Выпуск рабочей конструкторской документации.</p></div></li>
+        <li class="node node--goal"><span class="node__n mono">◎</span><div><span class="node__st mono">Запуск</span><h3>Целевая дата определена</h3><p>Её достижимость покажут результаты соответствующих этапов разработки космического ракетного комплекса.</p></div></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GOALS ============ -->
+<section class="sec goals" id="goals">
+  <div class="wrap">
+    <p class="eyebrow mono"><span class="num">06</span> Проектные цели</p>
+    <h2 class="h-xl">Технические характеристики</h2>
+    <p class="note mono">⚠ Все значения — проектные. Расчёты предстоит подтвердить испытаниями.</p>
+    <div class="specs">
+      <article class="spec">
+        <div class="spec__img"><img src="img/JC_SPACE_9_engines_s.jpg" alt="Визуализация: девять двигателей первой ступени" loading="lazy" width="480" height="480"></div>
+        <span class="spec__n mono">01 / Двигатели</span>
+        <h3 class="spec__big">9 × 3 тс <small>+ 1 × 3,4 тс</small></h3>
+        <dl class="mono"><dt>1 ступень</dt><dd>9 двигателей по 3 тс</dd><dt>2 ступень</dt><dd>1 двигатель на 3,4 тс</dd></dl>
+        <p>Расчёты предстоит подтвердить испытаниями.</p>
+      </article>
+      <article class="spec">
+        <div class="spec__img"><img src="img/JC_SPACE_SSO_shadow_.jpg" alt="Визуализация: выход на солнечно-синхронную орбиту" loading="lazy" width="480" height="480"></div>
+        <span class="spec__n mono">02 / Орбита</span>
+        <h3 class="spec__big">500 кг <small>ССО</small></h3>
+        <dl class="mono"><dt>Схема</dt><dd>Двухступенчатая РН</dd><dt>Нагрузка</dt><dd>500 кг на ССО</dd></dl>
+        <p>Характеристики будут подтверждены экспериментальной отработкой.</p>
+      </article>
+      <article class="spec">
+        <div class="spec__img"><img src="img/JC_SPACE_engine_shad.jpg" alt="Визуализация ракетного двигателя" loading="lazy" width="480" height="480"></div>
+        <span class="spec__n mono">03 / Ракета</span>
+        <h3 class="spec__big">≥ 10 <small>полётов</small></h3>
+        <dl class="mono"><dt>Возврат</dt><dd>Ракетная посадка 1 ступени</dd><dt>Ресурс</dt><dd>≥ 10 полётов на одном блоке</dd></dl>
+        <p>Ресурс и экономику покажут испытания.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="sec faq" id="faq">
+  <div class="wrap faq__grid">
+    <div><p class="eyebrow mono"><span class="num">07</span> О проекте</p><h2 class="h-l">Вопросы</h2></div>
+    <div class="faq__list">
+      <details><summary><span class="mono">Q1</span>Как связаны JOYCITY и JC SPACE?</summary><div><p>JOYCITY вкладывает в развитие JC SPACE каждый высвободившийся рубль.</p><p>Спасибо покупателям JOYCITY: ваша поддержка помогает нам двигаться дальше.</p></div></details>
+      <details><summary><span class="mono">Q2</span>Характеристики ракеты уже подтверждены?</summary><div><p>Полезная нагрузка 500 кг на солнечно-синхронной орбите и ресурс возвращаемого ракетного блока первой ступени не менее 10 полётов — проектные цели.</p><p>Достижение проектных целей будет подтверждено испытаниями.</p></div></details>
+      <details><summary><span class="mono">Q3</span>Когда состоится запуск?</summary><div><p>Определена целевая дата запуска.</p><p>Её достижимость покажут результаты соответствующих этапов разработки космического ракетного комплекса.</p></div></details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TEAM ============ -->
+<section class="sec team" id="team">
+  <div class="wrap team__grid">
+    <div class="team__photo"><div class="team__glow"></div><img src="img/founder.webp" alt="Арсен Саруханян, основатель ГК JOYCITY" loading="lazy" width="789" height="2048"></div>
+    <div class="team__txt">
+      <p class="eyebrow mono"><span class="num">08</span> Кто стоит за проектом</p>
+      <h2 class="h-l">Арсен Саруханян</h2>
+      <p class="team__role mono">Основатель ГК JOYCITY</p>
+      <p class="body">Предприниматель с опытом в товарном бизнесе, логистике и работе с Китаем.</p>
+      <blockquote>JOYCITY вкладывает в развитие JC SPACE каждый высвободившийся рубль</blockquote>
+      <p class="body muted">Спасибо покупателям JOYCITY: ваша поддержка помогает нам двигаться дальше.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACTS ============ -->
+<section class="sec contact" id="contacts">
+  <div class="wrap contact__grid">
+    <div>
+      <p class="eyebrow mono"><span class="num">09</span> Свяжитесь с нами</p>
+      <h2 class="h-xl">Партнёрство и&nbsp;сотрудничество</h2>
+      <p class="lead">Обсудим технологии, производство и компоненты.</p>
+      <p class="body">Открыты к диалогу с партнёрами, инвесторами и кандидатами.</p>
+      <a class="phone" href="tel:+79515869611"><span class="mono">Канал связи · голос</span>+7 951 586-96-11</a>
+    </div>
+    <form class="form" novalidate>
+      <div class="form__hd mono"><span><i class="dot dot--live"></i>Запрос на связь</span><span>CH-01</span></div>
+      <fieldset class="seg"><legend class="mono">Я —</legend>
+        <label><input type="radio" name="who" value="Партнёр" checked><span>Партнёр</span></label>
+        <label><input type="radio" name="who" value="Инвестор"><span>Инвестор</span></label>
+        <label><input type="radio" name="who" value="Кандидат"><span>Кандидат</span></label>
+      </fieldset>
+      <label class="fld"><span class="mono">Имя</span><input name="name" required autocomplete="name"></label>
+      <label class="fld"><span class="mono">Телефон или e-mail</span><input name="contact" required autocomplete="tel"></label>
+      <label class="fld"><span class="mono">Сообщение</span><textarea name="msg" rows="3" placeholder="Технологии, производство, компоненты…"></textarea></label>
+      <button class="btn btn--ign" type="submit"><span>Отправить запрос</span><i>→</i></button>
+      <p class="form__hint mono">Форма не отправляет данные на сервер: она откроет SMS на номер +7 951 586-96-11 с готовым текстом. Также можно скопировать текст или позвонить.</p>
+      <div class="form__done" hidden>
+        <p class="mono">Запрос сформирован</p>
+        <pre class="form__out"></pre>
+        <div class="form__acts"><a class="btn btn--sm sms-link" href="#">Открыть SMS</a><button type="button" class="btn btn--sm btn--ghost copy-btn">Скопировать</button><a class="btn btn--sm btn--ghost" href="tel:+79515869611">Позвонить</a></div>
+      </div>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="ftr">
+  <div class="ftr__mark" aria-hidden="true">JC SPACE</div>
+  <div class="wrap ftr__row mono"><span>© JOYCITY · Все права защищены</span><span>Частный космический проект</span><a href="tel:+79515869611">+7 951 586-96-11</a></div>
+</footer>
+
+<script src="vendor/gsap.min.js"></script>
+<script src="vendor/ScrollTrigger.min.js"></script>
+<script src="vendor/lenis.min.js"></script>
+<script type="module" src="js/app.min.js"></script>
+</body>
+</html>

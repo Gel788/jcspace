@@ -859,3 +859,12 @@ html.rm .card__live i{animation:none}
 @media (min-width:901px){html.anim .cx{height:600vh}}
 @media (min-width:901px){.work__track{padding-left:max(var(--pad),32px)!important}}
 .work__h::after{white-space:nowrap;width:max-content}
+.work{background:#0a0a0a}
+@media (min-width:901px){
+.specs__list{position:relative;z-index:3;overflow:visible}
+.spec{position:relative}
+.spec__n{font-size:clamp(120px,min(15vw,25vh),300px);margin-left:-12vw;position:relative;z-index:4;mix-blend-mode:difference;color:#fff}
+.spec__n--txt{font-size:clamp(80px,min(9.5vw,17vh),190px);margin-left:-8vw}
+.spec__n>span{mix-blend-mode:normal}
+.spec::before{content:attr(data-i);position:absolute;right:0;top:4vh;font:500 11px/1 var(--fm);letter-spacing:.12em;color:var(--ign)}
+}

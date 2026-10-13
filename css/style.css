@@ -917,3 +917,4 @@ html.anim .spec{height:calc(100svh - var(--hdr) - 150px)!important;min-height:0!
 .specs__vis,.stage,.card,.spec,html.anim .spec,html.anim .work__track .card{background:#000!important}
 .vis__corner{display:none!important}
 @media (min-width:901px){.spec{background:transparent!important}.spec__n{margin-left:0!important;mix-blend-mode:normal!important;font-size:clamp(110px,min(11.5vw,22vh),230px)!important}.spec__n--txt{font-size:clamp(72px,min(7.6vw,15vh),150px)!important}}
+.fd,.fd__frame{background:#000!important}@media (min-width:901px){html.anim .cx__stage{top:calc(var(--hdr) + 13vh)!important}}

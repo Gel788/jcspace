@@ -818,3 +818,7 @@ html.anim .mission{height:600vh}
 @media (max-width:900px){.cx__s{min-height:88svh;padding:8vh var(--pad)}.cx__num,.cx__t,.cx__art{grid-column:1/13}.cx__art{grid-row:auto;margin-top:4vh}.cx__v{max-width:78vw}.cx__num b{font-size:clamp(110px,34vw,200px)}.cx__wm{font-size:12vw}}
 .creds .creds__nums{display:none}
 .creds .creds__h{font-size:clamp(40px,5.4vw,110px)}
+.cx__wm{font-size:clamp(32px,3.8vw,76px)!important;-webkit-text-stroke:0!important;color:var(--w)!important}
+.cx__wm span:nth-child(2){color:var(--ign)!important}.cx__wm span:nth-child(3){color:#8a8a8a!important}
+@media (min-width:901px){html.anim .cx{height:520vh}}
+@media (max-width:900px){.cx__wm{font-size:11vw!important}.cx__s{min-height:0;padding:9vh var(--pad)}}

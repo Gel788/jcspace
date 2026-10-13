@@ -887,3 +887,4 @@ html.anim .cx__s--all{overflow:auto;align-content:start!important}
 html.anim .cx__allg b{font-size:clamp(36px,11vw,64px)!important}html.anim .cx__allg{row-gap:16px!important}
 html.anim .cx__alll li{padding:7px 0!important;font-size:13px!important}
 }
+@media (max-width:900px){html.anim .work__track{margin-top:5vh!important}}

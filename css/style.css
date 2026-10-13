@@ -924,3 +924,14 @@ html.anim .spec{height:calc(100svh - var(--hdr) - 150px)!important;min-height:0!
 @media (max-width:900px){.faq__list details summary{grid-template-columns:22px minmax(0,1fr) 24px!important;gap:10px!important}.q__t{max-width:none!important;width:100%;text-wrap:pretty;font-size:clamp(18px,5vw,22px)!important}.faq summary i{width:24px!important}}
 @media (max-width:900px){.faq .faq__list details summary{grid-template-columns:22px minmax(0,1fr) 24px!important}}
 @media (max-width:900px){.faq .q__i{grid-column:1!important}.faq .q__t{grid-column:2!important}.faq summary i{grid-column:3!important}}
+/* no grey underlays: pure black + hairlines only */
+.specs__vis,.vis--bp,.spec__bp,.stage,.spec__slot,html.stage-on .spec__slot,.card,.spec,html.anim .spec,html.anim .work__track .card,.fd__frame,.work,.fd,.first,.cx,.cx__s,.mission,.gives{background:#000!important}
+.card,.spec{box-shadow:none!important}
+.m-goal{background:none!important;-webkit-backdrop-filter:none!important;backdrop-filter:none!important}
+.hdr.hdr--bg::before{background:#000!important;-webkit-backdrop-filter:none!important;backdrop-filter:none!important;border-bottom:1px solid rgba(255,255,255,.12)}
+.hdr.hdr--bg.hdr--light::before{background:#f2f2ef!important;border-bottom-color:rgba(0,0,0,.12)}
+.hdr.hdr--bg.hdr--ink::before{background:#ff4d00!important;border-bottom-color:rgba(0,0,0,.15)}
+.tabs{background:#000!important;-webkit-backdrop-filter:none!important;backdrop-filter:none!important;box-shadow:none!important;border:1px solid rgba(255,255,255,.14)!important}
+.mc,.mc__top,.mc__s{background:none!important}
+.swp__dots i{background:rgba(255,255,255,.35)}
+.specs,.specs__list,.specs__wrap{background:#000!important}@media (min-width:901px){.spec,html.anim .spec{background:transparent!important;border-radius:0!important}}.mc__bars i{background:none}

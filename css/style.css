@@ -935,3 +935,4 @@ html.anim .spec{height:calc(100svh - var(--hdr) - 150px)!important;min-height:0!
 .mc,.mc__top,.mc__s{background:none!important}
 .swp__dots i{background:rgba(255,255,255,.35)}
 .specs,.specs__list,.specs__wrap{background:#000!important}@media (min-width:901px){.spec,html.anim .spec{background:transparent!important;border-radius:0!important}}.mc__bars i{background:none}
+.grain{display:none!important}

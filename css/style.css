@@ -994,3 +994,22 @@ html.anim .ct__pin{position:sticky;top:0;height:100svh;justify-content:center;pa
 html.anim .ct__pin{gap:3svh;padding-bottom:12svh}}
 .contact__h{font-size:min(7.6vw,14vh)!important;line-height:.92!important}
 @media (max-width:760px){.contact__h{font-size:8.3vw!important}}
+@media (min-width:761px){html.anim .ct__pin{padding-bottom:7vh;gap:3.4vh}.contact .phone{padding-bottom:0!important}}
+@media (max-width:760px){.contact .phone::before{height:2px!important}}
+/* audit: FAQ pure black */
+.faq{background:#000!important;color:var(--w)!important;clip-path:none!important}
+.faq .sh{color:var(--g)!important}.faq .sh::before{background:var(--l)!important}.faq .sh__t{color:var(--w)!important}
+.faq__list{border-color:var(--l)!important}.faq details::after{background:var(--l)!important}.faq details p{color:var(--g)!important}
+.faq summary,.faq .q__t,.faq__h{color:var(--w)}.faq summary i::before,.faq summary i::after{background:var(--w)!important}
+.faq__ghost{display:none!important}
+/* audit: About on short desktops */
+@media (min-width:901px) and (max-height:700px){html.anim .trio{bottom:7vh}html.anim .trio .idx{font-size:14vh}html.anim .trio h3{margin:8px 0 6px}html.anim .trio p{font-size:min(2vw,3.6vh)}}
+/* audit: contacts on short desktops */
+@media (min-width:761px) and (max-height:700px){.contact__h{font-size:min(7.6vw,11vh)!important}.ct__who li{font-size:4.4vh}.contact .phone__n{font-size:11vh!important}html.anim .ct__pin{gap:2.6vh}}
+@media (hover:hover){.faq summary:hover .q__t{transform:none!important}.faq details:hover:not([open])::before{transform:scaleX(0)!important}}
+@media (min-width:901px) and (max-height:700px){html.anim .trio .idx{font-size:12vh}html.anim .trio p{font-size:min(1.8vw,3.2vh)}html.anim .trio{bottom:9vh}}
+.work .card--next{background:#000!important;color:var(--w)!important;border:1px solid var(--l)!important}
+.work .card--next .card__n{color:var(--ign)!important;-webkit-text-stroke:0!important}
+.work .card--next li{color:var(--g)!important}.work .card--next h3{color:var(--w)!important}
+.work .card--next .card__date,.work .card--next .card__live{color:var(--g)!important;border-color:var(--l)!important}
+@media (hover:hover){.card:not(.card--next):hover{background:#000!important;color:inherit!important}.card:not(.card--next):hover p{color:inherit!important}}

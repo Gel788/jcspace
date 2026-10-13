@@ -620,3 +620,46 @@ html.stage-on .specs__vis .vis{opacity:0!important}
   .about{padding-bottom:4vh!important}.specs{padding-top:4vh!important}
   html.stage-on .spec__slot{aspect-ratio:auto}
 }
+.f3d{position:absolute;inset:0;display:block}
+.founder__img.f3d-on picture{visibility:hidden}
+@media (max-width:900px){.founder__pin{perspective:900px}.founder__img{transform-style:preserve-3d}}
+@media (max-width:900px) and (max-height:500px){.founder__img{aspect-ratio:789/1000!important;width:min(34vw,280px)!important}}
+/* huge statement */
+.first{position:relative;background:#000;padding:16vh 0 14vh;overflow:hidden;perspective:1000px}
+.first::before{content:"";position:absolute;left:50%;top:50%;width:120vmax;height:60vmax;transform:translate(-50%,-50%);background:radial-gradient(closest-side,rgba(255,77,0,.16),transparent 70%);pointer-events:none}
+.first__in{position:relative;row-gap:28px}
+.first__k,.first__f{grid-column:1/13;color:var(--g)}.first__k{color:var(--ign)}
+.first__t{grid-column:1/13;font:700 clamp(40px,min(6.6vw,11vh),132px)/.92 var(--fh);letter-spacing:-.05em;text-transform:uppercase;transform-style:preserve-3d}
+.first__w{display:inline-block;transform-origin:50% 100%}
+.first__w--a{color:var(--ign)}
+/* plain-language block */
+.gives{background:#F2F2EF;color:#000;padding:12vh 0 14vh;position:relative;perspective:1100px}
+.gives .sh{color:#555}.gives .sh::before{background:rgba(0,0,0,.18)}.gives .sh__t{color:#000}
+.gives__h{grid-column:1/13;font:700 clamp(48px,8vw,150px)/.88 var(--fh);letter-spacing:-.05em;text-transform:uppercase;margin-bottom:6vh}
+.gives__list{grid-column:1/13;list-style:none;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:var(--gap);padding:0;margin:0}
+.gives__list li{border-top:2px solid #000;padding-top:16px;display:flex;flex-direction:column;gap:12px;transform-origin:50% 0}
+.gives__list b{font:500 11px/1 var(--fm);color:var(--ign);letter-spacing:.1em}
+.gives__list h3{font:700 clamp(22px,2vw,34px)/1.02 var(--fh);letter-spacing:-.03em}
+.gives__list p{font:500 clamp(15px,1.1vw,18px)/1.45 var(--fh);color:#333}
+@media (max-width:900px){.gives__list{grid-template-columns:1fr 1fr;row-gap:32px}.first{padding:12vh 0 10vh}}
+@media (max-width:560px){.gives__list{grid-template-columns:1fr}.first__t{font-size:clamp(34px,10.4vw,52px)}.gives__h{font-size:15vw}}
+/* stage dates */
+.card__date{display:inline-flex;align-items:center;gap:8px;margin-top:14px;font-size:10px;color:var(--g);border:1px solid rgba(255,255,255,.18);padding:6px 9px;align-self:flex-start}
+.card__date i{width:6px;height:6px;border:1px solid currentColor;border-radius:50%}
+.card__date.is-set{color:var(--w)}.card__date.is-set i{background:var(--ign);border-color:var(--ign)}
+.card--next .card__date{color:#000;border-color:rgba(0,0,0,.35)}
+@media (max-width:900px){.specs{padding-bottom:96px!important}}
+/* founder credentials */
+.creds{background:#000;padding:12vh 0 14vh;position:relative;perspective:1100px;overflow:hidden}
+.creds::before{content:"";position:absolute;right:-10vw;top:10%;width:70vw;height:70vw;background:radial-gradient(closest-side,rgba(255,77,0,.12),transparent 70%);pointer-events:none}
+.creds__body{position:relative;row-gap:8vh}
+.creds__nums{grid-column:1/13;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:var(--gap)}
+.cn{border-top:1px solid var(--l);padding-top:16px;display:flex;flex-direction:column;gap:12px;transform-origin:50% 100%}
+.cn b{font:700 clamp(56px,7.4vw,150px)/.82 var(--fh);letter-spacing:-.055em;white-space:nowrap}
+.cn b small{font:500 clamp(12px,1.1vw,18px)/1 var(--fm);letter-spacing:.06em;color:var(--ign);margin-left:.4em;vertical-align:top}
+.cn span{font:500 11px/1.4 var(--fm);letter-spacing:.1em;text-transform:uppercase;color:var(--g);max-width:24ch}
+.cn:first-child b{color:var(--ign)}
+.creds__list{grid-column:1/13;list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:var(--gap)}
+.creds__list li{display:flex;gap:18px;align-items:baseline;border-top:1px solid var(--l);padding:18px 0;font:600 clamp(17px,1.5vw,26px)/1.25 var(--fh);letter-spacing:-.015em}
+.creds__list i{font:500 11px/1 var(--fm);color:var(--ign);font-style:normal;letter-spacing:.1em;flex:none;width:26px}
+@media (max-width:900px){.creds__nums{grid-template-columns:1fr 1fr;row-gap:36px}.creds__list{grid-template-columns:1fr}.cn b{font-size:clamp(52px,15vw,96px)}}

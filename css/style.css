@@ -270,3 +270,11 @@ html.rm .founder__orbit ellipse{stroke-dashoffset:0}
   .f1,.f2,.f3{grid-column:1/13;text-align:left}
 }
 .hdr.hdr--ink{mix-blend-mode:normal;color:#000}.hdr.hdr--ink .hdr__logo img{filter:invert(1)}
+html:not(.anim) .founder__q{bottom:46vh}html:not(.anim) .founder{height:auto}
+@media (max-width:720px){
+  .m-title{font-size:11vw}
+  .m-goal b{font-size:34px}.m-goal__d{display:none}
+  html.anim .m-goals{bottom:44px;row-gap:10px}
+  .contact__h{font-size:8.6vw}
+}
+@media (max-width:720px){html.anim .m-note{display:none}html.anim .m-goals{bottom:20px}}

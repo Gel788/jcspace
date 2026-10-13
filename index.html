@@ -14,20 +14,38 @@
 <link rel="stylesheet" href="css/fonts.css">
 <link rel="stylesheet" href="css/style.css">
 <script>document.documentElement.classList.add('js');if(matchMedia('(prefers-reduced-motion: reduce)').matches)document.documentElement.classList.add('rm')</script>
+<script>try{var d=document.documentElement;if(!matchMedia("(prefers-reduced-motion: reduce)").matches&&!sessionStorage.getItem("jcboot"))d.classList.add("boot-on")}catch(e){}</script>
 </head>
 <body>
 <canvas class="gl" aria-hidden="true"></canvas>
 <div class="grain" aria-hidden="true"></div>
 
+<div class="boot" aria-hidden="true"><div class="boot__in">
+  <div class="boot__top mono"><span>JC SPACE · Пусковая последовательность</span><span class="boot__pct">000%</span></div>
+  <div class="boot__mid"><span class="boot__t mono">T−</span><b class="boot__n">10</b></div>
+  <ul class="boot__log mono"><li>Связь с ЦУП ........ OK</li><li>Телеметрия ........ НОРМА</li><li>Текстуры Земли .... <em class="boot__tx">0/0</em></li><li>Шрифты ............ <em class="boot__fn">—</em></li></ul>
+  <div class="boot__bot"><img src="img/logo-white.png" alt="" width="14" height="26"><i class="boot__bar"><i></i></i><span class="mono">ССО · 500 кг</span></div>
+</div></div>
 <header class="hdr g">
   <a class="hdr__logo" href="#top" aria-label="JC SPACE — наверх"><img src="img/logo-white.png" alt="" width="14" height="26"><span>JC SPACE</span></a>
   <nav class="hdr__nav" aria-label="Разделы">
     <a href="#about">О компании</a><a href="#specs">Цели</a><a href="#work">В работе</a><a href="#team">Основатель</a><a href="#contacts">Контакты</a>
   </nav>
   <a class="hdr__cta" href="tel:+79515869611">Связаться <i>↗</i></a>
+  <span class="hdr__sec" aria-hidden="true"></span>
+  <button class="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="menu"><i></i><i></i></button>
+  <i class="hdr__prog" aria-hidden="true"></i>
 </header>
 
 <main id="top">
+<div class="menu" id="menu" role="dialog" aria-modal="true" aria-label="Меню" hidden>
+  <div class="menu__top g"><span class="mono menu__k">JC SPACE · Навигация</span><button class="menu__x" type="button" aria-label="Закрыть меню">Закрыть <i>✕</i></button></div>
+  <nav class="menu__nav" aria-label="Разделы">
+    <a href="#about"><i>01</i><span>О компании</span></a><a href="#specs"><i>02</i><span>Цели</span></a><a href="#mission"><i>03</i><span>Миссия</span></a><a href="#work"><i>04</i><span>В работе</span></a><a href="#faq"><i>05</i><span>Вопросы</span></a><a href="#team"><i>06</i><span>Основатель</span></a><a href="#contacts"><i>07</i><span>Контакты</span></a>
+  </nav>
+  <div class="menu__ft"><span class="mono">Телефон</span><a class="menu__ph" href="tel:+79515869611">+7 951 586-96-11</a><a class="menu__cta" href="tel:+79515869611">Позвонить <i>↗</i></a></div>
+</div>
+
 <section class="hero" id="hero" aria-label="Первый экран">
   <div class="hero__pin">
     <div class="hero__top g" aria-hidden="true">
@@ -102,7 +120,32 @@
       <article class="spec" data-v="1"><img class="spec__img" src="img/r-engines9-m.webp" alt="" loading="lazy"><span class="spec__i">01 · Двигатели · 1&nbsp;ступень</span><p class="spec__n"><b data-count="9">9</b><span>×</span><b data-count="3">3</b><small>тс</small></p><p class="spec__d">9 двигателей по&nbsp;3&nbsp;тс на&nbsp;первой ступени</p><span class="spec__tag">Проектная цель</span></article>
       <article class="spec" data-v="2"><img class="spec__img" src="img/r-engine-m.webp" alt="" loading="lazy"><span class="spec__i">02 · Двигатель · 2&nbsp;ступень</span><p class="spec__n"><b data-count="3.4" data-dec="1">3,4</b><small>тс</small></p><p class="spec__d">1 двигатель на&nbsp;3,4&nbsp;тс на&nbsp;второй ступени</p><span class="spec__tag">Проектная цель</span></article>
       <article class="spec" data-v="3"><img class="spec__img" src="img/r-sso-m.webp" alt="" loading="lazy"><span class="spec__i">03 · Орбита</span><p class="spec__n"><b data-count="500">500</b><small>кг</small></p><p class="spec__d">Проектная цель — 500&nbsp;кг на&nbsp;солнечно-синхронной орбите. Двухступенчатая ракета-носитель</p><span class="spec__tag">Проектная цель</span></article>
-      <article class="spec" data-v="4"><span class="spec__i">04 · Многоразовость</span><p class="spec__n"><span>≥</span><b data-count="10">10</b><small>полётов</small></p><p class="spec__d">Планируем возврат первой ступени с&nbsp;ракетной посадкой. Цель — не&nbsp;менее 10&nbsp;полётов на&nbsp;одном блоке</p><span class="spec__tag">Проектная цель</span></article>
+      <article class="spec" data-v="4"><figure class="spec__bp" aria-label="Техническая схема ракеты-носителя"><svg class="bp bp--m" viewBox="0 0 600 900" aria-hidden="true">
+  <defs><pattern id="grdm" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="currentColor" stroke-opacity=".08"/></pattern></defs>
+  <rect width="600" height="900" fill="url(#grdm)"/>
+  <g class="bp__rk" fill="none" stroke="currentColor" stroke-width="1.4">
+    <path class="bp__fair" d="M300 70 C330 110 344 160 344 210 L256 210 C256 160 270 110 300 70Z"/>
+    <path class="bp__s2" d="M256 210H344V360H256Z"/>
+    <path d="M256 360H344L338 390H262Z"/>
+    <path class="bp__tank bp__s1" d="M262 390H338V610H262Z"/>
+    <path class="bp__tank" d="M262 610H338V760H262Z"/>
+    <path class="bp__eng" d="M268 760L262 800H338L332 760M280 800L274 826H292L288 800M312 800L308 826H326L320 800M296 800L292 830H308L304 800"/>
+    <path class="bp__leg" d="M262 700L214 828M214 828H232M338 700L386 828M386 828H368"/>
+    <path class="bp__fin" d="M262 400L246 404V430L262 434M338 400L354 404V430L338 434"/>
+  </g>
+  <g class="bp__dim" fill="none" stroke="currentColor" stroke-opacity=".5">
+    <path d="M430 70V830M424 70H436M424 830H436M424 360H436M424 390H436"/>
+    <path d="M160 210V360M154 210H166M154 360H166M160 390V760M154 390H166M154 760H166" stroke-dasharray="3 4"/>
+  </g>
+  <g class="bp__tx" fill="currentColor" font-family="JetBrains Mono,monospace" font-size="12" letter-spacing="1.5">
+    <text x="446" y="226">2 СТУПЕНЬ</text><text x="446" y="244" class="bp__v">1 × 3,4 ТС</text>
+    <text x="446" y="586">1 СТУПЕНЬ</text><text x="446" y="604" class="bp__v">9 × 3 ТС</text>
+    <text x="40" y="290">СПГ</text><text x="40" y="580">LOX</text>
+    <text x="40" y="860">ВОЗВРАТ · ≥10 ПОЛЁТОВ</text>
+    <text x="446" y="90">ОБТЕКАТЕЛЬ</text><text x="446" y="108" class="bp__v">500 КГ · ССО</text>
+  </g>
+  <text x="40" y="40" fill="currentColor" font-family="JetBrains Mono,monospace" font-size="11" letter-spacing="2" opacity=".6">СХЕМА · ДВУХСТУПЕНЧАТАЯ РН · ПРОЕКТ</text>
+</svg><figcaption class="vis__c">Схема · двухступенчатая РН · проект</figcaption></figure><span class="spec__i">04 · Многоразовость</span><p class="spec__n"><span>≥</span><b data-count="10">10</b><small>полётов</small></p><p class="spec__d">Планируем возврат первой ступени с&nbsp;ракетной посадкой. Цель — не&nbsp;менее 10&nbsp;полётов на&nbsp;одном блоке</p><span class="spec__tag">Проектная цель</span></article>
       <article class="spec" data-v="5"><span class="spec__i">05 · Топливо</span><p class="spec__n spec__n--txt">СПГ<span>+</span>LOX</p><p class="spec__d">Сжиженный природный газ и&nbsp;жидкий кислород. Ресурс двигателя будет подтверждён наземной экспериментальной отработкой</p><span class="spec__tag">Подтвердим испытаниями</span></article>
     </div>
   </div>
@@ -146,6 +189,7 @@
       <article class="card"><span class="card__n">04</span><h3>Эскизный проект</h3><p>Разрабатываем эскизный проект для&nbsp;расчётного обоснования проектных характеристик космического ракетного комплекса</p></article>
       <article class="card card--next"><span class="card__n">05</span><h3>Следующие этапы</h3><ol><li>Наземная экспериментальная отработка узлов и&nbsp;агрегатов жидкостного ракетного двигателя</li><li>Выпуск рабочей конструкторской документации</li></ol></article>
     </div>
+    <p class="work__hint mono"><b>←→</b> Листайте карточки</p>
   </div>
 </section>
 

@@ -888,3 +888,9 @@ html.anim .cx__allg b{font-size:clamp(36px,11vw,64px)!important}html.anim .cx__a
 html.anim .cx__alll li{padding:7px 0!important;font-size:13px!important}
 }
 @media (max-width:900px){html.anim .work__track{margin-top:5vh!important}}
+@media (max-width:900px){
+html.anim .specs{height:100svh;overflow:hidden;padding-top:calc(var(--hdr) + 1vh)!important;padding-bottom:0!important;box-sizing:border-box}
+html.anim .specs__list{overflow:visible!important;scroll-snap-type:none!important;width:max-content!important;flex-wrap:nowrap!important}
+html.anim .specs .swp__h{visibility:hidden}
+html.anim .spec{height:calc(100svh - var(--hdr) - 150px)!important;min-height:0!important}
+}

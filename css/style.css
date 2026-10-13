@@ -962,3 +962,9 @@ html.anim .ab-rail span{font-size:11px;letter-spacing:.12em;color:var(--g)}html.
  html.anim .ab-rail{left:var(--pad);right:var(--pad);width:auto;bottom:calc(84px + env(safe-area-inset-bottom))}
 }
 html.anim .trio,html.anim .ab-rail{left:0!important}@media (max-width:900px){html.anim .trio,html.anim .ab-rail{left:0!important;right:0!important}}html.anim .about .sh{position:relative;z-index:2}
+/* audit: gives stacking, faq line draw, first pinned */
+.faq details::after{transform:scaleX(var(--s,1));transform-origin:0 0}
+html.anim .gives__list li{position:sticky;top:calc(var(--hdr) + 2vh);background:#000}
+html.anim .first{height:260vh;padding:0!important}html.anim .first__in{position:sticky;top:0;height:100svh;align-content:center;padding-top:var(--hdr)}html.anim .first .first__t{font-size:min(5.6vw,7.2vh)}
+@media (max-width:760px){html.anim .first .first__t{font-size:min(8.6vw,4.6svh)!important}html.anim .first .first__row b{font-size:min(12vw,6svh)!important}}
+html.anim .first{overflow:clip!important;display:block!important;height:260vh!important;min-height:0!important;padding:0!important}

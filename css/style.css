@@ -697,3 +697,17 @@ html.stage-on .specs__vis .vis{opacity:0!important}
 .work__h::after{content:"05 этапов · сроки уточняются";display:block;margin-top:20px;font:500 11px/1 var(--fm);letter-spacing:.12em;text-transform:uppercase;color:var(--ign)}
 .card{position:relative}
 .card::after{content:"";position:absolute;left:0;top:0;height:2px;width:40px;background:var(--ign)}
+/* A: mission fly-through */
+.m-fly{position:absolute;inset:0;pointer-events:none;z-index:0;display:grid;place-items:center;overflow:hidden}
+.m-fly i{position:absolute;width:72vmin;height:24vmin;border:1px solid rgba(0,0,0,.45);border-radius:50%;opacity:0}
+.m-fly i:nth-child(2){border-color:var(--ign);border-width:1.5px}
+.m-fly i:nth-child(4){border-style:dashed}
+html.anim .m-chunk{will-change:transform,opacity,filter}
+/* A: gives as huge numbered statements */
+.gives__list{grid-template-columns:1fr!important;gap:0!important;border-bottom:1px solid #000}
+.gives__list li{display:grid!important;grid-template-columns:minmax(0,3fr) minmax(0,5fr) minmax(0,4fr);align-items:end;column-gap:var(--gap);padding:3.2vh 0;border-top:1px solid #000!important}
+.gives__list b{font:700 clamp(84px,11vw,220px)/.78 var(--fh)!important;letter-spacing:-.06em!important;color:transparent!important;-webkit-text-stroke:1.5px #000;transition:color .6s var(--ease),-webkit-text-stroke-color .6s}
+.gives__list li.on b{color:var(--ign)!important;-webkit-text-stroke-color:var(--ign)}
+.gives__list h3{font-size:clamp(28px,3.4vw,64px)!important;line-height:.95!important;letter-spacing:-.04em}
+.gives__list p{max-width:40ch}
+@media (max-width:900px){.gives__list li{grid-template-columns:1fr;row-gap:12px;padding:4vh 0}.gives__list b{font-size:clamp(84px,28vw,160px)!important}.gives__list h3{font-size:clamp(28px,8.4vw,48px)!important}}

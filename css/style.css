@@ -771,3 +771,18 @@ html.anim .mission{height:600vh}
 @media (max-width:900px){.fd{padding:calc(var(--hdr) + 3vh) 0 10vh}.fd__fig{grid-column:1/13;width:min(100%,460px);margin:0 auto}.fd__txt{grid-column:1/13;padding:0;gap:32px}.fd__in{display:flex;flex-direction:column-reverse;align-items:stretch}.fd__txt{display:contents}.fd__name{order:-1}
  .fd__in{flex-direction:column}.fd__name{font-size:clamp(48px,15vw,110px)}.fd__facts{grid-template-columns:1fr;gap:0}.fd__facts div{flex-direction:row;gap:16px;padding:12px 0}.fd__facts dt{width:90px;flex:none}}
 @media (min-width:901px){.fd{min-height:100vh;display:flex;flex-direction:column;justify-content:center}.fd__frame{aspect-ratio:auto;height:min(72vh,860px)}.fd__in{align-items:center}}
+/* founder spacing pass */
+.fd__ghost{z-index:0}
+.fd__fig{z-index:1}
+@media (min-width:901px){
+ .fd__fig{grid-column:1/6}
+ .fd__frame{height:auto;aspect-ratio:789/1000;max-height:68vh;width:auto;max-width:100%}
+ .fd__frame img{object-position:50% 8%}
+ .fd__txt{grid-column:7/13;padding-left:0;gap:clamp(28px,5vh,56px)}
+ .fd__name{font-size:clamp(48px,min(6.4vw,11vh),132px)}
+ .fd__q{font-size:clamp(20px,min(1.9vw,3.6vh),36px)}
+ .fd__facts{grid-template-columns:1fr;gap:0}
+ .fd__facts div{flex-direction:row;gap:20px;padding:12px 0}
+ .fd__facts dt{width:96px;flex:none}
+}
+@media (max-width:900px){.fd__txt{gap:40px}.fd__in{row-gap:40px}.fd__fig{margin:0}.fd__frame{aspect-ratio:789/1000}.fd__frame img{object-position:50% 8%}}

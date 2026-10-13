@@ -418,3 +418,6 @@ html.menu-lock .hdr{visibility:hidden}
   .founder__name .ln{display:inline-block}.founder__name .fn2{text-align:left}
   .founder__img{margin-top:4vh}
 }
+.hdr>.hdr__logo,.hdr>.hdr__nav,.hdr>.hdr__cta,.hdr>.hdr__sec,.hdr>.burger{grid-row:1}
+.menu__ph{white-space:nowrap;font-size:clamp(20px,6.4vw,34px)}
+@media (max-width:360px){.menu__ft{grid-template-columns:1fr}.menu__cta{justify-self:start}}

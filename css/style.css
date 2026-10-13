@@ -912,3 +912,8 @@ html.anim .spec{height:calc(100svh - var(--hdr) - 150px)!important;min-height:0!
 @media (min-width:901px){.fd{min-height:0!important}}
 .spec__tag,.spec.on .spec__tag,.spec[data-v="5"] .spec__tag,.mc__tag{background:none!important;color:var(--g)!important;padding:0!important;font:500 10px/1.2 var(--fm)!important;letter-spacing:.14em!important;border-top:1px solid currentColor;padding-top:6px!important}
 .spec.on .spec__tag{color:var(--ign)!important}
+/* goals cleanup */
+.mc__tag,.mc__t,.mc__big,.mc__rd,.mc__bars,.mc__gs,.mc__live{display:none!important}
+.specs__vis,.stage,.card,.spec,html.anim .spec,html.anim .work__track .card{background:#000!important}
+.vis__corner{display:none!important}
+@media (min-width:901px){.spec{background:transparent!important}.spec__n{margin-left:0!important;mix-blend-mode:normal!important;font-size:clamp(110px,min(11.5vw,22vh),230px)!important}.spec__n--txt{font-size:clamp(72px,min(7.6vw,15vh),150px)!important}}

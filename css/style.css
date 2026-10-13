@@ -905,3 +905,4 @@ html.anim .spec{height:calc(100svh - var(--hdr) - 150px)!important;min-height:0!
 .card__live i,.card__live::before{animation:none!important;box-shadow:none!important}
 .fd{background:#0a0a0a!important}
 .boot__log{opacity:.7}
+.first{background:#0a0a0a!important}.first::before,.first::after,.first__glow{background:none!important}

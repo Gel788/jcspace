@@ -906,3 +906,9 @@ html.anim .spec{height:calc(100svh - var(--hdr) - 150px)!important;min-height:0!
 .fd{background:#0a0a0a!important}
 .boot__log{opacity:.7}
 .first{background:#0a0a0a!important}.first::before,.first::after,.first__glow{background:none!important}
+/* anti-template 2 */
+.vis__corner,.fd__fig::before{display:none!important}
+.fd{padding-bottom:5vh!important}
+@media (min-width:901px){.fd{min-height:0!important}}
+.spec__tag,.spec.on .spec__tag,.spec[data-v="5"] .spec__tag,.mc__tag{background:none!important;color:var(--g)!important;padding:0!important;font:500 10px/1.2 var(--fm)!important;letter-spacing:.14em!important;border-top:1px solid currentColor;padding-top:6px!important}
+.spec.on .spec__tag{color:var(--ign)!important}

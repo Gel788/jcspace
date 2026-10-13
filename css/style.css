@@ -663,3 +663,23 @@ html.stage-on .specs__vis .vis{opacity:0!important}
 .creds__list li{display:flex;gap:18px;align-items:baseline;border-top:1px solid var(--l);padding:18px 0;font:600 clamp(17px,1.5vw,26px)/1.25 var(--fh);letter-spacing:-.015em}
 .creds__list i{font:500 11px/1 var(--fm);color:var(--ign);font-style:normal;letter-spacing:.1em;flex:none;width:26px}
 @media (max-width:900px){.creds__nums{grid-template-columns:1fr 1fr;row-gap:36px}.creds__list{grid-template-columns:1fr}.cn b{font-size:clamp(52px,15vw,96px)}}
+/* === final pass === */
+.faq__h{font-size:clamp(48px,6.4vw,124px)}
+.faq__h::after{content:"06 вопросов";display:block;margin-top:24px;font:500 11px/1 var(--fm);letter-spacing:.12em;color:var(--ign)}
+.faq details::before{content:"";position:absolute;left:0;bottom:0;height:1px;width:100%;background:var(--ign);transform:scaleX(0);transform-origin:0 50%;transition:transform .7s var(--ease);z-index:1}
+.faq details:hover::before,.faq details[open]::before{transform:scaleX(1)}
+@media (hover:hover){.faq summary:hover .q__t{transform:translateX(12px)}}
+.faq details[open] .q__i{color:var(--ign)}
+.faq details p{border-left:2px solid var(--ign);padding-left:24px!important;margin-left:64px}
+@media (max-width:900px){.faq details p{margin-left:0}}
+.gives__h{font-size:clamp(56px,11vw,220px)}
+.creds{padding-top:14vh}
+.creds__h{grid-column:1/13;font:700 clamp(48px,8.5vw,170px)/.86 var(--fh);letter-spacing:-.05em;text-transform:uppercase;margin:0 0 4vh}
+.creds__h em{font-style:normal;color:var(--ign)}
+.cn b{font-size:clamp(64px,9.6vw,190px)}
+.cn{position:relative;padding-top:22px}
+.cn::before{content:"";position:absolute;left:0;top:-1px;height:2px;width:28%;background:var(--ign)}
+.cn i{font:500 10px/1 var(--fm);letter-spacing:.12em;color:#666;font-style:normal}
+.creds__list li{transition:color .35s,padding .5s var(--ease)}
+@media (hover:hover){.creds__list li:hover{color:var(--ign);padding-left:10px}}
+@media (max-width:900px){.cn b{font-size:clamp(56px,17vw,110px)}.creds__h{font-size:clamp(44px,13vw,90px)}}

@@ -406,3 +406,15 @@ html.menu-lock .hdr{visibility:hidden}
   .menu__nav{display:grid;grid-template-columns:1fr 1fr;column-gap:24px;align-content:center}
   .menu__nav a{font-size:26px}
 }
+/* tap targets */
+.hdr__logo,.hdr__cta,.hdr__nav a{min-height:44px;display:inline-flex;align-items:center}
+.hdr__cta{gap:.4em}
+.f3{display:inline-flex;align-items:center;min-height:44px;justify-content:flex-end}
+@media (max-width:720px){.f3{justify-content:flex-start}}
+.hdr__nav a::after,.hdr__cta::after{bottom:8px}
+/* landscape founder: name on one line above portrait */
+@media (max-width:900px) and (max-height:500px){
+  .founder__name{display:flex;flex-wrap:wrap;gap:0 .28em;font-size:min(8.4vw,15vh)!important;padding:0 var(--pad)}
+  .founder__name .ln{display:inline-block}.founder__name .fn2{text-align:left}
+  .founder__img{margin-top:4vh}
+}

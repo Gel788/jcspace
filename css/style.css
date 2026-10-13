@@ -894,3 +894,4 @@ html.anim .specs__list{overflow:visible!important;scroll-snap-type:none!importan
 html.anim .specs .swp__h{visibility:hidden}
 html.anim .spec{height:calc(100svh - var(--hdr) - 150px)!important;min-height:0!important}
 }
+@media (max-width:900px){html.anim .specs__list{padding:0 var(--pad)!important;margin:0!important;gap:14px!important}html.anim .spec{width:calc(100vw - 2*var(--pad))!important}}

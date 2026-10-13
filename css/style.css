@@ -690,3 +690,10 @@ html.stage-on .specs__vis .vis{opacity:0!important}
 .phone__a,.phone__l{transition:color .5s}
 @media (hover:hover){.phone:hover::before{transform:scaleY(1)}.phone:hover .phone__n,.phone:hover .phone__a,.phone:hover .phone__l{color:var(--ign)}}
 @media (max-width:900px){.phone__n{font-size:10.6vw!important}}
+/* round 3 */
+.ftr__wm{padding-bottom:.14em;line-height:.9}
+.ftr__row{margin-top:0}
+.sh::after{content:"";position:absolute;left:var(--pad);top:-1px;height:2px;width:56px;background:var(--ign);transform-origin:left;transform:scaleX(var(--sx,1))}
+.work__h::after{content:"05 этапов · сроки уточняются";display:block;margin-top:20px;font:500 11px/1 var(--fm);letter-spacing:.12em;text-transform:uppercase;color:var(--ign)}
+.card{position:relative}
+.card::after{content:"";position:absolute;left:0;top:0;height:2px;width:40px;background:var(--ign)}

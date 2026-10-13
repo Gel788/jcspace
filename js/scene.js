@@ -264,7 +264,7 @@ function skyMaterial() {
         vec3 night=mix(uHor,vec3(.004,.006,.014),smoothstep(0.,.5,h));
         night+=vec3(.22,.1,.05)*exp(-max(h,0.)*18.)*.3*step(0.,h);
         vec3 space=vec3(.002,.003,.008)+vec3(.05,.25,.6)*exp(-abs(h+.08)*30.)*.5;
-        gl_FragColor=vec4(mix(night,space,uAlt),1.);}`,
+        vec3 col=mix(night,space,uAlt); col=mix(col,uHor,smoothstep(.0,-.04,h)); gl_FragColor=vec4(col,1.);}`,
   });
 }
 function stars(n, r) {
@@ -331,6 +331,8 @@ export function createScene(canvas, opts) {
   const scene = new THREE.Scene();
   scene.fog = new THREE.FogExp2(0x141a2c, 0.0042);
   const sky = new THREE.Mesh(new THREE.SphereGeometry(3000, 32, 16), skyMaterial()); scene.add(sky);
+  const fogBase = new THREE.Color(0x141a2c), fogSpace = new THREE.Color().setRGB(0.002, 0.003, 0.008);
+  sky.material.uniforms.uHor.value = scene.fog.color;
   const starField = stars(q.mobile ? 900 : 2200, 2800); scene.add(starField);
 
   scene.add(new THREE.HemisphereLight(0x3a4a70, 0x0a0a0c, 0.75));
@@ -353,7 +355,7 @@ export function createScene(canvas, opts) {
     beam.position.set(x / 2, 21, z / 2); beam.lookAt(0, 16, 0); beam.rotateX(-Math.PI / 2); scene.add(beam);
   });
 
-  const ground = new THREE.Mesh(new THREE.PlaneGeometry(5000, 5000), new THREE.MeshStandardMaterial({ color: 0x0b0d11, roughness: 0.95 }));
+  const ground = new THREE.Mesh(new THREE.CircleGeometry(2900, 64), new THREE.MeshStandardMaterial({ color: 0x0b0d11, roughness: 0.95 }));
   ground.rotation.x = -Math.PI / 2; ground.position.y = -0.03; scene.add(ground);
   const padTex = concreteTexture(false);
   const pad = new THREE.Mesh(new THREE.BoxGeometry(46, 3, 46), [0, 0, 1, 0, 0, 0].map((k) => new THREE.MeshStandardMaterial(k ? { map: padTex, roughness: 0.85 } : { color: 0x22252b, roughness: 0.9 })));
@@ -505,7 +507,9 @@ export function createScene(canvas, opts) {
     arm.rotation.y = -sm(seg(p, 0.06, 0.12)) * 1.4;
     lamps.forEach((l, i) => (l.material.color.setScalar(0).r = ((time * 1.2 + i * 0.3) % 1 < 0.5 ? 1 : 0.15)));
     sky.material.uniforms.uAlt.value = sm(clamp(R.rocket.position.y / 520 + (p > 0.435 ? 0 : 0)) ) * (p > 0.5 ? clamp(1 - seg(p, 0.55, 0.68)) : 1);
-    scene.fog.density = lerp(0.0042, 0.0012, sky.material.uniforms.uAlt.value);
+    const al = sky.material.uniforms.uAlt.value;
+    scene.fog.density = lerp(0.0042, 0.0048, al);
+    scene.fog.color.lerpColors(fogBase, fogSpace, al);
 
     // ---- smoke
     const sAge = seg(p, 0.13, 0.42);

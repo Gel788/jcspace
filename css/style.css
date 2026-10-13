@@ -551,3 +551,9 @@ main,body{perspective-origin:50% 50%}
 .hdr.hdr--bg.hdr--light .hdr__logo img,.hdr.hdr--bg.hdr--ink .hdr__logo img{filter:invert(1)}
 .hdr.hdr--bg.hdr--ink{color:#000}.hdr.hdr--bg.hdr--ink::before{background:rgba(255,77,0,.82);border-bottom-color:rgba(0,0,0,.12)}
 @media (max-width:900px) and (max-height:500px){.work__pin{padding-top:calc(var(--hdr) + 6px)!important;padding-bottom:4vh!important}.work .sh{margin-bottom:10px}.work__track{margin-top:3vh!important}.mission{padding-bottom:0!important}}
+@media (max-width:900px){
+  .specs{min-height:0!important;padding:10vh 0 5vh!important}
+  html.anim .mission{height:360vh}
+  .work__pin{padding-top:calc(var(--hdr) + 12px)}
+}
+@media (max-width:900px) and (max-height:500px){html.anim .mission{height:330vh}.work .sh{display:none}}

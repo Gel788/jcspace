@@ -542,3 +542,4 @@ main,body{perspective-origin:50% 50%}
 .faq__ghost{position:absolute;left:0;top:6vh;white-space:nowrap;font:900 clamp(120px,22vw,420px)/.8 var(--fw);letter-spacing:-.03em;color:transparent;-webkit-text-stroke:1px rgba(0,0,0,.09);pointer-events:none;z-index:0}
 .faq>*:not(.faq__ghost){position:relative;z-index:1}
 .contact{perspective:1200px}
+.trio{perspective:1000px}.work__pin{perspective:1100px}.founder__pin{perspective:1200px}

@@ -1027,3 +1027,8 @@ html[lang=en] .work__h::after{content:"05 stages · timeline TBC"}html[lang^=zh]
 html[lang=en] .founder__q::before{content:"Quote"}html[lang^=zh] .founder__q::before{content:"引言"}
 @media (max-width:900px){html[lang=en] .m-title{font-size:9.2vw!important}html[lang=en] .fd__name{font-size:min(12.6vw,15vw)!important}}
 @media (min-width:901px){html[lang=en] .m-title{font-size:clamp(44px,min(9.2vw,14vh),200px)!important}}
+/* Work timeline: refined rocket marker instead of glowing dot */
+.wt__mk{width:44px!important;height:12px!important;margin:-6px 0 0 -40px!important;border-radius:0!important;box-shadow:none!important;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 44 12'%3E%3Cpath d='M3 4.2h29c4.5 0 8.5.8 11 1.8-2.5 1-6.5 1.8-11 1.8H3z' fill='%23ecebe6'/%3E%3Cpath d='M17 4.2h2.2v3.6H17z' fill='%23232427'/%3E%3Cpath d='M3 4.2h3v3.6H3z' fill='%23232427'/%3E%3Cpath d='M6.6 4.2h.9v3.6h-.9z' fill='%23ff4d00'/%3E%3Cpath d='M3 4.6 0 3.2v5.6l3-1.4zM6 4.2 3.6 1.6h1.6L8.4 4.2zM6 7.8 3.6 10.4h1.6l3.2-2.6z' fill='%23595a5e'/%3E%3C/svg%3E") center/contain no-repeat!important}
+.wt__mk b{left:calc(100% - 6px)!important}
+.wt__fill{background:linear-gradient(90deg,rgba(255,77,0,0),rgba(255,77,0,.25) 40%,var(--ign) 99%)!important;height:1px!important;top:.5px!important}
+@media (max-width:900px){.wt__mk{width:36px!important;height:10px!important;margin:-5px 0 0 -33px!important}}

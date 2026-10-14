@@ -7,3 +7,4 @@ html[lang^=zh] p,html[lang^=zh] li,html[lang^=zh] .q__t,html[lang^=zh] details p
 html[lang^=zh] :is(.mega,.statement,.m-title,.first__t,.contact__h,.faq__h,.work__h,.gives__h,.fd__name,.cx__t h3,.spec h3,.ct__who li){line-height:1.12!important;font-weight:700}
 html[lang^=zh] .mono,html[lang^=zh] .sh,html[lang^=zh] .hdr,html[lang^=zh] .hud,html[lang^=zh] .hero__top{letter-spacing:.04em!important}
 html[lang^=zh] .q__t{line-height:1.35!important}
+html[lang^=zh] .spec__n,html[lang^=zh] .hero-num{line-height:.8!important}

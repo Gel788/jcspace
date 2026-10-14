@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>404 — Сошли с орбиты · JC SPACE</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#000000">
+<style>
+@font-face{font-family:'Inter Tight';font-weight:700;font-display:swap;src:url(/fonts/inter-tight-latin-700-normal.woff2) format('woff2'),url(/jcspace/fonts/inter-tight-latin-700-normal.woff2) format('woff2')}
+@font-face{font-family:'Inter Tight';font-weight:700;font-display:swap;unicode-range:U+0400-04FF;src:url(/fonts/inter-tight-cyrillic-700-normal.woff2) format('woff2'),url(/jcspace/fonts/inter-tight-cyrillic-700-normal.woff2) format('woff2')}
+@font-face{font-family:'JetBrains Mono';font-weight:500;font-display:swap;src:url(/fonts/jetbrains-mono-latin-500-normal.woff2) format('woff2'),url(/jcspace/fonts/jetbrains-mono-latin-500-normal.woff2) format('woff2')}
+@font-face{font-family:'JetBrains Mono';font-weight:500;font-display:swap;unicode-range:U+0400-04FF;src:url(/fonts/jetbrains-mono-cyrillic-500-normal.woff2) format('woff2'),url(/jcspace/fonts/jetbrains-mono-cyrillic-500-normal.woff2) format('woff2')}
+:root{--ign:#FF4D00;--w:#F2F2EF;--g:#8C8C8C;--l:rgba(255,255,255,.16);--pad:clamp(16px,2.4vw,40px);--fh:'Inter Tight',Arial,'PingFang SC','Noto Sans SC',sans-serif;--fm:'JetBrains Mono',ui-monospace,monospace}
+*{box-sizing:border-box}html,body{margin:0;height:100%;background:#000;color:var(--w)}
+body{font:500 16px/1.5 var(--fh);-webkit-font-smoothing:antialiased;overflow:hidden}
+.mono{font:500 11px/1.3 var(--fm);letter-spacing:.14em;text-transform:uppercase}
+.top{position:absolute;left:var(--pad);right:var(--pad);top:0;height:64px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--l);z-index:3}
+.top a{color:var(--w);text-decoration:none}.brand{font:700 15px/1 var(--fh);letter-spacing:.02em}
+.lang a{color:var(--g);margin-left:14px;text-decoration:none}.lang a[aria-current]{color:var(--w)}
+/* lost orbit: a thin orbit ellipse over the planet limb; the marker slides off the line and drifts away */
+.sky{position:absolute;inset:0;z-index:0}
+.limb{position:absolute;left:50%;top:78vh;width:240vmax;height:240vmax;margin-left:-120vmax;border-radius:50%;background:#000;box-shadow:0 -1px 0 rgba(140,180,255,.55),0 -6px 30px -8px rgba(90,140,255,.35)}
+.orbit{position:absolute;left:50%;top:50%;width:min(130vw,1700px);height:min(36vw,470px);transform:translate(-50%,-38%) rotate(-9deg);border:1px solid rgba(255,255,255,.22);border-radius:50%}
+.orbit::after{content:"";position:absolute;inset:-1px;border-radius:50%;border:1px solid transparent;border-top-color:var(--ign);clip-path:polygon(50% 0,64% 0,64% 30%,50% 30%)}
+.sat{position:absolute;left:50%;top:50%;width:9px;height:9px;margin:-4.5px;border-radius:50%;background:var(--ign);offset-path:path("M0 0");animation:drift 9s cubic-bezier(.45,0,.2,1) infinite}
+@keyframes drift{0%{transform:translate(-8vw,-31vh)}45%{transform:translate(6vw,-33.5vh)}100%{transform:translate(42vw,-58vh);opacity:0}}
+.wrap{position:relative;z-index:2;height:100%;display:grid;grid-template-rows:1fr auto;padding:96px var(--pad) calc(28px + env(safe-area-inset-bottom))}
+.code{align-self:center;font:700 clamp(150px,34vw,560px)/.78 var(--fh);letter-spacing:-.06em;margin:0;display:flex;align-items:flex-end}
+.code span:nth-child(2){color:transparent;-webkit-text-stroke:1px var(--w)}
+.foot{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:24px;align-items:end;border-top:1px solid var(--l);padding-top:18px}
+h1{margin:0;font:700 clamp(28px,4.6vw,72px)/.95 var(--fh);letter-spacing:-.04em;text-transform:uppercase}
+p{margin:12px 0 0;color:#bdbdbd;max-width:46ch;font-size:clamp(14px,1.1vw,17px)}
+.home{display:inline-flex;align-items:center;gap:12px;color:#000;background:var(--ign);text-decoration:none;padding:16px 22px;font:500 12px/1 var(--fm);letter-spacing:.14em;text-transform:uppercase;white-space:nowrap}
+.home:focus-visible{outline:2px solid var(--w);outline-offset:3px}
+[data-l]{display:none}html[lang=ru] [data-l=ru],html[lang=en] [data-l=en],html[lang=zh-Hans] [data-l=zh]{display:revert}
+html[lang=zh-Hans] h1{letter-spacing:0;text-transform:none}
+@media (max-width:700px){.foot{grid-template-columns:1fr}.home{justify-self:start}.code{font-size:44vw}.orbit{width:170vw;height:60vw}.limb{top:84svh}}
+@media (prefers-reduced-motion:reduce){.sat{animation:none;transform:translate(6vw,-33vh)}}
+</style>
+<script>try{var L=localStorage.getItem('jclang')||((navigator.language||'').slice(0,2));if(L=='en')document.documentElement.lang='en';else if(L=='zh')document.documentElement.lang='zh-Hans'}catch(e){}</script>
+</head>
+<body>
+<div class="sky" aria-hidden="true"><div class="limb"></div><div class="orbit"></div><i class="sat"></i></div>
+<header class="top"><a class="brand" href="/" data-home>JC SPACE</a><nav class="lang mono"><a href="#" data-set="ru">RU</a><a href="#" data-set="en">EN</a><a href="#" data-set="zh">中</a></nav></header>
+<main class="wrap">
+  <p class="code" aria-hidden="true"><span>4</span><span>0</span><span>4</span></p>
+  <div class="foot">
+    <div>
+      <div class="mono" style="color:var(--ign)"><span data-l="ru">Ошибка 404 · страница не найдена</span><span data-l="en">Error 404 · page not found</span><span data-l="zh">错误 404 · 页面未找到</span></div>
+      <h1><span data-l="ru">Сошли с орбиты</span><span data-l="en">Off orbit</span><span data-l="zh">偏离轨道</span></h1>
+      <p><span data-l="ru">Такой страницы нет. Возможно, ссылка устарела или в адресе опечатка.</span><span data-l="en">This page does not exist. The link may be outdated or the address mistyped.</span><span data-l="zh">该页面不存在。链接可能已失效，或网址输入有误。</span></p>
+    </div>
+    <a class="home" href="/" data-home><span data-l="ru">Вернуться на главную</span><span data-l="en">Back to home</span><span data-l="zh">返回首页</span> →</a>
+  </div>
+</main>
+<script>
+(function(){var b=location.pathname.indexOf('/jcspace/')===0?'/jcspace/':'/',L=document.documentElement.lang.slice(0,2),pg={ru:'',en:'en.html',zh:'zh.html'};
+document.querySelectorAll('[data-home]').forEach(function(a){a.href=b+(pg[L]||'')});
+document.querySelectorAll('[data-set]').forEach(function(a){var l=a.dataset.set;if(l===L)a.setAttribute('aria-current','true');a.addEventListener('click',function(e){e.preventDefault();try{localStorage.setItem('jclang',l)}catch(x){}document.documentElement.lang=l=='zh'?'zh-Hans':l;location.reload()})});})();
+</script>
+</body>
+</html>

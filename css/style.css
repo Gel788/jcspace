@@ -1134,3 +1134,7 @@ html.anim .cv__bar{display:block}
 }
 @media (min-width:761px){.vz__ms--r{justify-content:flex-start}.cv__allg b{font-size:min(6.5vw,13vh)}}
 @media (min-width:901px){html[lang=en] .faq__h{font-size:clamp(40px,5.2vw,100px)}}
+/* 24+ milestones: 2020 hangs left of its tick, 2026 right-anchored and capped, so they never share horizontal space */
+.vz__ms--2{transform:translateX(-100%);border-left:0;border-right:1px solid var(--w);padding:0 10px 0 0;text-align:right;align-items:flex-end;max-width:40%!important}
+.vz__ms--r{max-width:23%!important}
+.vz__fill{inset:0}.vz__ticks i:last-child{margin-left:-1px}

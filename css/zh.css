@@ -1,0 +1,9 @@
+@font-face{font-family:'Noto Sans SC';src:url(../fonts/noto-sans-sc-sub.woff2) format('woff2');font-weight:100 900;font-display:swap}
+:root{--fh:'Inter Tight','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif;--fm:'JetBrains Mono','Noto Sans SC',ui-monospace,monospace}
+html[lang^=zh] body{line-break:strict;word-break:normal}
+/* CJK: no tracking, looser leading, no faux uppercase */
+html[lang^=zh] :is(h1,h2,h3,p,li,span,b,a,em,summary,small,div){letter-spacing:0!important}
+html[lang^=zh] p,html[lang^=zh] li,html[lang^=zh] .q__t,html[lang^=zh] details p{line-height:1.7!important}
+html[lang^=zh] :is(.mega,.statement,.m-title,.first__t,.contact__h,.faq__h,.work__h,.gives__h,.fd__name,.cx__t h3,.spec h3,.ct__who li){line-height:1.12!important;font-weight:700}
+html[lang^=zh] .mono,html[lang^=zh] .sh,html[lang^=zh] .hdr,html[lang^=zh] .hud,html[lang^=zh] .hero__top{letter-spacing:.04em!important}
+html[lang^=zh] .q__t{line-height:1.35!important}

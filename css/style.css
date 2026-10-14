@@ -1013,3 +1013,17 @@ html.anim .ct__pin{gap:3svh;padding-bottom:12svh}}
 .work .card--next li{color:var(--g)!important}.work .card--next h3{color:var(--w)!important}
 .work .card--next .card__date,.work .card--next .card__live{color:var(--g)!important;border-color:var(--l)!important}
 @media (hover:hover){.card:not(.card--next):hover{background:#000!important;color:inherit!important}.card:not(.card--next):hover p{color:inherit!important}}
+/* language switcher */
+.hdr__lang{grid-column:10/11;grid-row:1;justify-self:start;display:flex;gap:2px}
+.hdr__lang a,.menu__lang a{padding:6px 7px;color:var(--g);border:1px solid transparent;line-height:1}
+.hdr__lang a[aria-current],.menu__lang a[aria-current]{color:var(--w);border-color:var(--l)}
+@media (min-width:901px){.hdr__cta{grid-column:11/13!important}}
+@media (max-width:900px){.hdr__lang{display:none}}
+.menu__lang{display:flex;gap:4px;padding:0 var(--pad);margin:0 0 16px;font:500 13px/1 var(--fm);letter-spacing:.1em}
+.menu__lang a{padding:10px 14px;min-height:44px;display:inline-flex;align-items:center}
+/* i18n overrides */
+html[lang=en] .faq__h::after{content:"06 questions"}html[lang^=zh] .faq__h::after{content:"6个问题"}
+html[lang=en] .work__h::after{content:"05 stages · timeline TBC"}html[lang^=zh] .work__h::after{content:"5个阶段 · 时间待定"}
+html[lang=en] .founder__q::before{content:"Quote"}html[lang^=zh] .founder__q::before{content:"引言"}
+@media (max-width:900px){html[lang=en] .m-title{font-size:9.2vw!important}html[lang=en] .fd__name{font-size:min(12.6vw,15vw)!important}}
+@media (min-width:901px){html[lang=en] .m-title{font-size:clamp(44px,min(9.2vw,14vh),200px)!important}}

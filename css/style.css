@@ -1138,3 +1138,10 @@ html.anim .cv__bar{display:block}
 .vz__ms--2{transform:translateX(-100%);border-left:0;border-right:1px solid var(--w);padding:0 10px 0 0;text-align:right;align-items:flex-end;max-width:40%!important}
 .vz__ms--r{max-width:23%!important}
 .vz__fill{inset:0}.vz__ticks i:last-child{margin-left:-1px}
+/* iOS renders caps + Ё taller than desktop engines: open up monumental headlines on phones, and give per-word/line masks room for diacritics */
+.w{padding-top:.16em;margin-top:-.16em}
+@media (max-width:760px){
+ .mega,.gives__h,.faq__h,.contact__h,.work__h,.m-title,.first__t,.fd__name,.founder__name,.statement,.creds__h,.cv__t h3,.spec h3,.ct__who li{line-height:.98!important}
+ .gives__h,.faq__h,.contact__h,.work__h{padding-top:.12em}
+ html[lang^=zh] .mega,html[lang^=zh] .gives__h,html[lang^=zh] .faq__h,html[lang^=zh] .contact__h,html[lang^=zh] .work__h,html[lang^=zh] .m-title,html[lang^=zh] .first__t,html[lang^=zh] .statement{line-height:1.12!important}
+}

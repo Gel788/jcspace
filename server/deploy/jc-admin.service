@@ -1,0 +1,25 @@
+# /etc/systemd/system/jc-admin.service
+[Unit]
+Description=JC SPACE content admin
+After=network.target
+
+[Service]
+Type=simple
+User=jcspace
+Group=jcspace
+WorkingDirectory=/var/www/jcspace/server
+ExecStart=/usr/bin/node app.js
+Environment=NODE_ENV=production
+# secrets live outside the repo: JC_PASSWORD_HASH, JC_SESSION_SECRET (optional JC_ADMIN_USER, JC_SITE_DIR, JC_PORT)
+EnvironmentFile=/etc/jcspace/admin.env
+Environment=JC_SITE_DIR=/var/www/jcspace/site
+Restart=on-failure
+RestartSec=3
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+ReadWritePaths=/var/www/jcspace/site /var/www/jcspace/server/data
+
+[Install]
+WantedBy=multi-user.target

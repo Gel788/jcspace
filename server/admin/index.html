@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>JC SPACE · Контент</title>
+<link rel="stylesheet" href="admin.css">
+</head>
+<body>
+<div id="login" class="login" hidden>
+  <form class="login__box" autocomplete="on">
+    <div class="brand">JC SPACE<span>/ content</span></div>
+    <h1>Вход в&nbsp;редактор</h1>
+    <label>Логин<input name="user" autocomplete="username" required value="admin"></label>
+    <label>Пароль<input name="password" type="password" autocomplete="current-password" required></label>
+    <button class="btn btn--ign" type="submit">Войти</button>
+    <p class="login__err" role="alert"></p>
+  </form>
+</div>
+
+<div id="app" class="app" hidden>
+  <header class="bar">
+    <div class="brand">JC SPACE<span>/ content</span></div>
+    <div class="bar__mid"><input id="q" type="search" placeholder="Поиск по тексту или ключу…" aria-label="Поиск"></div>
+    <div class="bar__r">
+      <span id="ro" class="pill pill--ro" hidden>Только просмотр</span>
+      <span id="dirty" class="pill" hidden>0 изменений</span>
+      <button id="btnPrev" class="btn" type="button" aria-pressed="true">Превью</button>
+      <button id="btnVers" class="btn" type="button">Версии</button>
+      <button id="btnSave" class="btn btn--ign" type="button" disabled>Сохранить</button>
+      <button id="btnOut" class="btn btn--ghost" type="button">Выйти</button>
+    </div>
+  </header>
+  <nav class="side" id="side" aria-label="Разделы"></nav>
+  <main class="main" id="main"></main>
+  <section class="prev" id="prev" aria-label="Превью">
+    <div class="prev__bar"><div class="seg" id="pl"><button data-l="ru" aria-pressed="true">RU</button><button data-l="en">EN</button><button data-l="zh">中</button></div><span class="mono">живое превью · без сохранения</span></div>
+    <iframe id="frame" title="Превью сайта"></iframe>
+  </section>
+  <aside class="drawer" id="vers" hidden><div class="drawer__h"><b>Версии</b><button class="btn btn--ghost" data-close>Закрыть</button></div><ol id="versList"></ol></aside>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</div>
+<script src="admin.js"></script>
+</body>
+</html>

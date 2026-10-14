@@ -1,0 +1,3011 @@
+{
+ "version": 1,
+ "fields": {
+  "page.001": {
+   "section": "page",
+   "tag": "span",
+   "cls": "",
+   "ru": "JC SPACE · Пусковая последовательность",
+   "en": "JC SPACE · Launch sequence",
+   "zh": "JC SPACE · 发射程序"
+  },
+  "page.002": {
+   "section": "page",
+   "tag": "span",
+   "cls": "boot__pct",
+   "ru": "000%",
+   "en": "000%",
+   "zh": "000%"
+  },
+  "page.003": {
+   "section": "page",
+   "tag": "span",
+   "cls": "boot__t",
+   "ru": "T−",
+   "en": "T−",
+   "zh": "T−"
+  },
+  "page.004": {
+   "section": "page",
+   "tag": "b",
+   "cls": "boot__n",
+   "ru": "10",
+   "en": "10",
+   "zh": "10"
+  },
+  "page.005": {
+   "section": "page",
+   "tag": "li",
+   "cls": "",
+   "ru": "Текстуры Земли .... <em class=\"boot__tx\">0/0</em>",
+   "en": "Earth textures .... <em class=\"boot__tx\">0/0</em>",
+   "zh": "地球纹理 ...... <em class=\"boot__tx\">0/0</em>"
+  },
+  "page.006": {
+   "section": "page",
+   "tag": "li",
+   "cls": "",
+   "ru": "Шрифты ............ <em class=\"boot__fn\">—</em>",
+   "en": "Fonts ............ <em class=\"boot__fn\">—</em>",
+   "zh": "字体 ........... <em class=\"boot__fn\">—</em>"
+  },
+  "page.007": {
+   "section": "page",
+   "tag": "span",
+   "cls": "mono",
+   "ru": "ССО · 500 кг",
+   "en": "SSO · 500 kg",
+   "zh": "SSO · 500 kg"
+  },
+  "hdr.001": {
+   "section": "hdr",
+   "tag": "span",
+   "cls": "",
+   "ru": "JC SPACE",
+   "en": "JC SPACE",
+   "zh": "JC SPACE"
+  },
+  "hdr__nav.001": {
+   "section": "hdr__nav",
+   "tag": "a",
+   "cls": "",
+   "ru": "О компании",
+   "en": "Company",
+   "zh": "公司"
+  },
+  "hdr__nav.002": {
+   "section": "hdr__nav",
+   "tag": "a",
+   "cls": "",
+   "ru": "Цели",
+   "en": "Targets",
+   "zh": "目标"
+  },
+  "hdr__nav.003": {
+   "section": "hdr__nav",
+   "tag": "a",
+   "cls": "",
+   "ru": "В работе",
+   "en": "In progress",
+   "zh": "进行中"
+  },
+  "hdr__nav.004": {
+   "section": "hdr__nav",
+   "tag": "a",
+   "cls": "",
+   "ru": "Основатель",
+   "en": "Founder",
+   "zh": "创始人"
+  },
+  "hdr__nav.005": {
+   "section": "hdr__nav",
+   "tag": "a",
+   "cls": "",
+   "ru": "Контакты",
+   "en": "Contact",
+   "zh": "联系"
+  },
+  "hdr.002": {
+   "section": "hdr",
+   "tag": "a",
+   "cls": "",
+   "ru": "RU",
+   "en": "RU",
+   "zh": "RU"
+  },
+  "hdr.003": {
+   "section": "hdr",
+   "tag": "a",
+   "cls": "",
+   "ru": "EN",
+   "en": "EN",
+   "zh": "EN"
+  },
+  "hdr.004": {
+   "section": "hdr",
+   "tag": "a",
+   "cls": "",
+   "ru": "中",
+   "en": "中",
+   "zh": "中"
+  },
+  "hdr.005": {
+   "section": "hdr",
+   "tag": "a",
+   "cls": "hdr__cta",
+   "ru": "Связаться <i><svg class=\"ic\" viewBox=\"0 0 12 12\" aria-hidden=\"true\"><path d=\"M2 10L10 2M4 2h6v6\"></path></svg></i>",
+   "en": "Get in touch <i><svg class=\"ic\" viewBox=\"0 0 12 12\" aria-hidden=\"true\"><path d=\"M2 10L10 2M4 2h6v6\"></path></svg></i>",
+   "zh": "联系我们 <i><svg class=\"ic\" viewBox=\"0 0 12 12\" aria-hidden=\"true\"><path d=\"M2 10L10 2M4 2h6v6\"></path></svg></i>"
+  },
+  "menu.001": {
+   "section": "menu",
+   "tag": "span",
+   "cls": "mono",
+   "ru": "JC SPACE · Навигация",
+   "en": "JC SPACE · Navigation",
+   "zh": "JC SPACE · 导航"
+  },
+  "menu.002": {
+   "section": "menu",
+   "tag": "button",
+   "cls": "menu__x",
+   "ru": "Закрыть <i><svg class=\"ic\" viewBox=\"0 0 12 12\" aria-hidden=\"true\"><path d=\"M2 2l8 8M10 2l-8 8\"></path></svg></i>",
+   "en": "Close <i><svg class=\"ic\" viewBox=\"0 0 12 12\" aria-hidden=\"true\"><path d=\"M2 2l8 8M10 2l-8 8\"></path></svg></i>",
+   "zh": "关闭 <i><svg class=\"ic\" viewBox=\"0 0 12 12\" aria-hidden=\"true\"><path d=\"M2 2l8 8M10 2l-8 8\"></path></svg></i>"
+  },
+  "menu__nav.001": {
+   "section": "menu__nav",
+   "tag": "i",
+   "cls": "",
+   "ru": "01",
+   "en": "01",
+   "zh": "01"
+  },
+  "menu__nav.002": {
+   "section": "menu__nav",
+   "tag": "span",
+   "cls": "",
+   "ru": "О компании",
+   "en": "Company",
+   "zh": "公司"
+  },
+  "menu__nav.003": {
+   "section": "menu__nav",
+   "tag": "i",
+   "cls": "",
+   "ru": "02",
+   "en": "02",
+   "zh": "02"
+  },
+  "menu__nav.004": {
+   "section": "menu__nav",
+   "tag": "span",
+   "cls": "",
+   "ru": "Цели",
+   "en": "Targets",
+   "zh": "目标"
+  },
+  "menu__nav.005": {
+   "section": "menu__nav",
+   "tag": "i",
+   "cls": "",
+   "ru": "03",
+   "en": "03",
+   "zh": "03"
+  },
+  "menu__nav.006": {
+   "section": "menu__nav",
+   "tag": "span",
+   "cls": "",
+   "ru": "Миссия",
+   "en": "Mission",
+   "zh": "使命"
+  },
+  "menu__nav.007": {
+   "section": "menu__nav",
+   "tag": "i",
+   "cls": "",
+   "ru": "04",
+   "en": "04",
+   "zh": "04"
+  },
+  "menu__nav.008": {
+   "section": "menu__nav",
+   "tag": "span",
+   "cls": "",
+   "ru": "В работе",
+   "en": "In progress",
+   "zh": "进行中"
+  },
+  "menu__nav.009": {
+   "section": "menu__nav",
+   "tag": "i",
+   "cls": "",
+   "ru": "05",
+   "en": "05",
+   "zh": "05"
+  },
+  "menu__nav.010": {
+   "section": "menu__nav",
+   "tag": "span",
+   "cls": "",
+   "ru": "Вопросы",
+   "en": "FAQ",
+   "zh": "问答"
+  },
+  "menu__nav.011": {
+   "section": "menu__nav",
+   "tag": "i",
+   "cls": "",
+   "ru": "06",
+   "en": "06",
+   "zh": "06"
+  },
+  "menu__nav.012": {
+   "section": "menu__nav",
+   "tag": "span",
+   "cls": "",
+   "ru": "Основатель",
+   "en": "Founder",
+   "zh": "创始人"
+  },
+  "menu__nav.013": {
+   "section": "menu__nav",
+   "tag": "i",
+   "cls": "",
+   "ru": "07",
+   "en": "07",
+   "zh": "07"
+  },
+  "menu__nav.014": {
+   "section": "menu__nav",
+   "tag": "span",
+   "cls": "",
+   "ru": "Контакты",
+   "en": "Contact",
+   "zh": "联系"
+  },
+  "menu.003": {
+   "section": "menu",
+   "tag": "a",
+   "cls": "",
+   "ru": "RU",
+   "en": "RU",
+   "zh": "RU"
+  },
+  "menu.004": {
+   "section": "menu",
+   "tag": "a",
+   "cls": "",
+   "ru": "EN",
+   "en": "EN",
+   "zh": "EN"
+  },
+  "menu.005": {
+   "section": "menu",
+   "tag": "a",
+   "cls": "",
+   "ru": "中",
+   "en": "中",
+   "zh": "中"
+  },
+  "menu.006": {
+   "section": "menu",
+   "tag": "span",
+   "cls": "mono",
+   "ru": "Телефон",
+   "en": "Phone",
+   "zh": "电话"
+  },
+  "menu.007": {
+   "section": "menu",
+   "tag": "a",
+   "cls": "menu__ph",
+   "ru": "+7 951 586-96-11",
+   "en": "+7 951 586-96-11",
+   "zh": "+7 951 586-96-11"
+  },
+  "menu.008": {
+   "section": "menu",
+   "tag": "a",
+   "cls": "menu__cta",
+   "ru": "Позвонить <i><svg class=\"ic\" viewBox=\"0 0 12 12\" aria-hidden=\"true\"><path d=\"M2 10L10 2M4 2h6v6\"></path></svg></i>",
+   "en": "Call <i><svg class=\"ic\" viewBox=\"0 0 12 12\" aria-hidden=\"true\"><path d=\"M2 10L10 2M4 2h6v6\"></path></svg></i>",
+   "zh": "致电 <i><svg class=\"ic\" viewBox=\"0 0 12 12\" aria-hidden=\"true\"><path d=\"M2 10L10 2M4 2h6v6\"></path></svg></i>"
+  },
+  "tabs.001": {
+   "section": "tabs",
+   "tag": "b",
+   "cls": "",
+   "ru": "01",
+   "en": "01",
+   "zh": "01"
+  },
+  "tabs.002": {
+   "section": "tabs",
+   "tag": "span",
+   "cls": "",
+   "ru": "О нас",
+   "en": "About",
+   "zh": "关于"
+  },
+  "tabs.003": {
+   "section": "tabs",
+   "tag": "b",
+   "cls": "",
+   "ru": "02",
+   "en": "02",
+   "zh": "02"
+  },
+  "tabs.004": {
+   "section": "tabs",
+   "tag": "span",
+   "cls": "",
+   "ru": "Цели",
+   "en": "Targets",
+   "zh": "目标"
+  },
+  "tabs.005": {
+   "section": "tabs",
+   "tag": "b",
+   "cls": "",
+   "ru": "03",
+   "en": "03",
+   "zh": "03"
+  },
+  "tabs.006": {
+   "section": "tabs",
+   "tag": "span",
+   "cls": "",
+   "ru": "Миссия",
+   "en": "Mission",
+   "zh": "使命"
+  },
+  "tabs.007": {
+   "section": "tabs",
+   "tag": "b",
+   "cls": "",
+   "ru": "04",
+   "en": "04",
+   "zh": "04"
+  },
+  "tabs.008": {
+   "section": "tabs",
+   "tag": "span",
+   "cls": "",
+   "ru": "Работа",
+   "en": "Work",
+   "zh": "进展"
+  },
+  "tabs.009": {
+   "section": "tabs",
+   "tag": "b",
+   "cls": "",
+   "ru": "07",
+   "en": "07",
+   "zh": "07"
+  },
+  "tabs.010": {
+   "section": "tabs",
+   "tag": "span",
+   "cls": "",
+   "ru": "Связь",
+   "en": "Contact",
+   "zh": "联系"
+  },
+  "hero.001": {
+   "section": "hero",
+   "tag": "span",
+   "cls": "c1",
+   "ru": "(2026)",
+   "en": "(2026)",
+   "zh": "(2026)"
+  },
+  "hero.002": {
+   "section": "hero",
+   "tag": "span",
+   "cls": "c2",
+   "ru": "Частная космическая компания",
+   "en": "Private space company",
+   "zh": "私营航天公司"
+  },
+  "hero.003": {
+   "section": "hero",
+   "tag": "span",
+   "cls": "c3",
+   "ru": "Ракета-носитель сверхлёгкого класса",
+   "en": "Ultra-light launch vehicle",
+   "zh": "超轻型运载火箭"
+  },
+  "hero.004": {
+   "section": "hero",
+   "tag": "span",
+   "cls": "c4",
+   "ru": "СПГ + жидкий кислород",
+   "en": "LNG + liquid oxygen",
+   "zh": "液化天然气 + 液氧"
+  },
+  "hero.005": {
+   "section": "hero",
+   "tag": "span",
+   "cls": "",
+   "ru": "Станьте",
+   "en": "Become",
+   "zh": "成为"
+  },
+  "hero.006": {
+   "section": "hero",
+   "tag": "span",
+   "cls": "",
+   "ru": "частью",
+   "en": "part of",
+   "zh": "历史的"
+  },
+  "hero.007": {
+   "section": "hero",
+   "tag": "span",
+   "cls": "",
+   "ru": "истории",
+   "en": "history",
+   "zh": "一部分"
+  },
+  "hero.008": {
+   "section": "hero",
+   "tag": "p",
+   "cls": "hero__lede",
+   "ru": "Проектируем космический ракетный комплекс с&nbsp;ракетой-носителем сверхлёгкого класса для&nbsp;вывода космических аппаратов на&nbsp;орбиту",
+   "en": "We are designing a space launch system with an ultra-light launch vehicle to deliver spacecraft to orbit",
+   "zh": "我们正在设计一套航天发射系统，以超轻型运载火箭将航天器送入轨道"
+  },
+  "hero.009": {
+   "section": "hero",
+   "tag": "p",
+   "cls": "tag",
+   "ru": "Проектная цель · ССО",
+   "en": "Design target · SSO",
+   "zh": "设计目标 · 太阳同步轨道"
+  },
+  "hero.010": {
+   "section": "hero",
+   "tag": "b",
+   "cls": "",
+   "ru": "500",
+   "en": "500",
+   "zh": "500"
+  },
+  "hero.011": {
+   "section": "hero",
+   "tag": "em",
+   "cls": "",
+   "ru": "кг",
+   "en": "kg",
+   "zh": "kg"
+  },
+  "hero.012": {
+   "section": "hero",
+   "tag": "p",
+   "cls": "side",
+   "ru": "полезной нагрузки на&nbsp;солнечно-синхронной орбите. Подтвердим испытаниями.",
+   "en": "of payload to sun-synchronous orbit. To be confirmed by testing.",
+   "zh": "有效载荷送入太阳同步轨道，将通过试验验证。"
+  },
+  "hero.013": {
+   "section": "hero",
+   "tag": "p",
+   "cls": "orbit-label",
+   "ru": "<i></i>Солнечно-синхронная орбита",
+   "en": "<i></i>Sun-synchronous orbit",
+   "zh": "<i></i>太阳同步轨道"
+  },
+  "hero.014": {
+   "section": "hero",
+   "tag": "span",
+   "cls": "",
+   "ru": "JC&nbsp;SPACE",
+   "en": "JC&nbsp;SPACE",
+   "zh": "JC&nbsp;SPACE"
+  },
+  "hero.015": {
+   "section": "hero",
+   "tag": "span",
+   "cls": "hud__i",
+   "ru": "(01)",
+   "en": "(01)",
+   "zh": "(01)"
+  },
+  "hero.016": {
+   "section": "hero",
+   "tag": "span",
+   "cls": "hud__l",
+   "ru": "Низкая орбита",
+   "en": "Low Earth orbit",
+   "zh": "近地轨道"
+  },
+  "hero.017": {
+   "section": "hero",
+   "tag": "span",
+   "cls": "hud__r",
+   "ru": "Листайте <svg class=\"ic\" viewBox=\"0 0 12 12\" aria-hidden=\"true\"><path d=\"M6 1v10M2 7l4 4 4-4\"></path></svg>",
+   "en": "Scroll <svg class=\"ic\" viewBox=\"0 0 12 12\" aria-hidden=\"true\"><path d=\"M6 1v10M2 7l4 4 4-4\"></path></svg>",
+   "zh": "向下滚动 <svg class=\"ic\" viewBox=\"0 0 12 12\" aria-hidden=\"true\"><path d=\"M6 1v10M2 7l4 4 4-4\"></path></svg>"
+  },
+  "about.001": {
+   "section": "about",
+   "tag": "span",
+   "cls": "sh__i",
+   "ru": "(01)",
+   "en": "(01)",
+   "zh": "(01)"
+  },
+  "about.002": {
+   "section": "about",
+   "tag": "span",
+   "cls": "sh__t",
+   "ru": "О компании",
+   "en": "Company",
+   "zh": "公司"
+  },
+  "about.003": {
+   "section": "about",
+   "tag": "span",
+   "cls": "sh__m",
+   "ru": "JC SPACE · ГК JOYCITY",
+   "en": "JC SPACE · JOYCITY Group",
+   "zh": "JC SPACE · JOYCITY集团"
+  },
+  "about.004": {
+   "section": "about",
+   "tag": "h2",
+   "cls": "statement",
+   "ru": "Проектируем космический ракетный комплекс с&nbsp;ракетой-носителем сверхлёгкого класса",
+   "en": "We are designing a space launch system with an ultra‑light launch vehicle",
+   "zh": "我们正在​设计​一套​航天​发射​系统，​采用​超轻型​运载火箭"
+  },
+  "about.005": {
+   "section": "about",
+   "tag": "span",
+   "cls": "idx",
+   "ru": "/01",
+   "en": "/01",
+   "zh": "/01"
+  },
+  "about.006": {
+   "section": "about",
+   "tag": "h3",
+   "cls": "",
+   "ru": "Текущий этап",
+   "en": "Current stage",
+   "zh": "当前阶段"
+  },
+  "about.007": {
+   "section": "about",
+   "tag": "p",
+   "cls": "",
+   "ru": "Проектируем космический ракетный комплекс, создаём собственные производственно-испытательные мощности",
+   "en": "Designing the launch system and building our own manufacturing and test facilities",
+   "zh": "设计航天发射系统，建设自有的生产与试验设施"
+  },
+  "about.008": {
+   "section": "about",
+   "tag": "span",
+   "cls": "idx",
+   "ru": "/02",
+   "en": "/02",
+   "zh": "/02"
+  },
+  "about.009": {
+   "section": "about",
+   "tag": "h3",
+   "cls": "",
+   "ru": "Следующий шаг",
+   "en": "Next step",
+   "zh": "下一步"
+  },
+  "about.010": {
+   "section": "about",
+   "tag": "p",
+   "cls": "",
+   "ru": "Верификация расчётов на&nbsp;основе результатов экспериментальной отработки. Выпуск рабочей конструкторской документации",
+   "en": "Verifying calculations against development test results. Releasing detailed design documentation",
+   "zh": "依据试验验证结果核实设计计算，发布详细设计文件"
+  },
+  "about.011": {
+   "section": "about",
+   "tag": "span",
+   "cls": "idx",
+   "ru": "/03",
+   "en": "/03",
+   "zh": "/03"
+  },
+  "about.012": {
+   "section": "about",
+   "tag": "h3",
+   "cls": "",
+   "ru": "Финансирование",
+   "en": "Funding",
+   "zh": "资金来源"
+  },
+  "about.013": {
+   "section": "about",
+   "tag": "p",
+   "cls": "",
+   "ru": "JOYCITY вкладывает в&nbsp;развитие JC&nbsp;SPACE каждый высвободившийся рубль",
+   "en": "JOYCITY invests every ruble it can spare in JC&nbsp;SPACE",
+   "zh": "JOYCITY将每一笔可支配的卢布投入JC SPACE的发展"
+  },
+  "about.014": {
+   "section": "about",
+   "tag": "span",
+   "cls": "mono",
+   "ru": "<b class=\"ab-c\">01</b> / 03",
+   "en": "<b class=\"ab-c\">01</b> / 03",
+   "zh": "<b class=\"ab-c\">01</b> / 03"
+  },
+  "specs.001": {
+   "section": "specs",
+   "tag": "span",
+   "cls": "sh__i",
+   "ru": "(02)",
+   "en": "(02)",
+   "zh": "(02)"
+  },
+  "specs.002": {
+   "section": "specs",
+   "tag": "span",
+   "cls": "sh__t",
+   "ru": "Проектные цели",
+   "en": "Design targets",
+   "zh": "设计目标"
+  },
+  "specs.003": {
+   "section": "specs",
+   "tag": "span",
+   "cls": "sh__m",
+   "ru": "Расчёты предстоит подтвердить испытаниями",
+   "en": "Calculations are yet to be confirmed by testing",
+   "zh": "计算结果有待试验验证"
+  },
+  "specs.004": {
+   "section": "specs",
+   "tag": "span",
+   "cls": "vis__c",
+   "ru": "Рендер · 9 двигателей первой ступени",
+   "en": "Render · 9 first-stage engines",
+   "zh": "渲染图 · 一级9台发动机"
+  },
+  "specs.005": {
+   "section": "specs",
+   "tag": "span",
+   "cls": "vis__c",
+   "ru": "Рендер · двигатель второй ступени",
+   "en": "Render · second-stage engine",
+   "zh": "渲染图 · 二级发动机"
+  },
+  "specs.006": {
+   "section": "specs",
+   "tag": "span",
+   "cls": "vis__c",
+   "ru": "Рендер · аппарат на солнечно-синхронной орбите",
+   "en": "Render · spacecraft in sun-synchronous orbit",
+   "zh": "渲染图 · 太阳同步轨道上的航天器"
+  },
+  "specs.007": {
+   "section": "specs",
+   "tag": "span",
+   "cls": "vis__c",
+   "ru": "Схема · возврат первой ступени",
+   "en": "Diagram · first-stage recovery",
+   "zh": "示意图 · 一级回收"
+  },
+  "specs.008": {
+   "section": "specs",
+   "tag": "span",
+   "cls": "mc__tag",
+   "ru": "Проектная цель",
+   "en": "Design target",
+   "zh": "设计目标"
+  },
+  "specs.009": {
+   "section": "specs",
+   "tag": "span",
+   "cls": "mc__s",
+   "ru": "<b>01</b> / 05",
+   "en": "<b>01</b> / 05",
+   "zh": "<b>01</b> / 05"
+  },
+  "specs.010": {
+   "section": "specs",
+   "tag": "p",
+   "cls": "mc__t",
+   "ru": "Зажигание · 1 ступень",
+   "en": "Ignition · stage 1",
+   "zh": "点火 · 一级"
+  },
+  "specs.011": {
+   "section": "specs",
+   "tag": "p",
+   "cls": "mc__big",
+   "ru": "9 × 3 тс",
+   "en": "9 × 3 tf",
+   "zh": "9 × 3 吨力"
+  },
+  "specs.012": {
+   "section": "specs",
+   "tag": "span",
+   "cls": "mono",
+   "ru": "СПГ",
+   "en": "LNG",
+   "zh": "LNG"
+  },
+  "specs.013": {
+   "section": "specs",
+   "tag": "span",
+   "cls": "mono",
+   "ru": "LOX",
+   "en": "LOX",
+   "zh": "LOX"
+  },
+  "specs.014": {
+   "section": "specs",
+   "tag": "figcaption",
+   "cls": "mono",
+   "ru": "Рендер",
+   "en": "Render",
+   "zh": "渲染图"
+  },
+  "specs.015": {
+   "section": "specs",
+   "tag": "span",
+   "cls": "vis__n",
+   "ru": "<b>01</b> / 05",
+   "en": "<b>01</b> / 05",
+   "zh": "<b>01</b> / 05"
+  },
+  "specs.016": {
+   "section": "specs",
+   "tag": "span",
+   "cls": "spec__i",
+   "ru": "01 · Двигатели · 1&nbsp;ступень",
+   "en": "01 · Engines · stage&nbsp;1",
+   "zh": "01 · 发动机 · 一级"
+  },
+  "specs.017": {
+   "section": "specs",
+   "tag": "b",
+   "cls": "",
+   "ru": "9",
+   "en": "9",
+   "zh": "9"
+  },
+  "specs.018": {
+   "section": "specs",
+   "tag": "span",
+   "cls": "",
+   "ru": "×",
+   "en": "×",
+   "zh": "×"
+  },
+  "specs.019": {
+   "section": "specs",
+   "tag": "b",
+   "cls": "",
+   "ru": "3",
+   "en": "3",
+   "zh": "3"
+  },
+  "specs.020": {
+   "section": "specs",
+   "tag": "small",
+   "cls": "",
+   "ru": "тс",
+   "en": "tf",
+   "zh": "吨力"
+  },
+  "specs.021": {
+   "section": "specs",
+   "tag": "p",
+   "cls": "spec__d",
+   "ru": "9 двигателей по&nbsp;3&nbsp;тс на&nbsp;первой ступени",
+   "en": "9 engines of 3&nbsp;tf thrust each on the first stage",
+   "zh": "一级配备9台发动机，单台推力3吨力"
+  },
+  "specs.022": {
+   "section": "specs",
+   "tag": "span",
+   "cls": "spec__tag",
+   "ru": "Проектная цель",
+   "en": "Design target",
+   "zh": "设计目标"
+  },
+  "specs.023": {
+   "section": "specs",
+   "tag": "span",
+   "cls": "spec__i",
+   "ru": "02 · Двигатель · 2&nbsp;ступень",
+   "en": "02 · Engine · stage&nbsp;2",
+   "zh": "02 · 发动机 · 二级"
+  },
+  "specs.024": {
+   "section": "specs",
+   "tag": "b",
+   "cls": "",
+   "ru": "3,4",
+   "en": "3,4",
+   "zh": "3,4"
+  },
+  "specs.025": {
+   "section": "specs",
+   "tag": "small",
+   "cls": "",
+   "ru": "тс",
+   "en": "tf",
+   "zh": "吨力"
+  },
+  "specs.026": {
+   "section": "specs",
+   "tag": "p",
+   "cls": "spec__d",
+   "ru": "1 двигатель на&nbsp;3,4&nbsp;тс на&nbsp;второй ступени",
+   "en": "1 engine of 3.4&nbsp;tf thrust on the second stage",
+   "zh": "二级配备1台推力3.4吨力的发动机"
+  },
+  "specs.027": {
+   "section": "specs",
+   "tag": "span",
+   "cls": "spec__tag",
+   "ru": "Проектная цель",
+   "en": "Design target",
+   "zh": "设计目标"
+  },
+  "specs.028": {
+   "section": "specs",
+   "tag": "span",
+   "cls": "spec__i",
+   "ru": "03 · Орбита",
+   "en": "03 · Orbit",
+   "zh": "03 · 轨道"
+  },
+  "specs.029": {
+   "section": "specs",
+   "tag": "b",
+   "cls": "",
+   "ru": "500",
+   "en": "500",
+   "zh": "500"
+  },
+  "specs.030": {
+   "section": "specs",
+   "tag": "small",
+   "cls": "",
+   "ru": "кг",
+   "en": "kg",
+   "zh": "kg"
+  },
+  "specs.031": {
+   "section": "specs",
+   "tag": "p",
+   "cls": "spec__d",
+   "ru": "Проектная цель — 500&nbsp;кг на&nbsp;солнечно-синхронной орбите. Двухступенчатая ракета-носитель",
+   "en": "Design target: 500&nbsp;kg to sun-synchronous orbit. Two-stage launch vehicle",
+   "zh": "设计目标：向太阳同步轨道运送500公斤。两级运载火箭"
+  },
+  "specs.032": {
+   "section": "specs",
+   "tag": "span",
+   "cls": "spec__tag",
+   "ru": "Проектная цель",
+   "en": "Design target",
+   "zh": "设计目标"
+  },
+  "specs.033": {
+   "section": "specs",
+   "tag": "figcaption",
+   "cls": "vis__c",
+   "ru": "Схема · двухступенчатая РН · проект",
+   "en": "Diagram · two-stage LV · design",
+   "zh": "示意图 · 两级运载火箭 · 方案"
+  },
+  "specs.034": {
+   "section": "specs",
+   "tag": "span",
+   "cls": "spec__i",
+   "ru": "04 · Многоразовость",
+   "en": "04 · Reusability",
+   "zh": "04 · 可重复使用"
+  },
+  "specs.035": {
+   "section": "specs",
+   "tag": "span",
+   "cls": "",
+   "ru": "≥",
+   "en": "≥",
+   "zh": "≥"
+  },
+  "specs.036": {
+   "section": "specs",
+   "tag": "b",
+   "cls": "",
+   "ru": "10",
+   "en": "10",
+   "zh": "10"
+  },
+  "specs.037": {
+   "section": "specs",
+   "tag": "small",
+   "cls": "",
+   "ru": "полётов",
+   "en": "flights",
+   "zh": "次飞行"
+  },
+  "specs.038": {
+   "section": "specs",
+   "tag": "p",
+   "cls": "spec__d",
+   "ru": "Планируем возврат первой ступени с&nbsp;ракетной посадкой. Цель — не&nbsp;менее 10&nbsp;полётов на&nbsp;одном блоке",
+   "en": "First-stage recovery by propulsive landing is planned. Target: at least 10&nbsp;flights per booster",
+   "zh": "计划以动力着陆方式回收一级。目标：单枚一级至少飞行10次"
+  },
+  "specs.039": {
+   "section": "specs",
+   "tag": "span",
+   "cls": "spec__tag",
+   "ru": "Проектная цель",
+   "en": "Design target",
+   "zh": "设计目标"
+  },
+  "specs.040": {
+   "section": "specs",
+   "tag": "span",
+   "cls": "spec__i",
+   "ru": "05 · Топливо",
+   "en": "05 · Propellants",
+   "zh": "05 · 推进剂"
+  },
+  "specs.041": {
+   "section": "specs",
+   "tag": "p",
+   "cls": "spec__n",
+   "ru": "СПГ<span>+</span>LOX",
+   "en": "LNG<span>+</span>LOX",
+   "zh": "LNG<span>+</span>LOX"
+  },
+  "specs.042": {
+   "section": "specs",
+   "tag": "p",
+   "cls": "spec__d",
+   "ru": "Сжиженный природный газ и&nbsp;жидкий кислород. Ресурс двигателя будет подтверждён наземной экспериментальной отработкой",
+   "en": "Liquefied natural gas and liquid oxygen. Engine life will be confirmed by ground development testing",
+   "zh": "液化天然气与液氧。发动机寿命将通过地面试验验证"
+  },
+  "specs.043": {
+   "section": "specs",
+   "tag": "span",
+   "cls": "spec__tag",
+   "ru": "Подтвердим испытаниями",
+   "en": "To be confirmed by testing",
+   "zh": "将通过试验验证"
+  },
+  "specs.044": {
+   "section": "specs",
+   "tag": "span",
+   "cls": "swp__h",
+   "ru": "Листайте <svg class=\"ic ic--w\" viewBox=\"0 0 24 12\" aria-hidden=\"true\"><path d=\"M0 6h22M17 1l5 5-5 5\"></path></svg>",
+   "en": "Scroll <svg class=\"ic ic--w\" viewBox=\"0 0 24 12\" aria-hidden=\"true\"><path d=\"M0 6h22M17 1l5 5-5 5\"></path></svg>",
+   "zh": "向下滚动 <svg class=\"ic ic--w\" viewBox=\"0 0 24 12\" aria-hidden=\"true\"><path d=\"M0 6h22M17 1l5 5-5 5\"></path></svg>"
+  },
+  "specs.045": {
+   "section": "specs",
+   "tag": "span",
+   "cls": "swp__c",
+   "ru": "<b>01</b> / 05",
+   "en": "<b>01</b> / 05",
+   "zh": "<b>01</b> / 05"
+  },
+  "top.001": {
+   "section": "top",
+   "tag": "span",
+   "cls": "",
+   "ru": "Частная космическая компания",
+   "en": "Private space company",
+   "zh": "私营航天公司"
+  },
+  "top.002": {
+   "section": "top",
+   "tag": "span",
+   "cls": "",
+   "ru": "Ракета-носитель сверхлёгкого класса",
+   "en": "Ultra-light launch vehicle",
+   "zh": "超轻型运载火箭"
+  },
+  "top.003": {
+   "section": "top",
+   "tag": "span",
+   "cls": "",
+   "ru": "СПГ + жидкий кислород",
+   "en": "LNG + liquid oxygen",
+   "zh": "液化天然气 + 液氧"
+  },
+  "top.004": {
+   "section": "top",
+   "tag": "span",
+   "cls": "",
+   "ru": "Возврат первой ступени",
+   "en": "First-stage recovery",
+   "zh": "一级回收"
+  },
+  "top.005": {
+   "section": "top",
+   "tag": "span",
+   "cls": "",
+   "ru": "Частная космическая компания",
+   "en": "Private space company",
+   "zh": "私营航天公司"
+  },
+  "top.006": {
+   "section": "top",
+   "tag": "span",
+   "cls": "",
+   "ru": "Ракета-носитель сверхлёгкого класса",
+   "en": "Ultra-light launch vehicle",
+   "zh": "超轻型运载火箭"
+  },
+  "top.007": {
+   "section": "top",
+   "tag": "span",
+   "cls": "",
+   "ru": "СПГ + жидкий кислород",
+   "en": "LNG + liquid oxygen",
+   "zh": "液化天然气 + 液氧"
+  },
+  "top.008": {
+   "section": "top",
+   "tag": "span",
+   "cls": "",
+   "ru": "Возврат первой ступени",
+   "en": "First-stage recovery",
+   "zh": "一级回收"
+  },
+  "mission.001": {
+   "section": "mission",
+   "tag": "span",
+   "cls": "sh__i",
+   "ru": "(03)",
+   "en": "(03)",
+   "zh": "(03)"
+  },
+  "mission.002": {
+   "section": "mission",
+   "tag": "span",
+   "cls": "sh__t",
+   "ru": "Миссия",
+   "en": "Mission",
+   "zh": "使命"
+  },
+  "mission.003": {
+   "section": "mission",
+   "tag": "span",
+   "cls": "sh__m",
+   "ru": "<b class=\"m-count\">01</b> / 03",
+   "en": "<b class=\"m-count\">01</b> / 03",
+   "zh": "<b class=\"m-count\">01</b> / 03"
+  },
+  "mission.004": {
+   "section": "mission",
+   "tag": "span",
+   "cls": "",
+   "ru": "Создать",
+   "en": "Build",
+   "zh": "打造"
+  },
+  "mission.005": {
+   "section": "mission",
+   "tag": "span",
+   "cls": "",
+   "ru": "космический",
+   "en": "a space",
+   "zh": "一套航天"
+  },
+  "mission.006": {
+   "section": "mission",
+   "tag": "span",
+   "cls": "",
+   "ru": "ракетный комплекс",
+   "en": "launch system",
+   "zh": "发射系统"
+  },
+  "mission.007": {
+   "section": "mission",
+   "tag": "span",
+   "cls": "",
+   "ru": "с&nbsp;ракетой-",
+   "en": "with an",
+   "zh": "配备"
+  },
+  "mission.008": {
+   "section": "mission",
+   "tag": "span",
+   "cls": "",
+   "ru": "носителем",
+   "en": "ultra-light",
+   "zh": "超轻型"
+  },
+  "mission.009": {
+   "section": "mission",
+   "tag": "span",
+   "cls": "",
+   "ru": "сверхлёгкого класса",
+   "en": "launch vehicle",
+   "zh": "运载火箭"
+  },
+  "mission.010": {
+   "section": "mission",
+   "tag": "span",
+   "cls": "",
+   "ru": "для&nbsp;вывода",
+   "en": "to deliver",
+   "zh": "将"
+  },
+  "mission.011": {
+   "section": "mission",
+   "tag": "span",
+   "cls": "",
+   "ru": "космических аппаратов",
+   "en": "spacecraft",
+   "zh": "航天器"
+  },
+  "mission.012": {
+   "section": "mission",
+   "tag": "span",
+   "cls": "",
+   "ru": "на&nbsp;орбиту",
+   "en": "to orbit",
+   "zh": "送入轨道"
+  },
+  "mission.013": {
+   "section": "mission",
+   "tag": "span",
+   "cls": "m-goal__t",
+   "ru": "Проектная цель · ракета",
+   "en": "Design target · rocket",
+   "zh": "设计目标 · 火箭"
+  },
+  "mission.014": {
+   "section": "mission",
+   "tag": "i",
+   "cls": "",
+   "ru": "2",
+   "en": "2",
+   "zh": "2"
+  },
+  "mission.015": {
+   "section": "mission",
+   "tag": "small",
+   "cls": "",
+   "ru": "ступени",
+   "en": "stages",
+   "zh": "级"
+  },
+  "mission.016": {
+   "section": "mission",
+   "tag": "span",
+   "cls": "m-goal__d",
+   "ru": "Двухступенчатая ракета-носитель",
+   "en": "Two-stage launch vehicle",
+   "zh": "两级运载火箭"
+  },
+  "mission.017": {
+   "section": "mission",
+   "tag": "span",
+   "cls": "m-goal__t",
+   "ru": "Проектная цель · ССО",
+   "en": "Design target · SSO",
+   "zh": "设计目标 · 太阳同步轨道"
+  },
+  "mission.018": {
+   "section": "mission",
+   "tag": "i",
+   "cls": "",
+   "ru": "500",
+   "en": "500",
+   "zh": "500"
+  },
+  "mission.019": {
+   "section": "mission",
+   "tag": "small",
+   "cls": "",
+   "ru": "кг",
+   "en": "kg",
+   "zh": "kg"
+  },
+  "mission.020": {
+   "section": "mission",
+   "tag": "span",
+   "cls": "m-goal__d",
+   "ru": "На солнечно-синхронной орбите",
+   "en": "To sun-synchronous orbit",
+   "zh": "送入太阳同步轨道"
+  },
+  "mission.021": {
+   "section": "mission",
+   "tag": "span",
+   "cls": "m-goal__t",
+   "ru": "Проектная цель · многоразовость",
+   "en": "Design target · reusability",
+   "zh": "设计目标 · 可重复使用"
+  },
+  "mission.022": {
+   "section": "mission",
+   "tag": "em",
+   "cls": "",
+   "ru": "≥",
+   "en": "≥",
+   "zh": "≥"
+  },
+  "mission.023": {
+   "section": "mission",
+   "tag": "i",
+   "cls": "",
+   "ru": "10",
+   "en": "10",
+   "zh": "10"
+  },
+  "mission.024": {
+   "section": "mission",
+   "tag": "small",
+   "cls": "",
+   "ru": "полётов",
+   "en": "flights",
+   "zh": "次飞行"
+  },
+  "mission.025": {
+   "section": "mission",
+   "tag": "span",
+   "cls": "m-goal__d",
+   "ru": "Возвращаемой первой ступени на&nbsp;одном блоке",
+   "en": "Per recoverable first-stage booster",
+   "zh": "单枚可回收一级"
+  },
+  "mission.026": {
+   "section": "mission",
+   "tag": "p",
+   "cls": "m-note",
+   "ru": "Характеристики будут подтверждены экспериментальной отработкой",
+   "en": "Performance will be confirmed by development testing",
+   "zh": "各项指标将通过试验验证"
+  },
+  "gives.001": {
+   "section": "gives",
+   "tag": "span",
+   "cls": "sh__i",
+   "ru": "(03)",
+   "en": "(03)",
+   "zh": "(03)"
+  },
+  "gives.002": {
+   "section": "gives",
+   "tag": "span",
+   "cls": "sh__t",
+   "ru": "Простыми словами",
+   "en": "In plain words",
+   "zh": "简而言之"
+  },
+  "gives.003": {
+   "section": "gives",
+   "tag": "span",
+   "cls": "sh__m",
+   "ru": "Что даёт проект",
+   "en": "What the project delivers",
+   "zh": "项目意义"
+  },
+  "gives.004": {
+   "section": "gives",
+   "tag": "h2",
+   "cls": "gives__h",
+   "ru": "Что это даёт",
+   "en": "What it delivers",
+   "zh": "项目意义"
+  },
+  "gives.005": {
+   "section": "gives",
+   "tag": "b",
+   "cls": "",
+   "ru": "01",
+   "en": "01",
+   "zh": "01"
+  },
+  "gives.006": {
+   "section": "gives",
+   "tag": "h3",
+   "cls": "",
+   "ru": "Своя ракета для&nbsp;спутников",
+   "en": "Our own rocket for satellites",
+   "zh": "自主卫星运载火箭"
+  },
+  "gives.007": {
+   "section": "gives",
+   "tag": "p",
+   "cls": "",
+   "ru": "Создаём космический ракетный комплекс с&nbsp;ракетой-носителем сверхлёгкого класса для&nbsp;вывода космических аппаратов на&nbsp;орбиту.",
+   "en": "We are building a space launch system with an ultra-light launch vehicle to deliver spacecraft to orbit.",
+   "zh": "我们正在打造一套航天发射系统，以超轻型运载火箭将航天器送入轨道。"
+  },
+  "gives.008": {
+   "section": "gives",
+   "tag": "b",
+   "cls": "",
+   "ru": "02",
+   "en": "02",
+   "zh": "02"
+  },
+  "gives.009": {
+   "section": "gives",
+   "tag": "h3",
+   "cls": "",
+   "ru": "Ракета, которая возвращается",
+   "en": "A rocket that comes back",
+   "zh": "可回收的火箭"
+  },
+  "gives.010": {
+   "section": "gives",
+   "tag": "p",
+   "cls": "",
+   "ru": "Планируем возврат первой ступени с&nbsp;ракетной посадкой. Цель&nbsp;— не&nbsp;менее 10&nbsp;полётов на&nbsp;одном блоке.",
+   "en": "First-stage recovery by propulsive landing is planned. Target: at least 10&nbsp;flights per booster.",
+   "zh": "计划以动力着陆方式回收一级。目标：单枚一级至少飞行10次。"
+  },
+  "gives.011": {
+   "section": "gives",
+   "tag": "b",
+   "cls": "",
+   "ru": "03",
+   "en": "03",
+   "zh": "03"
+  },
+  "gives.012": {
+   "section": "gives",
+   "tag": "h3",
+   "cls": "",
+   "ru": "Собственное производство",
+   "en": "In-house manufacturing",
+   "zh": "自有生产"
+  },
+  "gives.013": {
+   "section": "gives",
+   "tag": "p",
+   "cls": "",
+   "ru": "Организуем собственную производственно-испытательную площадку для&nbsp;изготовления и&nbsp;испытаний узлов и&nbsp;агрегатов двигателя.",
+   "en": "We are setting up our own manufacturing and test site to build and test engine components and assemblies.",
+   "zh": "我们正在建设自有的生产与试验场地，用于发动机部件和组件的制造与试验。"
+  },
+  "gives.014": {
+   "section": "gives",
+   "tag": "b",
+   "cls": "",
+   "ru": "04",
+   "en": "04",
+   "zh": "04"
+  },
+  "gives.015": {
+   "section": "gives",
+   "tag": "h3",
+   "cls": "",
+   "ru": "Частные деньги",
+   "en": "Private money",
+   "zh": "私人资金"
+  },
+  "gives.016": {
+   "section": "gives",
+   "tag": "p",
+   "cls": "",
+   "ru": "Ракету развиваем на&nbsp;собственные средства: JOYCITY вкладывает в&nbsp;развитие JC&nbsp;SPACE каждый высвободившийся рубль.",
+   "en": "The rocket is self-funded: JOYCITY invests every ruble it can spare in JC&nbsp;SPACE.",
+   "zh": "火箭研制完全依靠自有资金：JOYCITY将每一笔可支配的卢布投入JC SPACE的发展。"
+  },
+  "first.001": {
+   "section": "first",
+   "tag": "span",
+   "cls": "first__k",
+   "ru": "JC SPACE · 2026",
+   "en": "JC SPACE · 2026",
+   "zh": "JC SPACE · 2026"
+  },
+  "first.002": {
+   "section": "first",
+   "tag": "span",
+   "cls": "first__w",
+   "ru": "Первая",
+   "en": "Russia's",
+   "zh": "俄罗斯"
+  },
+  "first.003": {
+   "section": "first",
+   "tag": "span",
+   "cls": "first__w",
+   "ru": "и&nbsp;единственная",
+   "en": "first",
+   "zh": "首家"
+  },
+  "first.004": {
+   "section": "first",
+   "tag": "span",
+   "cls": "first__w",
+   "ru": "частная",
+   "en": "and only",
+   "zh": "也是唯一"
+  },
+  "first.005": {
+   "section": "first",
+   "tag": "span",
+   "cls": "first__w",
+   "ru": "космическая",
+   "en": "private",
+   "zh": "一家"
+  },
+  "first.006": {
+   "section": "first",
+   "tag": "span",
+   "cls": "first__w",
+   "ru": "компания",
+   "en": "space",
+   "zh": "私营"
+  },
+  "first.007": {
+   "section": "first",
+   "tag": "span",
+   "cls": "first__w",
+   "ru": "в&nbsp;России,",
+   "en": "company",
+   "zh": "航天"
+  },
+  "first.008": {
+   "section": "first",
+   "tag": "span",
+   "cls": "first__w",
+   "ru": "которая",
+   "en": "developing",
+   "zh": "公司，"
+  },
+  "first.009": {
+   "section": "first",
+   "tag": "span",
+   "cls": "first__w",
+   "ru": "развивает",
+   "en": "a rocket",
+   "zh": "致力于"
+  },
+  "first.010": {
+   "section": "first",
+   "tag": "span",
+   "cls": "first__w",
+   "ru": "ракету",
+   "en": "with",
+   "zh": "以自有资金"
+  },
+  "first.011": {
+   "section": "first",
+   "tag": "span",
+   "cls": "first__w",
+   "ru": "на&nbsp;собственные",
+   "en": "its own",
+   "zh": "研制"
+  },
+  "first.012": {
+   "section": "first",
+   "tag": "span",
+   "cls": "first__w",
+   "ru": "средства",
+   "en": "money",
+   "zh": "火箭"
+  },
+  "first.013": {
+   "section": "first",
+   "tag": "b",
+   "cls": "",
+   "ru": "100%",
+   "en": "100%",
+   "zh": "100%"
+  },
+  "first.014": {
+   "section": "first",
+   "tag": "span",
+   "cls": "mono",
+   "ru": "собственные средства",
+   "en": "self-funded",
+   "zh": "自有资金"
+  },
+  "first.015": {
+   "section": "first",
+   "tag": "b",
+   "cls": "",
+   "ru": "0",
+   "en": "0",
+   "zh": "0"
+  },
+  "first.016": {
+   "section": "first",
+   "tag": "span",
+   "cls": "mono",
+   "ru": "внешних инвестиций",
+   "en": "external investment",
+   "zh": "外部投资"
+  },
+  "first.017": {
+   "section": "first",
+   "tag": "b",
+   "cls": "",
+   "ru": "1",
+   "en": "1",
+   "zh": "1"
+  },
+  "first.018": {
+   "section": "first",
+   "tag": "span",
+   "cls": "mono",
+   "ru": "частная компания в&nbsp;России, развивающая ракету на&nbsp;свои средства",
+   "en": "private company in Russia developing a rocket with its own money",
+   "zh": "俄罗斯以自有资金研制火箭的私营公司"
+  },
+  "first.019": {
+   "section": "first",
+   "tag": "span",
+   "cls": "first__f",
+   "ru": "Развитие финансирует ГК JOYCITY: каждый высвободившийся рубль",
+   "en": "Funded by JOYCITY Group: every ruble it can spare",
+   "zh": "由JOYCITY集团出资：每一笔可支配的卢布"
+  },
+  "work.001": {
+   "section": "work",
+   "tag": "span",
+   "cls": "sh__i",
+   "ru": "(04)",
+   "en": "(04)",
+   "zh": "(04)"
+  },
+  "work.002": {
+   "section": "work",
+   "tag": "span",
+   "cls": "sh__t",
+   "ru": "Разработка",
+   "en": "Development",
+   "zh": "研制"
+  },
+  "work.003": {
+   "section": "work",
+   "tag": "span",
+   "cls": "sh__m",
+   "ru": "<b class=\"work__count\">01</b> / 05",
+   "en": "<b class=\"work__count\">01</b> / 05",
+   "zh": "<b class=\"work__count\">01</b> / 05"
+  },
+  "work.004": {
+   "section": "work",
+   "tag": "span",
+   "cls": "",
+   "ru": "Сейчас в&nbsp;работе",
+   "en": "Now in progress",
+   "zh": "当前进展"
+  },
+  "work.005": {
+   "section": "work",
+   "tag": "span",
+   "cls": "wt__l",
+   "ru": "Старт проекта",
+   "en": "Project start",
+   "zh": "项目启动"
+  },
+  "work.006": {
+   "section": "work",
+   "tag": "b",
+   "cls": "mono",
+   "ru": "Сейчас",
+   "en": "Now",
+   "zh": "当前"
+  },
+  "work.007": {
+   "section": "work",
+   "tag": "span",
+   "cls": "wt__r",
+   "ru": "Запуск",
+   "en": "Launch",
+   "zh": "发射"
+  },
+  "work.008": {
+   "section": "work",
+   "tag": "span",
+   "cls": "card__n",
+   "ru": "01",
+   "en": "01",
+   "zh": "01"
+  },
+  "work.009": {
+   "section": "work",
+   "tag": "span",
+   "cls": "card__live",
+   "ru": "<i></i>В работе",
+   "en": "<i></i>In progress",
+   "zh": "<i></i>进行中"
+  },
+  "work.010": {
+   "section": "work",
+   "tag": "em",
+   "cls": "",
+   "ru": "Сроки уточняются",
+   "en": "Timeline TBC",
+   "zh": "时间待定"
+  },
+  "work.011": {
+   "section": "work",
+   "tag": "h3",
+   "cls": "",
+   "ru": "Космический ракетный комплекс",
+   "en": "Space launch system",
+   "zh": "航天发射系统"
+  },
+  "work.012": {
+   "section": "work",
+   "tag": "p",
+   "cls": "",
+   "ru": "Проектируем космический ракетный комплекс с&nbsp;ракетой-носителем сверхлёгкого класса на&nbsp;компонентах топлива «жидкий кислород — СПГ», с&nbsp;возвращаемым ракетным блоком первой ступени для&nbsp;вывода спутников на&nbsp;орбиту",
+   "en": "Designing a space launch system with an ultra-light LOX/LNG launch vehicle and a recoverable first-stage booster to deliver satellites to orbit",
+   "zh": "设计一套航天发射系统：采用液氧/液化天然气推进剂的超轻型运载火箭，一级可回收，用于将卫星送入轨道"
+  },
+  "work.013": {
+   "section": "work",
+   "tag": "span",
+   "cls": "card__n",
+   "ru": "02",
+   "en": "02",
+   "zh": "02"
+  },
+  "work.014": {
+   "section": "work",
+   "tag": "span",
+   "cls": "card__live",
+   "ru": "<i></i>В работе",
+   "en": "<i></i>In progress",
+   "zh": "<i></i>进行中"
+  },
+  "work.015": {
+   "section": "work",
+   "tag": "em",
+   "cls": "",
+   "ru": "Сроки уточняются",
+   "en": "Timeline TBC",
+   "zh": "时间待定"
+  },
+  "work.016": {
+   "section": "work",
+   "tag": "h3",
+   "cls": "",
+   "ru": "Жидкостной ракетный двигатель",
+   "en": "Liquid rocket engine",
+   "zh": "液体火箭发动机"
+  },
+  "work.017": {
+   "section": "work",
+   "tag": "p",
+   "cls": "",
+   "ru": "Изготавливаем жидкостной ракетный двигатель для&nbsp;проведения огневых стендовых испытаний",
+   "en": "Manufacturing a liquid rocket engine for hot-fire test-stand campaigns",
+   "zh": "制造液体火箭发动机，用于地面热试车"
+  },
+  "work.018": {
+   "section": "work",
+   "tag": "span",
+   "cls": "card__n",
+   "ru": "03",
+   "en": "03",
+   "zh": "03"
+  },
+  "work.019": {
+   "section": "work",
+   "tag": "span",
+   "cls": "card__live",
+   "ru": "<i></i>В работе",
+   "en": "<i></i>In progress",
+   "zh": "<i></i>进行中"
+  },
+  "work.020": {
+   "section": "work",
+   "tag": "em",
+   "cls": "",
+   "ru": "Сроки уточняются",
+   "en": "Timeline TBC",
+   "zh": "时间待定"
+  },
+  "work.021": {
+   "section": "work",
+   "tag": "h3",
+   "cls": "",
+   "ru": "Производственно-испытательные мощности",
+   "en": "Manufacturing and test facilities",
+   "zh": "生产与试验设施"
+  },
+  "work.022": {
+   "section": "work",
+   "tag": "p",
+   "cls": "",
+   "ru": "Организуем собственную производственно-испытательную площадку для&nbsp;изготовления и&nbsp;испытаний узлов и&nbsp;агрегатов жидкостного ракетного двигателя, а&nbsp;также ЖРД в&nbsp;сборе",
+   "en": "Setting up our own manufacturing and test site for liquid rocket engine components and assemblies, as well as complete engines",
+   "zh": "建设自有的生产与试验场地，用于液体火箭发动机部件、组件及整机的制造与试验"
+  },
+  "work.023": {
+   "section": "work",
+   "tag": "span",
+   "cls": "card__n",
+   "ru": "04",
+   "en": "04",
+   "zh": "04"
+  },
+  "work.024": {
+   "section": "work",
+   "tag": "span",
+   "cls": "card__live",
+   "ru": "<i></i>В работе",
+   "en": "<i></i>In progress",
+   "zh": "<i></i>进行中"
+  },
+  "work.025": {
+   "section": "work",
+   "tag": "em",
+   "cls": "",
+   "ru": "Сроки уточняются",
+   "en": "Timeline TBC",
+   "zh": "时间待定"
+  },
+  "work.026": {
+   "section": "work",
+   "tag": "h3",
+   "cls": "",
+   "ru": "Эскизный проект",
+   "en": "Preliminary design",
+   "zh": "初步设计"
+  },
+  "work.027": {
+   "section": "work",
+   "tag": "p",
+   "cls": "",
+   "ru": "Разрабатываем эскизный проект для&nbsp;расчётного обоснования проектных характеристик космического ракетного комплекса",
+   "en": "Developing the preliminary design to substantiate the system's design performance by analysis",
+   "zh": "开展初步设计，通过计算论证航天发射系统的设计指标"
+  },
+  "work.028": {
+   "section": "work",
+   "tag": "span",
+   "cls": "card__n",
+   "ru": "05",
+   "en": "05",
+   "zh": "05"
+  },
+  "work.029": {
+   "section": "work",
+   "tag": "span",
+   "cls": "card__live",
+   "ru": "<i></i>Далее",
+   "en": "<i></i>Next",
+   "zh": "<i></i>下一步"
+  },
+  "work.030": {
+   "section": "work",
+   "tag": "em",
+   "cls": "",
+   "ru": "Сроки уточняются",
+   "en": "Timeline TBC",
+   "zh": "时间待定"
+  },
+  "work.031": {
+   "section": "work",
+   "tag": "h3",
+   "cls": "",
+   "ru": "Следующие этапы",
+   "en": "Next stages",
+   "zh": "后续阶段"
+  },
+  "work.032": {
+   "section": "work",
+   "tag": "li",
+   "cls": "",
+   "ru": "Наземная экспериментальная отработка узлов и&nbsp;агрегатов жидкостного ракетного двигателя",
+   "en": "Ground development testing of liquid rocket engine components and assemblies",
+   "zh": "液体火箭发动机部件与组件的地面试验验证"
+  },
+  "work.033": {
+   "section": "work",
+   "tag": "li",
+   "cls": "",
+   "ru": "Выпуск рабочей конструкторской документации",
+   "en": "Release of detailed design documentation",
+   "zh": "发布详细设计文件"
+  },
+  "work.034": {
+   "section": "work",
+   "tag": "span",
+   "cls": "swp__h",
+   "ru": "Листайте <svg class=\"ic ic--w\" viewBox=\"0 0 24 12\" aria-hidden=\"true\"><path d=\"M0 6h22M17 1l5 5-5 5\"></path></svg>",
+   "en": "Scroll <svg class=\"ic ic--w\" viewBox=\"0 0 24 12\" aria-hidden=\"true\"><path d=\"M0 6h22M17 1l5 5-5 5\"></path></svg>",
+   "zh": "向下滚动 <svg class=\"ic ic--w\" viewBox=\"0 0 24 12\" aria-hidden=\"true\"><path d=\"M0 6h22M17 1l5 5-5 5\"></path></svg>"
+  },
+  "work.035": {
+   "section": "work",
+   "tag": "span",
+   "cls": "swp__c",
+   "ru": "<b>01</b> / 05",
+   "en": "<b>01</b> / 05",
+   "zh": "<b>01</b> / 05"
+  },
+  "faq.001": {
+   "section": "faq",
+   "tag": "p",
+   "cls": "faq__ghost",
+   "ru": "JC SPACE · СПГ + LOX · 500 КГ · ССО ·",
+   "en": "JC SPACE · LNG + LOX · 500 KG · SSO ·",
+   "zh": "JC SPACE · LNG + LOX · 500 KG · SSO ·"
+  },
+  "faq.002": {
+   "section": "faq",
+   "tag": "span",
+   "cls": "sh__i",
+   "ru": "(05)",
+   "en": "(05)",
+   "zh": "(05)"
+  },
+  "faq.003": {
+   "section": "faq",
+   "tag": "span",
+   "cls": "sh__t",
+   "ru": "О проекте",
+   "en": "About the project",
+   "zh": "关于项目"
+  },
+  "faq.004": {
+   "section": "faq",
+   "tag": "span",
+   "cls": "sh__m",
+   "ru": "6 вопросов",
+   "en": "6 questions",
+   "zh": "6个问题"
+  },
+  "faq.005": {
+   "section": "faq",
+   "tag": "h2",
+   "cls": "faq__h",
+   "ru": "Вопросы<br>и&nbsp;ответы",
+   "en": "Questions<br>&amp;&nbsp;answers",
+   "zh": "常见<br>问题"
+  },
+  "faq.006": {
+   "section": "faq",
+   "tag": "span",
+   "cls": "q__i",
+   "ru": "01",
+   "en": "01",
+   "zh": "01"
+  },
+  "faq.007": {
+   "section": "faq",
+   "tag": "span",
+   "cls": "q__t",
+   "ru": "Как связаны JOYCITY и&nbsp;JC&nbsp;SPACE?",
+   "en": "How are JOYCITY and JC&nbsp;SPACE connected?",
+   "zh": "JOYCITY与JC SPACE是什么关系？"
+  },
+  "faq.008": {
+   "section": "faq",
+   "tag": "p",
+   "cls": "",
+   "ru": "JOYCITY вкладывает в&nbsp;развитие JC&nbsp;SPACE каждый высвободившийся рубль. Спасибо покупателям JOYCITY: ваша поддержка помогает нам двигаться дальше.",
+   "en": "JOYCITY invests every ruble it can spare in JC&nbsp;SPACE. Thank you to JOYCITY customers: your support keeps us moving forward.",
+   "zh": "JOYCITY将每一笔可支配的卢布投入JC SPACE的发展。感谢JOYCITY的顾客：你们的支持推动我们不断前进。"
+  },
+  "faq.009": {
+   "section": "faq",
+   "tag": "span",
+   "cls": "q__i",
+   "ru": "02",
+   "en": "02",
+   "zh": "02"
+  },
+  "faq.010": {
+   "section": "faq",
+   "tag": "span",
+   "cls": "q__t",
+   "ru": "Как связан бренд на&nbsp;маркетплейсах и&nbsp;логистика из&nbsp;Китая с&nbsp;космосом?",
+   "en": "What do a marketplace brand and China logistics have to do with space?",
+   "zh": "电商品牌和中国物流与航天有什么关系？"
+  },
+  "faq.011": {
+   "section": "faq",
+   "tag": "p",
+   "cls": "",
+   "ru": "JOYCITY направляет в&nbsp;развитие JC&nbsp;SPACE каждый высвободившийся рубль и&nbsp;часть прибыли с&nbsp;каждой проданной пары обуви. Основатель обоих проектов&nbsp;— Арсен Саруханян, предприниматель с&nbsp;опытом в&nbsp;товарном бизнесе, логистике и&nbsp;работе с&nbsp;Китаем.",
+   "en": "JOYCITY directs every ruble it can spare, plus part of the profit from every pair of shoes sold, to JC&nbsp;SPACE. Both ventures were founded by Arsen Sarukhanyan, an entrepreneur with a background in consumer goods, logistics and business with China.",
+   "zh": "JOYCITY将每一笔可支配的卢布以及每售出一双鞋的部分利润投入JC SPACE。两个项目的创始人均为阿尔森·萨鲁哈尼扬，他在商品贸易、物流及对华业务方面经验丰富。"
+  },
+  "faq.012": {
+   "section": "faq",
+   "tag": "span",
+   "cls": "q__i",
+   "ru": "03",
+   "en": "03",
+   "zh": "03"
+  },
+  "faq.013": {
+   "section": "faq",
+   "tag": "span",
+   "cls": "q__t",
+   "ru": "Какой результат должны получить и&nbsp;как это поможет стране?",
+   "en": "What is the goal, and how will it help the country?",
+   "zh": "目标是什么？对国家有何意义？"
+  },
+  "faq.014": {
+   "section": "faq",
+   "tag": "p",
+   "cls": "",
+   "ru": "Цель&nbsp;— создать космический ракетный комплекс с&nbsp;ракетой-носителем сверхлёгкого класса для&nbsp;вывода космических аппаратов на&nbsp;орбиту, с&nbsp;возвращаемой первой ступенью. О&nbsp;результатах будем рассказывать по&nbsp;мере прохождения этапов разработки.",
+   "en": "The goal is a space launch system with an ultra-light launch vehicle and a recoverable first stage to deliver spacecraft to orbit. We will report results as each development stage is completed.",
+   "zh": "目标是打造一套配备超轻型运载火箭、一级可回收的航天发射系统，用于将航天器送入轨道。我们将随研制阶段推进公布成果。"
+  },
+  "faq.015": {
+   "section": "faq",
+   "tag": "span",
+   "cls": "q__i",
+   "ru": "04",
+   "en": "04",
+   "zh": "04"
+  },
+  "faq.016": {
+   "section": "faq",
+   "tag": "span",
+   "cls": "q__t",
+   "ru": "Откуда ресурсы на&nbsp;развитие частного космоса?",
+   "en": "Where does the funding for private space come from?",
+   "zh": "私营航天的资金从何而来？"
+  },
+  "faq.017": {
+   "section": "faq",
+   "tag": "p",
+   "cls": "",
+   "ru": "Собственные средства, без внешних инвестиций. JOYCITY направляет в&nbsp;развитие JC&nbsp;SPACE каждый высвободившийся рубль и&nbsp;часть прибыли с&nbsp;каждой проданной пары обуви.",
+   "en": "Our own funds, with no external investment. JOYCITY directs every ruble it can spare, plus part of the profit from every pair of shoes sold, to JC&nbsp;SPACE.",
+   "zh": "全部为自有资金，无外部投资。JOYCITY将每一笔可支配的卢布以及每售出一双鞋的部分利润投入JC SPACE。"
+  },
+  "faq.018": {
+   "section": "faq",
+   "tag": "span",
+   "cls": "q__i",
+   "ru": "05",
+   "en": "05",
+   "zh": "05"
+  },
+  "faq.019": {
+   "section": "faq",
+   "tag": "span",
+   "cls": "q__t",
+   "ru": "Характеристики ракеты уже определены?",
+   "en": "Are the rocket's specifications set?",
+   "zh": "火箭的技术指标已经确定了吗？"
+  },
+  "faq.020": {
+   "section": "faq",
+   "tag": "p",
+   "cls": "",
+   "ru": "Определены проектные цели: 9&nbsp;двигателей по&nbsp;3&nbsp;тс на&nbsp;первой ступени и&nbsp;1&nbsp;двигатель на&nbsp;3,4&nbsp;тс на&nbsp;второй, 500&nbsp;кг на&nbsp;солнечно-синхронной орбите, не&nbsp;менее 10&nbsp;полётов первой ступени. Расчёты предстоит подтвердить испытаниями.",
+   "en": "The design targets are set: nine 3&nbsp;tf engines on the first stage and one 3.4&nbsp;tf engine on the second, 500&nbsp;kg to sun-synchronous orbit, and at least 10&nbsp;flights per first stage. Calculations are yet to be confirmed by testing.",
+   "zh": "设计目标已确定：一级9台3吨力发动机，二级1台3.4吨力发动机；太阳同步轨道运载能力500公斤；一级至少飞行10次。计算结果有待试验验证。"
+  },
+  "faq.021": {
+   "section": "faq",
+   "tag": "span",
+   "cls": "q__i",
+   "ru": "06",
+   "en": "06",
+   "zh": "06"
+  },
+  "faq.022": {
+   "section": "faq",
+   "tag": "span",
+   "cls": "q__t",
+   "ru": "Когда планируется запуск?",
+   "en": "When is the launch planned?",
+   "zh": "计划何时发射？"
+  },
+  "faq.023": {
+   "section": "faq",
+   "tag": "p",
+   "cls": "",
+   "ru": "Целевая дата запуска определена и&nbsp;будет объявлена. Её достижимость покажут результаты соответствующих этапов разработки космического ракетного комплекса.",
+   "en": "A target launch date has been set and will be announced. Whether it holds will depend on the results of the relevant development stages.",
+   "zh": "目标发射日期已确定，将适时公布。能否如期实现，取决于航天发射系统相应研制阶段的成果。"
+  },
+  "team.001": {
+   "section": "team",
+   "tag": "p",
+   "cls": "fd__ghost",
+   "ru": "JOYCITY",
+   "en": "JOYCITY",
+   "zh": "JOYCITY"
+  },
+  "team.002": {
+   "section": "team",
+   "tag": "span",
+   "cls": "sh__i",
+   "ru": "(06)",
+   "en": "(06)",
+   "zh": "(06)"
+  },
+  "team.003": {
+   "section": "team",
+   "tag": "span",
+   "cls": "sh__t",
+   "ru": "Кто стоит за&nbsp;проектом",
+   "en": "Who is behind the project",
+   "zh": "项目背后"
+  },
+  "team.004": {
+   "section": "team",
+   "tag": "span",
+   "cls": "sh__m",
+   "ru": "Основатель ГК&nbsp;JOYCITY",
+   "en": "Founder of JOYCITY Group",
+   "zh": "JOYCITY集团创始人"
+  },
+  "team.005": {
+   "section": "team",
+   "tag": "figcaption",
+   "cls": "mono",
+   "ru": "Арсен Саруханян · Основатель ГК&nbsp;JOYCITY",
+   "en": "Arsen Sarukhanyan · Founder of JOYCITY Group",
+   "zh": "阿尔森·萨鲁哈尼扬 · JOYCITY集团创始人"
+  },
+  "team.006": {
+   "section": "team",
+   "tag": "span",
+   "cls": "",
+   "ru": "Арсен",
+   "en": "Arsen",
+   "zh": "阿尔森"
+  },
+  "team.007": {
+   "section": "team",
+   "tag": "span",
+   "cls": "",
+   "ru": "Саруханян",
+   "en": "Sarukhanyan",
+   "zh": "萨鲁哈尼扬"
+  },
+  "team.008": {
+   "section": "team",
+   "tag": "blockquote",
+   "cls": "fd__q",
+   "ru": "«JOYCITY вкладывает в&nbsp;развитие JC&nbsp;SPACE каждый высвободившийся рубль»",
+   "en": "“JOYCITY invests every ruble it can spare in JC&nbsp;SPACE”",
+   "zh": "“JOYCITY将每一笔可支配的卢布投入JC SPACE的发展”"
+  },
+  "team.009": {
+   "section": "team",
+   "tag": "dt",
+   "cls": "",
+   "ru": "Роль",
+   "en": "Role",
+   "zh": "身份"
+  },
+  "team.010": {
+   "section": "team",
+   "tag": "dd",
+   "cls": "",
+   "ru": "Основатель ГК&nbsp;JOYCITY",
+   "en": "Founder of JOYCITY Group",
+   "zh": "JOYCITY集团创始人"
+  },
+  "team.011": {
+   "section": "team",
+   "tag": "dt",
+   "cls": "",
+   "ru": "Опыт",
+   "en": "Background",
+   "zh": "经历"
+  },
+  "team.012": {
+   "section": "team",
+   "tag": "dd",
+   "cls": "",
+   "ru": "Товарный бизнес, логистика, работа с&nbsp;Китаем",
+   "en": "Consumer goods, logistics, business with China",
+   "zh": "商品贸易、物流、对华业务"
+  },
+  "team.013": {
+   "section": "team",
+   "tag": "dt",
+   "cls": "",
+   "ru": "JC SPACE",
+   "en": "JC SPACE",
+   "zh": "JC SPACE"
+  },
+  "team.014": {
+   "section": "team",
+   "tag": "dd",
+   "cls": "",
+   "ru": "Развитие финансирует JOYCITY",
+   "en": "Funded by JOYCITY",
+   "zh": "由JOYCITY出资"
+  },
+  "team.015": {
+   "section": "team",
+   "tag": "p",
+   "cls": "fd__thx",
+   "ru": "Спасибо покупателям JOYCITY: ваша поддержка помогает нам двигаться дальше",
+   "en": "Thank you to JOYCITY customers: your support keeps us moving forward",
+   "zh": "感谢JOYCITY的顾客：你们的支持推动我们不断前进"
+  },
+  "cx.001": {
+   "section": "cx",
+   "tag": "span",
+   "cls": "sh__i",
+   "ru": "(06)",
+   "en": "(06)",
+   "zh": "(06)"
+  },
+  "cx.002": {
+   "section": "cx",
+   "tag": "span",
+   "cls": "sh__t",
+   "ru": "Опыт основателя",
+   "en": "Founder's track record",
+   "zh": "创始人经历"
+  },
+  "cx.003": {
+   "section": "cx",
+   "tag": "span",
+   "cls": "sh__m",
+   "ru": "<b class=\"cx__cnt\">01</b> / 06",
+   "en": "<b class=\"cx__cnt\">01</b> / 06",
+   "zh": "<b class=\"cx__cnt\">01</b> / 06"
+  },
+  "cx.004": {
+   "section": "cx",
+   "tag": "span",
+   "cls": "cv__i",
+   "ru": "01 / 06",
+   "en": "01 / 06",
+   "zh": "01 / 06"
+  },
+  "cx.005": {
+   "section": "cx",
+   "tag": "b",
+   "cls": "",
+   "ru": "600",
+   "en": "600",
+   "zh": "600"
+  },
+  "cx.006": {
+   "section": "cx",
+   "tag": "small",
+   "cls": "mono",
+   "ru": "млн&nbsp;₽",
+   "en": "mln&nbsp;RUB",
+   "zh": "百万卢布"
+  },
+  "cx.007": {
+   "section": "cx",
+   "tag": "h3",
+   "cls": "",
+   "ru": "Годовой оборот",
+   "en": "Annual turnover",
+   "zh": "年营业额"
+  },
+  "cx.008": {
+   "section": "cx",
+   "tag": "p",
+   "cls": "",
+   "ru": "Бизнес основателя, который финансирует JC&nbsp;SPACE",
+   "en": "The founder's business that funds JC&nbsp;SPACE",
+   "zh": "为JC SPACE提供资金的创始人企业"
+  },
+  "cx.009": {
+   "section": "cx",
+   "tag": "span",
+   "cls": "mono",
+   "ru": "Шкала оборота, млн&nbsp;₽",
+   "en": "Turnover scale, RUB mln",
+   "zh": "营业额刻度（百万卢布）"
+  },
+  "cx.010": {
+   "section": "cx",
+   "tag": "span",
+   "cls": "",
+   "ru": "0",
+   "en": "0",
+   "zh": "0"
+  },
+  "cx.011": {
+   "section": "cx",
+   "tag": "span",
+   "cls": "",
+   "ru": "100",
+   "en": "100",
+   "zh": "100"
+  },
+  "cx.012": {
+   "section": "cx",
+   "tag": "span",
+   "cls": "",
+   "ru": "200",
+   "en": "200",
+   "zh": "200"
+  },
+  "cx.013": {
+   "section": "cx",
+   "tag": "span",
+   "cls": "",
+   "ru": "300",
+   "en": "300",
+   "zh": "300"
+  },
+  "cx.014": {
+   "section": "cx",
+   "tag": "span",
+   "cls": "",
+   "ru": "400",
+   "en": "400",
+   "zh": "400"
+  },
+  "cx.015": {
+   "section": "cx",
+   "tag": "span",
+   "cls": "",
+   "ru": "500",
+   "en": "500",
+   "zh": "500"
+  },
+  "cx.016": {
+   "section": "cx",
+   "tag": "span",
+   "cls": "",
+   "ru": "600",
+   "en": "600",
+   "zh": "600"
+  },
+  "cx.017": {
+   "section": "cx",
+   "tag": "span",
+   "cls": "cv__i",
+   "ru": "02 / 06",
+   "en": "02 / 06",
+   "zh": "02 / 06"
+  },
+  "cx.018": {
+   "section": "cx",
+   "tag": "b",
+   "cls": "",
+   "ru": "24+",
+   "en": "24+",
+   "zh": "24+"
+  },
+  "cx.019": {
+   "section": "cx",
+   "tag": "small",
+   "cls": "mono",
+   "ru": "лет",
+   "en": "years",
+   "zh": "年"
+  },
+  "cx.020": {
+   "section": "cx",
+   "tag": "h3",
+   "cls": "",
+   "ru": "В&nbsp;товарном бизнесе",
+   "en": "In consumer goods",
+   "zh": "深耕商品贸易"
+  },
+  "cx.021": {
+   "section": "cx",
+   "tag": "p",
+   "cls": "",
+   "ru": "Сеть магазинов в&nbsp;Москве, основатель бизнес-клуба селлеров JC&nbsp;CLUB и&nbsp;конференции селлеров",
+   "en": "A chain of stores in Moscow; founder of the JC&nbsp;CLUB seller business club and a seller conference",
+   "zh": "在莫斯科拥有连锁门店；创办卖家商业俱乐部JC CLUB及卖家大会"
+  },
+  "cx.022": {
+   "section": "cx",
+   "tag": "b",
+   "cls": "mono",
+   "ru": "2002",
+   "en": "2002",
+   "zh": "2002"
+  },
+  "cx.023": {
+   "section": "cx",
+   "tag": "span",
+   "cls": "",
+   "ru": "Товарный бизнес",
+   "en": "Consumer goods business",
+   "zh": "商品贸易起步"
+  },
+  "cx.024": {
+   "section": "cx",
+   "tag": "b",
+   "cls": "mono",
+   "ru": "2020",
+   "en": "2020",
+   "zh": "2020"
+  },
+  "cx.025": {
+   "section": "cx",
+   "tag": "span",
+   "cls": "",
+   "ru": "Логистика из&nbsp;Китая",
+   "en": "China logistics",
+   "zh": "中国物流"
+  },
+  "cx.026": {
+   "section": "cx",
+   "tag": "b",
+   "cls": "mono",
+   "ru": "Апрель 2026",
+   "en": "April 2026",
+   "zh": "2026年4月"
+  },
+  "cx.027": {
+   "section": "cx",
+   "tag": "span",
+   "cls": "",
+   "ru": "Показ JOYCITY в&nbsp;Сколково",
+   "en": "JOYCITY show at Skolkovo",
+   "zh": "JOYCITY斯科尔科沃发布会"
+  },
+  "cx.028": {
+   "section": "cx",
+   "tag": "span",
+   "cls": "",
+   "ru": "2002",
+   "en": "2002",
+   "zh": "2002"
+  },
+  "cx.029": {
+   "section": "cx",
+   "tag": "span",
+   "cls": "",
+   "ru": "2006",
+   "en": "2006",
+   "zh": "2006"
+  },
+  "cx.030": {
+   "section": "cx",
+   "tag": "span",
+   "cls": "",
+   "ru": "2010",
+   "en": "2010",
+   "zh": "2010"
+  },
+  "cx.031": {
+   "section": "cx",
+   "tag": "span",
+   "cls": "",
+   "ru": "2014",
+   "en": "2014",
+   "zh": "2014"
+  },
+  "cx.032": {
+   "section": "cx",
+   "tag": "span",
+   "cls": "",
+   "ru": "2018",
+   "en": "2018",
+   "zh": "2018"
+  },
+  "cx.033": {
+   "section": "cx",
+   "tag": "span",
+   "cls": "",
+   "ru": "2022",
+   "en": "2022",
+   "zh": "2022"
+  },
+  "cx.034": {
+   "section": "cx",
+   "tag": "span",
+   "cls": "",
+   "ru": "2026",
+   "en": "2026",
+   "zh": "2026"
+  },
+  "cx.035": {
+   "section": "cx",
+   "tag": "span",
+   "cls": "cv__i",
+   "ru": "03 / 06",
+   "en": "03 / 06",
+   "zh": "03 / 06"
+  },
+  "cx.036": {
+   "section": "cx",
+   "tag": "b",
+   "cls": "",
+   "ru": "6+",
+   "en": "6+",
+   "zh": "6+"
+  },
+  "cx.037": {
+   "section": "cx",
+   "tag": "small",
+   "cls": "mono",
+   "ru": "лет",
+   "en": "years",
+   "zh": "年"
+  },
+  "cx.038": {
+   "section": "cx",
+   "tag": "h3",
+   "cls": "",
+   "ru": "Логистика из&nbsp;Китая и&nbsp;белая доставка",
+   "en": "China logistics and fully cleared delivery",
+   "zh": "中国物流与合规清关运输"
+  },
+  "cx.039": {
+   "section": "cx",
+   "tag": "p",
+   "cls": "",
+   "ru": "Офис и&nbsp;2&nbsp;склада в&nbsp;Китае&nbsp;— Иу и&nbsp;Гуанчжоу. Первое в&nbsp;России приложение по&nbsp;белой доставке с&nbsp;ИИ",
+   "en": "An office and 2&nbsp;warehouses in China, in Yiwu and Guangzhou. Russia's first AI-powered app for fully cleared delivery",
+   "zh": "在中国设有办公室及义乌、广州两座仓库。推出俄罗斯首款AI驱动的合规清关运输应用"
+  },
+  "cx.040": {
+   "section": "cx",
+   "tag": "b",
+   "cls": "mono",
+   "ru": "Москва",
+   "en": "Moscow",
+   "zh": "莫斯科"
+  },
+  "cx.041": {
+   "section": "cx",
+   "tag": "b",
+   "cls": "mono",
+   "ru": "Иу",
+   "en": "Yiwu",
+   "zh": "义乌"
+  },
+  "cx.042": {
+   "section": "cx",
+   "tag": "span",
+   "cls": "mono",
+   "ru": "офис и&nbsp;склад",
+   "en": "office and warehouse",
+   "zh": "办公室及仓库"
+  },
+  "cx.043": {
+   "section": "cx",
+   "tag": "b",
+   "cls": "mono",
+   "ru": "Гуанчжоу",
+   "en": "Guangzhou",
+   "zh": "广州"
+  },
+  "cx.044": {
+   "section": "cx",
+   "tag": "span",
+   "cls": "mono",
+   "ru": "склад",
+   "en": "warehouse",
+   "zh": "仓库"
+  },
+  "cx.045": {
+   "section": "cx",
+   "tag": "span",
+   "cls": "cv__i",
+   "ru": "04 / 06",
+   "en": "04 / 06",
+   "zh": "04 / 06"
+  },
+  "cx.046": {
+   "section": "cx",
+   "tag": "b",
+   "cls": "",
+   "ru": "5000",
+   "en": "5000",
+   "zh": "5000"
+  },
+  "cx.047": {
+   "section": "cx",
+   "tag": "small",
+   "cls": "mono",
+   "ru": "м²",
+   "en": "m²",
+   "zh": "m²"
+  },
+  "cx.048": {
+   "section": "cx",
+   "tag": "h3",
+   "cls": "",
+   "ru": "Фулфилмент",
+   "en": "Fulfillment",
+   "zh": "仓配履约"
+  },
+  "cx.049": {
+   "section": "cx",
+   "tag": "p",
+   "cls": "",
+   "ru": "Собственный фулфилмент для&nbsp;продаж на&nbsp;маркетплейсах",
+   "en": "In-house fulfillment for marketplace sales",
+   "zh": "自有电商平台履约中心"
+  },
+  "cx.050": {
+   "section": "cx",
+   "tag": "span",
+   "cls": "",
+   "ru": "1 клетка = 100&nbsp;м²",
+   "en": "1 cell = 100&nbsp;m²",
+   "zh": "每格 = 100&nbsp;m²"
+  },
+  "cx.051": {
+   "section": "cx",
+   "tag": "span",
+   "cls": "",
+   "ru": "× 50",
+   "en": "× 50",
+   "zh": "× 50"
+  },
+  "cx.052": {
+   "section": "cx",
+   "tag": "b",
+   "cls": "",
+   "ru": "= 5000&nbsp;м²",
+   "en": "= 5,000&nbsp;m²",
+   "zh": "= 5000&nbsp;m²"
+  },
+  "cx.053": {
+   "section": "cx",
+   "tag": "span",
+   "cls": "",
+   "ru": "схема в&nbsp;масштабе",
+   "en": "plan to scale",
+   "zh": "按比例示意"
+  },
+  "cx.054": {
+   "section": "cx",
+   "tag": "span",
+   "cls": "cv__i",
+   "ru": "05 / 06",
+   "en": "05 / 06",
+   "zh": "05 / 06"
+  },
+  "cx.055": {
+   "section": "cx",
+   "tag": "b",
+   "cls": "",
+   "ru": "3",
+   "en": "3",
+   "zh": "3"
+  },
+  "cx.056": {
+   "section": "cx",
+   "tag": "small",
+   "cls": "mono",
+   "ru": "площадки",
+   "en": "marketplaces",
+   "zh": "个平台"
+  },
+  "cx.057": {
+   "section": "cx",
+   "tag": "h3",
+   "cls": "",
+   "ru": "Продажи на&nbsp;маркетплейсах",
+   "en": "Marketplace sales",
+   "zh": "电商平台销售"
+  },
+  "cx.058": {
+   "section": "cx",
+   "tag": "p",
+   "cls": "",
+   "ru": "Wildberries, Ozon и&nbsp;Amazon. Апрель 2026&nbsp;— космический показ обуви JOYCITY в&nbsp;Сколково",
+   "en": "Wildberries, Ozon and Amazon. April 2026: JOYCITY's space-themed footwear show at Skolkovo",
+   "zh": "Wildberries、Ozon和Amazon。2026年4月，JOYCITY在斯科尔科沃举办航天主题鞋履发布会"
+  },
+  "cx.059": {
+   "section": "cx",
+   "tag": "span",
+   "cls": "",
+   "ru": "Wildberries",
+   "en": "Wildberries",
+   "zh": "Wildberries"
+  },
+  "cx.060": {
+   "section": "cx",
+   "tag": "span",
+   "cls": "",
+   "ru": "Ozon",
+   "en": "Ozon",
+   "zh": "Ozon"
+  },
+  "cx.061": {
+   "section": "cx",
+   "tag": "span",
+   "cls": "",
+   "ru": "Amazon",
+   "en": "Amazon",
+   "zh": "Amazon"
+  },
+  "cx.062": {
+   "section": "cx",
+   "tag": "span",
+   "cls": "cv__i",
+   "ru": "Итог · опыт основателя",
+   "en": "Summary · founder's track record",
+   "zh": "总结 · 创始人经历"
+  },
+  "cx.063": {
+   "section": "cx",
+   "tag": "b",
+   "cls": "",
+   "ru": "600<small class=\"mono\">млн&nbsp;₽</small>",
+   "en": "600<small class=\"mono\">mln&nbsp;RUB</small>",
+   "zh": "600<small class=\"mono\">百万卢布</small>"
+  },
+  "cx.064": {
+   "section": "cx",
+   "tag": "span",
+   "cls": "mono",
+   "ru": "годовой оборот",
+   "en": "annual turnover",
+   "zh": "年营业额"
+  },
+  "cx.065": {
+   "section": "cx",
+   "tag": "b",
+   "cls": "",
+   "ru": "24+<small class=\"mono\">лет</small>",
+   "en": "24+<small class=\"mono\">years</small>",
+   "zh": "24+<small class=\"mono\">年</small>"
+  },
+  "cx.066": {
+   "section": "cx",
+   "tag": "span",
+   "cls": "mono",
+   "ru": "в&nbsp;товарном бизнесе",
+   "en": "in consumer goods",
+   "zh": "商品贸易经验"
+  },
+  "cx.067": {
+   "section": "cx",
+   "tag": "b",
+   "cls": "",
+   "ru": "6+<small class=\"mono\">лет</small>",
+   "en": "6+<small class=\"mono\">years</small>",
+   "zh": "6+<small class=\"mono\">年</small>"
+  },
+  "cx.068": {
+   "section": "cx",
+   "tag": "span",
+   "cls": "mono",
+   "ru": "логистика из&nbsp;Китая и&nbsp;белая доставка",
+   "en": "China logistics and fully cleared delivery",
+   "zh": "中国物流与合规清关运输"
+  },
+  "cx.069": {
+   "section": "cx",
+   "tag": "b",
+   "cls": "",
+   "ru": "5000<small class=\"mono\">м²</small>",
+   "en": "5000<small class=\"mono\">m²</small>",
+   "zh": "5000<small class=\"mono\">m²</small>"
+  },
+  "cx.070": {
+   "section": "cx",
+   "tag": "span",
+   "cls": "mono",
+   "ru": "фулфилмент",
+   "en": "fulfillment",
+   "zh": "仓配履约"
+  },
+  "cx.071": {
+   "section": "cx",
+   "tag": "b",
+   "cls": "",
+   "ru": "3<small class=\"mono\">площадки</small>",
+   "en": "3<small class=\"mono\">marketplaces</small>",
+   "zh": "3<small class=\"mono\">个平台</small>"
+  },
+  "cx.072": {
+   "section": "cx",
+   "tag": "span",
+   "cls": "mono",
+   "ru": "Wildberries, Ozon, Amazon",
+   "en": "Wildberries, Ozon, Amazon",
+   "zh": "Wildberries, Ozon, Amazon"
+  },
+  "cx.073": {
+   "section": "cx",
+   "tag": "li",
+   "cls": "",
+   "ru": "Первое в&nbsp;России приложение по&nbsp;белой доставке с&nbsp;ИИ",
+   "en": "Russia's first AI-powered app for fully cleared delivery",
+   "zh": "俄罗斯首款AI驱动的合规清关运输应用"
+  },
+  "cx.074": {
+   "section": "cx",
+   "tag": "li",
+   "cls": "",
+   "ru": "Офис и&nbsp;2&nbsp;склада в&nbsp;Китае&nbsp;— Иу и&nbsp;Гуанчжоу",
+   "en": "An office and 2&nbsp;warehouses in China, in Yiwu and Guangzhou",
+   "zh": "在中国设有办公室及义乌、广州两座仓库"
+  },
+  "cx.075": {
+   "section": "cx",
+   "tag": "li",
+   "cls": "",
+   "ru": "Основатель бизнес-клуба селлеров JC&nbsp;CLUB и&nbsp;конференции селлеров",
+   "en": "Founder of the JC&nbsp;CLUB seller business club and a seller conference",
+   "zh": "卖家商业俱乐部JC CLUB及卖家大会创办人"
+  },
+  "cx.076": {
+   "section": "cx",
+   "tag": "li",
+   "cls": "",
+   "ru": "Сеть магазинов в&nbsp;Москве",
+   "en": "A chain of stores in Moscow",
+   "zh": "莫斯科连锁门店"
+  },
+  "cx.077": {
+   "section": "cx",
+   "tag": "li",
+   "cls": "",
+   "ru": "Апрель 2026&nbsp;— космический показ обуви JOYCITY в&nbsp;Сколково",
+   "en": "April 2026: JOYCITY's space-themed footwear show at Skolkovo",
+   "zh": "2026年4月，JOYCITY在斯科尔科沃举办航天主题鞋履发布会"
+  },
+  "contacts.001": {
+   "section": "contacts",
+   "tag": "span",
+   "cls": "sh__i",
+   "ru": "(07)",
+   "en": "(07)",
+   "zh": "(07)"
+  },
+  "contacts.002": {
+   "section": "contacts",
+   "tag": "span",
+   "cls": "sh__t",
+   "ru": "Свяжитесь с&nbsp;нами",
+   "en": "Contact us",
+   "zh": "联系我们"
+  },
+  "contacts.003": {
+   "section": "contacts",
+   "tag": "span",
+   "cls": "sh__m",
+   "ru": "Технологии · производство · компоненты",
+   "en": "Technology · manufacturing · components",
+   "zh": "技术 · 生产 · 部件"
+  },
+  "contacts.004": {
+   "section": "contacts",
+   "tag": "span",
+   "cls": "ct__a",
+   "ru": "Партнёрство",
+   "en": "Partnership",
+   "zh": "合作"
+  },
+  "contacts.005": {
+   "section": "contacts",
+   "tag": "span",
+   "cls": "ct__b",
+   "ru": "и&nbsp;сотрудничество",
+   "en": "&amp;&nbsp;collaboration",
+   "zh": "携手共赢"
+  },
+  "contacts.006": {
+   "section": "contacts",
+   "tag": "b",
+   "cls": "mono",
+   "ru": "01",
+   "en": "01",
+   "zh": "01"
+  },
+  "contacts.007": {
+   "section": "contacts",
+   "tag": "span",
+   "cls": "",
+   "ru": "Партнёрам",
+   "en": "Partners",
+   "zh": "合作伙伴"
+  },
+  "contacts.008": {
+   "section": "contacts",
+   "tag": "b",
+   "cls": "mono",
+   "ru": "02",
+   "en": "02",
+   "zh": "02"
+  },
+  "contacts.009": {
+   "section": "contacts",
+   "tag": "span",
+   "cls": "",
+   "ru": "Инвесторам",
+   "en": "Investors",
+   "zh": "投资者"
+  },
+  "contacts.010": {
+   "section": "contacts",
+   "tag": "b",
+   "cls": "mono",
+   "ru": "03",
+   "en": "03",
+   "zh": "03"
+  },
+  "contacts.011": {
+   "section": "contacts",
+   "tag": "span",
+   "cls": "",
+   "ru": "Кандидатам",
+   "en": "Candidates",
+   "zh": "求职者"
+  },
+  "contacts.012": {
+   "section": "contacts",
+   "tag": "p",
+   "cls": "contact__sub",
+   "ru": "Открыты к&nbsp;диалогу с&nbsp;партнёрами, инвесторами и&nbsp;кандидатами. Обсудим технологии, производство и&nbsp;компоненты",
+   "en": "Open to conversations with partners, investors and candidates. Let's talk technology, manufacturing and components",
+   "zh": "欢迎合作伙伴、投资者和求职者与我们交流，共同探讨技术、生产与部件"
+  },
+  "contacts.013": {
+   "section": "contacts",
+   "tag": "span",
+   "cls": "phone__l",
+   "ru": "Позвонить",
+   "en": "Call",
+   "zh": "致电"
+  },
+  "contacts.014": {
+   "section": "contacts",
+   "tag": "span",
+   "cls": "phone__n",
+   "ru": "+7&nbsp;951&nbsp;586-96-11",
+   "en": "+7&nbsp;951&nbsp;586-96-11",
+   "zh": "+7&nbsp;951&nbsp;586-96-11"
+  },
+  "ftr.001": {
+   "section": "ftr",
+   "tag": "p",
+   "cls": "ftr__wm",
+   "ru": "JC&nbsp;SPACE",
+   "en": "JC&nbsp;SPACE",
+   "zh": "JC&nbsp;SPACE"
+  },
+  "ftr.002": {
+   "section": "ftr",
+   "tag": "span",
+   "cls": "f1",
+   "ru": "© 2026 JOYCITY. Все права защищены",
+   "en": "© 2026 JOYCITY. All rights reserved",
+   "zh": "© 2026 JOYCITY 版权所有"
+  },
+  "ftr.003": {
+   "section": "ftr",
+   "tag": "span",
+   "cls": "f2",
+   "ru": "Частная космическая компания",
+   "en": "Private space company",
+   "zh": "私营航天公司"
+  },
+  "ftr.004": {
+   "section": "ftr",
+   "tag": "a",
+   "cls": "f3",
+   "ru": "Наверх <svg class=\"ic\" viewBox=\"0 0 12 12\" aria-hidden=\"true\"><path d=\"M6 11V1M2 5l4-4 4 4\"></path></svg>",
+   "en": "Back to top <svg class=\"ic\" viewBox=\"0 0 12 12\" aria-hidden=\"true\"><path d=\"M6 11V1M2 5l4-4 4 4\"></path></svg>",
+   "zh": "返回顶部 <svg class=\"ic\" viewBox=\"0 0 12 12\" aria-hidden=\"true\"><path d=\"M6 11V1M2 5l4-4 4 4\"></path></svg>"
+  },
+  "meta.title": {
+   "section": "meta",
+   "tag": "title",
+   "ru": "JC SPACE — космический ракетный комплекс",
+   "en": "JC SPACE — space launch system",
+   "zh": "JC SPACE — 航天发射系统"
+  },
+  "meta.description": {
+   "section": "meta",
+   "tag": "attr",
+   "ru": "JC SPACE — частный космический проект. Проектируем космический ракетный комплекс с ракетой-носителем сверхлёгкого класса. JOYCITY вкладывает в развитие JC SPACE каждый высвободившийся рубль.",
+   "en": "JC SPACE is a private space venture designing a space launch system with an ultra-light launch vehicle. JOYCITY invests every ruble it can spare in JC SPACE.",
+   "zh": "JC SPACE是一家私营航天企业，正在设计配备超轻型运载火箭的航天发射系统。JOYCITY将每一笔可支配的卢布投入JC SPACE的发展。"
+  },
+  "meta.ogTitle": {
+   "section": "meta",
+   "tag": "attr",
+   "ru": "JC SPACE — космический ракетный комплекс",
+   "en": "JC SPACE — space launch system",
+   "zh": "JC SPACE — 航天发射系统"
+  },
+  "meta.ogDescription": {
+   "section": "meta",
+   "tag": "attr",
+   "ru": "Частная космическая компания. Проектируем ракету-носитель сверхлёгкого класса.",
+   "en": "Private space company designing an ultra-light launch vehicle.",
+   "zh": "私营航天公司，正在设计超轻型运载火箭。"
+  }
+ },
+ "images": {
+  "img.01": {
+   "src": "img/logo-white.png",
+   "alt": {
+    "ru": "",
+    "en": "",
+    "zh": ""
+   }
+  },
+  "img.02": {
+   "src": "img/logo-white.png",
+   "alt": {
+    "ru": "",
+    "en": "",
+    "zh": ""
+   }
+  },
+  "img.03": {
+   "src": "img/r-engines9.webp",
+   "alt": {
+    "ru": "",
+    "en": "",
+    "zh": ""
+   }
+  },
+  "img.04": {
+   "src": "img/r-engine.webp",
+   "alt": {
+    "ru": "",
+    "en": "",
+    "zh": ""
+   }
+  },
+  "img.05": {
+   "src": "img/r-sso.webp",
+   "alt": {
+    "ru": "",
+    "en": "",
+    "zh": ""
+   }
+  },
+  "img.06": {
+   "src": "img/r-engines9-m.webp",
+   "alt": {
+    "ru": "",
+    "en": "",
+    "zh": ""
+   }
+  },
+  "img.07": {
+   "src": "img/r-engines9-m.webp",
+   "alt": {
+    "ru": "",
+    "en": "",
+    "zh": ""
+   }
+  },
+  "img.08": {
+   "src": "img/r-engine-m.webp",
+   "alt": {
+    "ru": "",
+    "en": "",
+    "zh": ""
+   }
+  },
+  "img.09": {
+   "src": "img/r-sso-m.webp",
+   "alt": {
+    "ru": "",
+    "en": "",
+    "zh": ""
+   }
+  },
+  "img.10": {
+   "src": "img/founder-frame.jpg",
+   "alt": {
+    "ru": "Арсен Саруханян, основатель ГК JOYCITY",
+    "en": "Arsen Sarukhanyan, founder of JOYCITY Group",
+    "zh": "阿尔森·萨鲁哈尼扬，JOYCITY集团创始人"
+   }
+  }
+ }
+}
